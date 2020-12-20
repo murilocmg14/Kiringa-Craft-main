@@ -1,0 +1,249 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja - Blocos'
+
+  rows: 6
+  
+  type: CHEST
+
+  command: 'blocos2'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+slot16:
+  LEFT-CLICK-COMMAND: 'give: 47, 16; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 47, 16; open: Blocos2.yml'
+  NAME: '&eEstante'
+  PRICE: 500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 47
+  SLOT: 11
+  
+  
+slot17:
+  LEFT-CLICK-COMMAND: 'give: 48, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 48, 64; open: Blocos2.yml'
+  NAME: '&ePedra com Musgo'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 48
+  SLOT: 12
+  
+  
+slot18:
+  LEFT-CLICK-COMMAND: 'give: 49, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 49, 64; open: Blocos2.yml'
+  NAME: '&eObsidiana'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 49
+  SLOT: 13
+  
+  
+slot19:
+  LEFT-CLICK-COMMAND: 'give: 80, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 80, 64; open: Blocos2.yml'
+  NAME: '&eNeve'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 80
+  SLOT: 14
+  
+  
+slot20:
+  LEFT-CLICK-COMMAND: 'give: 82, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 82, 64; open: Blocos2.yml'
+  NAME: '&eArgila'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 82
+  SLOT: 15
+  
+  
+slot21:
+  LEFT-CLICK-COMMAND: 'give: 87, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 87, 64; open: Blocos2.yml'
+  NAME: '&eRocha do Nether'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 87
+  SLOT: 20
+slot2:
+  LEFT-CLICK-COMMAND: 'give: 89, 16; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 89, 16; open: Blocos2.yml'
+  NAME: '&ePedra Iluminosa'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 89
+  DATA-VALUE: 1
+  SLOT: 23
+slot3:
+  LEFT-CLICK-COMMAND: 'give: 112, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 112, 64; open: Blocos2.yml'
+  NAME: '&eTijolos do Nether'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 112
+  DATA-VALUE: 0
+  SLOT: 21
+slot4:
+  LEFT-CLICK-COMMAND: 'give: 121, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 121, 64; open: Blocos2.yml'
+  NAME: '&ePedra do Fim'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 121
+  DATA-VALUE: 0
+  SLOT: 22
+slot443:
+  LEFT-CLICK-COMMAND: 'give: 155, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 155, 64; open: Blocos2.yml'
+  NAME: '&eBloco de Quartzo'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 155
+  DATA-VALUE: 0
+  SLOT: 24
+slot6:
+  LEFT-CLICK-COMMAND: 'give: 155:1, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 155:1, 64; open: Blocos2.yml'
+  NAME: '&eBloco de Quartzo Talhado'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 155
+  DATA-VALUE: 1
+  SLOT: 29
+slot7:
+  LEFT-CLICK-COMMAND: 'give: 155:2, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 155:2, 64; open: Blocos2.yml'
+  NAME: '&ePilar de Quartzo'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 155
+  DATA-VALUE: 2
+  SLOT: 30
+slot8:
+  LEFT-CLICK-COMMAND: 'give: 98, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 98, 64; open: Blocos2.yml'
+  NAME: '&eTijolos de Pedra'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 98
+  DATA-VALUE: 0
+  SLOT: 31
+slot9:
+  LEFT-CLICK-COMMAND: 'give: 98:1, 64; open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'give: 98:1, 64; open: Blocos2.yml'
+  NAME: '&eTijolos de Pedra com Musgo'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 98
+  DATA-VALUE: 1
+  SLOT: 32
+  
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: Blocos1.yml'
+  RIGHT-CLICK-COMMAND: 'open: Blocos1.yml'
+  NAME: '&c<- Página anterior'
+  ID: '351:8'
+  SLOT: 45
+  
+  
+prox:
+  LEFT-CLICK-COMMAND: 'open: blocos3.yml'
+  RIGHT-CLICK-COMMAND: 'open: blocos3.yml'
+  NAME: '&aPróxima página ->'
+  ID: '351:10'
+  SLOT: 53

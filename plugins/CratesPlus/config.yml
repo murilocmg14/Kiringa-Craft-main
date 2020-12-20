@@ -1,0 +1,3160 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.5.2 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 5
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- '%crate%'
+- Use uma key
+- Para abrir
+Crates:
+  Basica:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Key'
+      Enchanted: false
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: GRAY
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-6
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 3
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-6
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 3
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-6
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 3
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-6
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 6
+            DURABILITY: 3
+      '5':
+        Type: ITEM
+        Item Type: IRON_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-2
+        - DURABILITY-2
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 2
+      '6':
+        Type: ITEM
+        Item Type: IRON_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-2
+        - DURABILITY-2
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 2
+      '7':
+        Type: ITEM
+        Item Type: IRON_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-2
+        - DURABILITY-2
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 2
+      '8':
+        Type: ITEM
+        Item Type: IRON_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-2
+        - DURABILITY-2
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 2
+      '9':
+        Type: ITEM
+        Item Type: IRON_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-5
+        - DURABILITY-3
+        Lore:
+        - §7
+        - §7
+        - §7§lCOMUM SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §7
+          - §7
+          - §7§lCOMUM SWORD
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 3
+      '10':
+        Type: ITEM
+        Item Type: IRON_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '11':
+        Type: ITEM
+        Item Type: IRON_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '12':
+        Type: ITEM
+        Item Type: IRON_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '13':
+        Type: ITEM
+        Item Type: IRON_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '18':
+        Type: ITEM
+        Item Type: IRON_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-4
+        - DURABILITY-3
+        Lore:
+        - §7
+        - §7
+        - §7§lCOMUM SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §7
+          - §7
+          - §7§lCOMUM SWORD
+          enchants:
+            DAMAGE_ALL: 4
+            DURABILITY: 3
+      '19':
+        Type: ITEM
+        Item Type: IRON_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '20':
+        Type: ITEM
+        Item Type: IRON_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '21':
+        Type: ITEM
+        Item Type: IRON_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-5
+        - DURABILITY-3
+        Lore:
+        - §f
+        - §f
+        - §7§lCOMUM BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §f
+          - §f
+          - §7§lCOMUM BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+      '22':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-7
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 7
+            DURABILITY: 3
+      '23':
+        Type: ITEM
+        Item Type: IRON_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-3
+        - DURABILITY-3
+        Lore:
+        - §7
+        - §7
+        - §7§lCOMUM SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §7
+          - §7
+          - §7§lCOMUM SWORD
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 3
+  Rara:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: DARK_PURPLE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&6Magma'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-20
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Magma
+          lore:
+          - §5
+          - §5
+          - §5§lRARE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 20
+            DURABILITY: 10
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&2Druida'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-25
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Druida
+          lore:
+          - §5
+          - §5
+          - §5§lRARE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 25
+            DURABILITY: 10
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&aHunter'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-28
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter
+          lore:
+          - §5
+          - §5
+          - §5§lRARE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 28
+            DURABILITY: 10
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&cFire'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-33
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cFire
+          lore:
+          - §5
+          - §5
+          - §5§lRARE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 33
+            DURABILITY: 10
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6Magma Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-10
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Magma Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 10
+            DURABILITY: 10
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&2Druida Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-12
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Druida Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 12
+            DURABILITY: 10
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&aHunter Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-16
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 16
+            DURABILITY: 10
+      '9':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&cFire Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-18
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cFire Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 18
+            DURABILITY: 10
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&6Magma'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-20
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Magma
+          lore:
+          - §5
+          - §5
+          - §5§lRARE CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 20
+            DURABILITY: 10
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&2Druida'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-25
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Druida
+          lore:
+          - §5
+          - §5
+          - §5§lRARE CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 25
+            DURABILITY: 10
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&aHunter'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-28
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter
+          lore:
+          - §5
+          - §5
+          - §5§lRARE CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 28
+            DURABILITY: 10
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&cFire'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-33
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cFire
+          lore:
+          - §5
+          - §5
+          - §5§lRARE CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 33
+            DURABILITY: 10
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&dFairy Sword'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-10
+        - DAMAGE_ALL-22
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dFairy Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 22
+            DURABILITY: 10
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6Magma'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-20
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Magma
+          lore:
+          - §5
+          - §5
+          - §5§lRARE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 20
+            DURABILITY: 10
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&2Druida'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-25
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Druida
+          lore:
+          - §5
+          - §5
+          - §5§lRARE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 25
+            DURABILITY: 10
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&aHunter'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-28
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter
+          lore:
+          - §5
+          - §5
+          - §5§lRARE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 28
+            DURABILITY: 10
+      '19':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&cFire'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-33
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cFire
+          lore:
+          - §5
+          - §5
+          - §5§lRARE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 33
+            DURABILITY: 10
+      '20':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '21':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6Magma'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-20
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Magma
+          lore:
+          - §5
+          - §5
+          - §5§lRARE BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 20
+            DURABILITY: 10
+      '22':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&2Druida'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-25
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Druida
+          lore:
+          - §5
+          - §5
+          - §5§lRARE BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 25
+            DURABILITY: 10
+      '23':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&aHunter'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-28
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter
+          lore:
+          - §5
+          - §5
+          - §5§lRARE BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 28
+            DURABILITY: 10
+      '24':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&cFire'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-33
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cFire
+          lore:
+          - §5
+          - §5
+          - §5§lRARE BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 33
+            DURABILITY: 10
+      '25':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '26':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-7
+        - DURABILITY-3
+        Lore:
+        - §a
+        - §a
+        - §a§lINCOMUM CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §a
+          - §a
+          - §a§lINCOMUM CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 7
+            DURABILITY: 3
+    Opener: NoGUI
+  Epica:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: BLUE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&dFairy'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-36
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dFairy
+          lore:
+          - §5
+          - §5
+          - §5§lRARE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 36
+            DURABILITY: 10
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&4Assassin'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-44
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 44
+            DURABILITY: 15
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&1Slayer'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-47
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Slayer
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 47
+            DURABILITY: 15
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&1Wither Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-25
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither Sword
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC SWORD
+          enchants:
+            DAMAGE_ALL: 25
+            DURABILITY: 15
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&4Assassin Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-27
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin Sword
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC SWORD
+          enchants:
+            DAMAGE_ALL: 27
+            DURABILITY: 15
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&1Slayer Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-30
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Slayer Sword
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC SWORD
+          enchants:
+            DAMAGE_ALL: 30
+            DURABILITY: 15
+      '9':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&eBlaze Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-35
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze Sword
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC SWORD
+          enchants:
+            DAMAGE_ALL: 35
+            DURABILITY: 15
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&dFairy'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-36
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dFairy
+          lore:
+          - §5
+          - §5
+          - §5§lRARE CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 36
+            DURABILITY: 10
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&4Assassin'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-44
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 44
+            DURABILITY: 15
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&1Slayer'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-47
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Slayer
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 47
+            DURABILITY: 15
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        - §7Obsidian Shield III
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          - §7Obsidian Shield III
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&aHunter Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-16
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 16
+            DURABILITY: 10
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&4Assassin'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-44
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 44
+            DURABILITY: 15
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&1Slayer'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-47
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Slayer
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 47
+            DURABILITY: 15
+      '19':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&dFairy'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-36
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dFairy
+          lore:
+          - §5
+          - §5
+          - §5§lRARE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 36
+            DURABILITY: 10
+      '20':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '21':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&1Slayer'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-47
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Slayer
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 47
+            DURABILITY: 15
+      '22':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&4Assassin'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-44
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 44
+            DURABILITY: 15
+      '23':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&dFairy'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-36
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dFairy
+          lore:
+          - §5
+          - §5
+          - §5§lRARE BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 36
+            DURABILITY: 10
+      '24':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '25':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '26':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&cFire'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-33
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cFire
+          lore:
+          - §5
+          - §5
+          - §5§lRARE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 33
+            DURABILITY: 10
+      '27':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&2Druida'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-25
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Druida
+          lore:
+          - §5
+          - §5
+          - §5§lRARE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 25
+            DURABILITY: 10
+  Lendaria:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Key'
+      Enchanted: true
+    Knockback: 0.1
+    Broadcast: false
+    Firework: true
+    Preview: true
+    Block: ENDER_CHEST
+    Color: GOLD
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&1Demon'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-57
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Demon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 57
+            DURABILITY: 25
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eTitan'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-65
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTitan
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 65
+            DURABILITY: 25
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&6Dragon'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-73
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Dragon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 73
+            DURABILITY: 25
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-78
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 78
+            DURABILITY: 25
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-85
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 85
+            DURABILITY: 25
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&1Demon Sword'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - DAMAGE_ALL-40
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Demon Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 40
+            DURABILITY: 25
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&eTitan Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-47
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTitan Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 47
+            DURABILITY: 25
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6Dragon Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-55
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Dragon Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 55
+            DURABILITY: 25
+      '9':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&dMage Sword'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - DAMAGE_ALL-58
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 58
+            DURABILITY: 25
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&1Demon'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-57
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Demon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 57
+            DURABILITY: 25
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eTitan'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-65
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTitan
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 65
+            DURABILITY: 25
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&6Dragon'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-73
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Dragon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 73
+            DURABILITY: 25
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-80
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 80
+            DURABILITY: 25
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-90
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 90
+            DURABILITY: 25
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&5Mistica Sword'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - DAMAGE_ALL-65
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 65
+            DURABILITY: 25
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&aHunter Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-16
+        - DURABILITY-10
+        Lore:
+        - §5
+        - §5
+        - §5§lRARE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHunter Sword
+          lore:
+          - §5
+          - §5
+          - §5§lRARE SWORD
+          enchants:
+            DAMAGE_ALL: 16
+            DURABILITY: 10
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&1Wither'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-40
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Wither
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 40
+            DURABILITY: 15
+      '19':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&1Demon'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-57
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Demon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 57
+            DURABILITY: 25
+      '20':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&eTitan'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-65
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTitan
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 65
+            DURABILITY: 25
+      '21':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6Dragon'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-73
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Dragon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 73
+            DURABILITY: 25
+      '22':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-78
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 78
+            DURABILITY: 25
+      '23':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-85
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 85
+            DURABILITY: 25
+      '24':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-15
+        - PROTECTION_ENVIRONMENTAL-50
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '25':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&4Assassin'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-44
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 44
+            DURABILITY: 15
+      '26':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&4Assassin'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-15
+        - PROTECTION_ENVIRONMENTAL-44
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 44
+            DURABILITY: 15
+      '27':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&1Demon'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-57
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Demon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 57
+            DURABILITY: 25
+      '28':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&eTitan'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-65
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTitan
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 65
+            DURABILITY: 25
+      '29':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6Dragon'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-73
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Dragon
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 73
+            DURABILITY: 25
+      '30':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-78
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 78
+            DURABILITY: 25
+      '31':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-25
+        - PROTECTION_ENVIRONMENTAL-85
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 85
+            DURABILITY: 25
+  Magica:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Key'
+      Enchanted: true
+    Knockback: 0.2
+    Broadcast: false
+    Firework: true
+    Preview: true
+    Block: ENDER_CHEST
+    Color: LIGHT_PURPLE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-85
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 85
+            DURABILITY: 25
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-78
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 78
+            DURABILITY: 25
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&d&lESTRELAR'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-120
+        - DURABILITY-35
+        Lore:
+        - §b
+        - §b
+        - §b§lDIVINE HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §d§lESTRELAR
+          lore:
+          - §b
+          - §b
+          - §b§lDIVINE HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 120
+            DURABILITY: 35
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC HELMET
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC HELMET
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&1Demon Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-40
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Demon Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 40
+            DURABILITY: 25
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6Dragon Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-55
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Dragon Sword
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO SWORD
+          enchants:
+            DAMAGE_ALL: 55
+            DURABILITY: 25
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&d&lESTRELAR SWORD'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-75
+        - DURABILITY-35
+        Lore:
+        - §b
+        - §b
+        - §b§lDIVINE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §d§lESTRELAR SWORD
+          lore:
+          - §b
+          - §b
+          - §b§lDIVINE SWORD
+          enchants:
+            DAMAGE_ALL: 75
+            DURABILITY: 35
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6&lGOD SWORD'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-85
+        - DURABILITY-35
+        Lore:
+        - §b
+        - §b
+        - §b§lDIVINE SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lGOD SWORD
+          lore:
+          - §b
+          - §b
+          - §b§lDIVINE SWORD
+          enchants:
+            DAMAGE_ALL: 85
+            DURABILITY: 35
+      '9':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&4Assassin Sword'
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-27
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC SWORD
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Assassin Sword
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC SWORD
+          enchants:
+            DAMAGE_ALL: 27
+            DURABILITY: 15
+      '10':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-90
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 90
+            DURABILITY: 25
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-80
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 80
+            DURABILITY: 25
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC CHESTPLATE
+        - §7Obsidian Shield III
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC CHESTPLATE
+          - §7Obsidian Shield III
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '14':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&eBlaze'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-50
+        - DURABILITY-15
+        Lore:
+        - ''
+        - ''
+        - §9§lEPIC BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBlaze
+          lore:
+          - ''
+          - ''
+          - §9§lEPIC BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 50
+            DURABILITY: 15
+      '15':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-85
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 85
+            DURABILITY: 25
+      '16':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-78
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 78
+            DURABILITY: 25
+      '17':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6&lGOD'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-140
+        - DURABILITY-35
+        Lore:
+        - §b
+        - §b
+        - §b§lDIVINE BOOTS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lGOD
+          lore:
+          - §b
+          - §b
+          - §b§lDIVINE BOOTS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 140
+            DURABILITY: 35
+      '18':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&5Mistica'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-85
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Mistica
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 85
+            DURABILITY: 25
+      '19':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&dMage'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-78
+        - DURABILITY-25
+        Lore:
+        - ''
+        - ''
+        - §6§lLENDARIO LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dMage
+          lore:
+          - ''
+          - ''
+          - §6§lLENDARIO LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 78
+            DURABILITY: 25
+      '20':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&d&k1&9&lMAGIC&d&k1'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-180
+        - DURABILITY-35
+        Lore:
+        - §b
+        - §b
+        - §b§lDIVINE LEGGINGS
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §d§k1§9§lMAGIC§d§k1
+          lore:
+          - §b
+          - §b
+          - §b§lDIVINE LEGGINGS
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 180
+            DURABILITY: 35
+      '21':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&6&lGOD'
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-140
+        - DURABILITY-35
+        Lore:
+        - §b
+        - §b
+        - §b§lDIVINE CHESTPLATE
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lGOD
+          lore:
+          - §b
+          - §b
+          - §b§lDIVINE CHESTPLATE
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 140
+            DURABILITY: 35
+  boss:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: IRON_SWORD
+        Item Data: 0
+        Percentage: 0
+        Name: '&6&lExample Sword'
+        Amount: 1
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: YELLOW

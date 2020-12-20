@@ -1,0 +1,990 @@
+[02:21:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[02:21:01] [Server thread/INFO]: Loading properties
+[02:21:01] [Server thread/INFO]: Default game type: SURVIVAL
+[02:21:01] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[02:21:01] [Server thread/INFO]: Debug logging is disabled
+[02:21:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:21:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:21:01] [Server thread/INFO]: Generating keypair
+[02:21:03] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[02:21:03] [Server thread/INFO]: Using default channel type
+[02:21:04] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:21:09] [Server thread/INFO]: [nLogin] Loading nLogin v8.5.1
+[02:21:09] [Server thread/INFO]: [0;32;1m[nCore] [nLogin] Connecting to the remote server api.nickuc.com...[m
+[02:21:09] [Server thread/INFO]: [McMMO-BOOSTER] Loading McMMO-BOOSTER v3.0
+[02:21:09] [Server thread/INFO]: [OnlineTimePlus] Loading OnlineTimePlus v1.0
+[02:21:09] [Server thread/INFO]: [nAntiBot] Loading nAntiBot v4.7
+[02:21:10] [Server thread/INFO]: [0;32;1m[nCore] [nAntiBot] Conectando-se ao servidor api.nickuc.com...[m
+[02:21:10] [Server thread/INFO]: [TrollServerStatus] Loading TrollServerStatus v1.0
+[02:21:10] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[02:21:10] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[02:21:10] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
+[02:21:10] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.4
+[02:21:10] [Server thread/INFO]: [SimpleClansAddon] Loading SimpleClansAddon v1.0
+[02:21:10] [Server thread/INFO]: [nReport] Loading nReport v2.2
+[02:21:10] [Server thread/INFO]: [0;32;1m[nCore] [nReport] Conectando-se ao servidor api.nickuc.com...[m
+[02:21:11] [Server thread/INFO]: [CaixasMisteriosas] Loading CaixasMisteriosas v2.0
+[02:21:11] [Server thread/INFO]: [JH_StackMobs] Loading JH_StackMobs v1.1.5
+[02:21:11] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.4
+[02:21:11] [Server thread/INFO]: [MVdWPlaceholderAPI] Loading MVdWPlaceholderAPI v3.1.1
+[02:21:11] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0
+[02:21:11] [Server thread/INFO]: [KingMARKET] Loading KingMARKET v0.0.1
+[02:21:11] [Server thread/INFO]: [TintaDupe] Loading TintaDupe v1.0
+[02:21:11] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[02:21:11] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[02:21:11] [Server thread/INFO]: [FeatherBoard] Loading FeatherBoard v3.18.1
+[02:21:11] [Server thread/INFO]: [BleikStats] Loading BleikStats v1.0
+[02:21:11] [Server thread/INFO]: [LivrosEspeciais] Loading LivrosEspeciais v1.0
+[02:21:11] [Server thread/INFO]: [Vault] Loading Vault v1.4.1-b436
+[02:21:11] [Server thread/INFO]: [CratesPlus] Loading CratesPlus v4.5.2
+[02:21:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[02:21:11] [Server thread/INFO]: [AtlasMinas] Loading AtlasMinas v2.2
+[02:21:11] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v20.03.28-71943e6-796
+[02:21:11] [Server thread/INFO]: [AtlasSpawnerShop] Loading AtlasSpawnerShop v1.3
+[02:21:11] [Server thread/INFO]: [VipZero] Loading VipZero v1.2.4
+[02:21:11] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.4
+[02:21:11] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[02:21:11] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.1-TRADUZIDA
+[02:21:11] [Server thread/INFO]: [SimpleClans] Loading SimpleClans v1.1
+[02:21:11] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1267)
+[02:21:11] [Server thread/INFO]: [Legendchat] Loading Legendchat v1.1.3
+[02:21:11] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[02:21:11] [Server thread/INFO]: [AtlasSpawnersV2] Loading AtlasSpawnersV2 v1.1
+[02:21:11] [Server thread/INFO]: [MineResetLite] Loading MineResetLite v0.4.7
+[02:21:11] [Server thread/INFO]: [AtlasRankUP] Loading AtlasRankUP v2.0
+[02:21:11] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.8.13-SNAPSHOT (compiled at 2017-07-06T23:01:33Z)
+[02:21:11] [Server thread/INFO]: [JH_Economy] Loading JH_Economy v1.3.8
+[02:21:11] [Server thread/INFO]: [System] Loading System v1.14.9
+[02:21:11] [Server thread/INFO]: [nLogin] Enabling nLogin v8.5.1
+[02:21:11] [Server thread/INFO]: [nCore] [nLogin] Successful plugin core start. Took 166ms[m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m         __             _       [m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m _ __   / /  ___   __ _(_)_ __  [m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m| '_ \ / /  / _ \ / _` | | '_ \ [m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m| | | / /__| (_) | (_| | | | | |[m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m|_| |_\____/\___/ \__, |_|_| |_|[m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m                  |___/            [m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1m By: www.nickuc.com - V 8.5.1 RELEASE Build[m
+[02:21:11] [Server thread/INFO]: [0;37;22m[nLogin] [m
+[02:21:12] [Server thread/INFO]: [0;37;22m[nLogin] [0;36;1mnLogin Lite [0;37;22mfoi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.[m
+[02:21:12] [Server thread/INFO]: [0;37;22m[nLogin] [0;34;1mCarregando tarefas para inicialização...[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nLogin] [0;33;1mnLogin foi carregado em 1556ms.[m
+[02:21:13] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v4.7
+[02:21:13] [Server thread/INFO]: [nCore] [nAntiBot] Successful plugin core start. Took 62ms[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m         _         _   _   ___       _   [m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m| '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m| | | /  _  \ | | | |_| / \/  \ (_) | |_ [m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m|_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m                                         [m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1m By: www.nickuc.com - V 4.7 Release Build[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] [0;31;1mCarregando tarefas para inicialização...[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] Foram carregados 1 ip(s) da database default (local).[m
+[02:21:13] [Server thread/INFO]: [0;37;22m[nAntiBot] Foram carregados 0 ip(s) da blacklist (local).[m
+[02:21:13] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.07.12-5cc5ce5-1277-22.3.0
+[02:21:14] [Server thread/INFO]: ====== USE PAPER ======[m
+[02:21:14] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+[02:21:14] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+[02:21:14] [Server thread/INFO]:  - This is only a recommendation[m
+[02:21:14] [Server thread/INFO]: ==============================[m
+[02:21:14] [Server thread/INFO]: [Vault] Enabling Vault v1.4.1-b436
+[02:21:14] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[02:21:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:21:15] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[02:21:15] [Server thread/INFO]: [Vault] Enabled Version 1.4.1-b436
+[02:21:15] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v20.03.28-71943e6-796
+[02:21:15] [Server thread/INFO]: Version is PlotSquared-20.3.28-71943e6-796
+[02:21:15] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;33;22mMetrics enabled.[m
+[02:21:15] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m [0;33;22mPlotSquared is using online UUIDs[m
+[02:21:16] [Server thread/INFO]: PlotSquared hooked into WorldEdit.[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mplot-expiry[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mkill-road-mobs[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mkill-road-items[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mworlds[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mworldedit-restrictions[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mdatabase-purger[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22meconomy[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mblock-cache[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mkill-road-vehicles[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mpersistent-meta[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mban-deleter[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mupdater[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mdatabase[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mplotme-converter[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mpermission-cache[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mdisable-fawe-optimization[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mrating-cache[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mcomment-notifier[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mmetrics[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mchunk-processor[0;31;1m, Value: [0;33;22mfalse[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22muuid-cache[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mevents[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;31;1mKey: [0;33;22mcommands[0;31;1m, Value: [0;33;22mtrue[m
+[02:21:16] [Server thread/INFO]: [0;33;22mPlotSquared is now enabled[m
+[02:21:16] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v1.1
+[02:21:16] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
+[02:21:17] [Server thread/INFO]: [SimpleClans] Clans: 1
+[02:21:17] [Server thread/INFO]: [SimpleClans] Clan players: 1
+[02:21:17] [Server thread/INFO]: [SimpleClans] Version 1.1 loaded
+[02:21:17] [Server thread/INFO]: [SimpleClans] Online Mode: true
+[02:21:17] [Server thread/INFO]: [SimpleClans] Modo Multithreading: false
+[02:21:17] [Server thread/INFO]: [SimpleClans] Modo BungeeCord: false
+[02:21:17] [Server thread/INFO]: [Legendchat] Enabling Legendchat v1.1.3
+[02:21:17] [Server thread/INFO]: [Legendchat] Legendchat (V1.1.3) - Author: SubZero0
+[02:21:17] [Server thread/INFO]: [Legendchat] Hooked to Vault (Permissions).
+[02:21:17] [Server thread/WARN]: [Legendchat] Vault is not linked to any economy plugin.
+[02:21:17] [Server thread/INFO]: [Legendchat] Hooked to Vault (Chat).
+[02:21:17] [Server thread/INFO]: [JH_Economy] Enabling JH_Economy v1.3.8
+[02:21:17] [Server thread/INFO]: [JH_Economy] Hook para tags ligado ao LegendChat!
+[02:21:17] [Server thread/INFO]: [JH_Economy] Hook para tags ligado ao PermissionsEx!
+[02:21:17] [Server thread/WARN]: [JH_Economy] Could not save config.yml to plugins\JH_Economy\config.yml because config.yml already exists.
+[02:21:17] [Server thread/INFO]: [JH_Economy] Hook com Vault iniciado!
+[02:21:17] [Server thread/INFO]: PlaceholderAPI encontrado habilitando hooks
+[02:21:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: jheconomy
+[02:21:17] [Server thread/INFO]: Hook habilitado, {jheconomy_money} ou %jheconomy_money%
+[02:21:17] [Server thread/INFO]: Plugin iniciado com sucesso!
+[02:21:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:21:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:21:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:21:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:21:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:21:17] [Server thread/INFO]: Preparing level "world"
+[02:21:17] [Thread-25/ERROR]: §a[JH_Economy] §fNova atualização para JH_Economy download https://www.jhdev.net/
+[02:21:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:21:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:21:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:21:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:21:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:21:17] [Server thread/INFO]: View Distance: 10
+[02:21:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:21:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:21:17] [Server thread/INFO]: Clear tick list: false
+[02:21:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:21:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:21:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:21:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:21:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:21:17] [Server thread/INFO]: Structure Info Saving: true
+[02:21:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:21:17] [Server thread/INFO]: Mob Spawn Range: 4
+[02:21:17] [Server thread/INFO]: Random Lighting Updates: false
+[02:21:17] [Server thread/INFO]: Anti X-Ray: true
+[02:21:17] [Server thread/INFO]: 	Engine Mode: 1
+[02:21:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:21:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:21:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:21:17] [Server thread/INFO]: Max TNT Explosions: 100
+[02:21:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:21:17] [Server thread/INFO]: Max Entity Collisions: 8
+[02:21:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:21:17] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[02:21:17] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3349499341395668286)
+[02:21:18] [Server thread/INFO]: Preparing spawn area: 12%
+[02:21:19] [Server thread/INFO]: Preparing spawn area: 46%
+[02:21:20] [Server thread/INFO]: Preparing spawn area: 85%
+[02:21:21] [Server thread/INFO]: [McMMO-BOOSTER] Enabling McMMO-BOOSTER v3.0
+[02:21:21] [Server thread/ERROR]: [McMMO-BOOSTER] Plugin McMMO-BOOSTER v3.0 has failed to register events for class br.com.mcbooster.listeners.GainXPListener because com/gmail/nossr50/events/experience/McMMOPlayerXpGainEvent does not exist.
+[02:21:21] [Server thread/INFO]: [0;37;22m* Foram carregados [0;37;1m0 [0;37;22mboosters.[m
+[02:21:21] [Server thread/INFO]: [OnlineTimePlus] Enabling OnlineTimePlus v1.0
+[02:21:21] [Server thread/INFO]: [TrollServerStatus] Enabling TrollServerStatus v1.0
+[02:21:21] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[02:21:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:21:21] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[02:21:21] [Server thread/INFO]: [ClearLag] Carregando modulos...
+[02:21:21] [Server thread/INFO]: [ClearLag] Modulos carregados e habilitados com sucesso!
+[02:21:21] [Server thread/INFO]: [ClearLag] Versao traduzida por RUSH.
+[02:21:21] [Server thread/INFO]: [ClearLag] Habilitado com sucesso!
+[02:21:21] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
+[02:21:21] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
+[02:21:21] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.4
+[02:21:22] [Server thread/INFO]: [SimpleClansAddon] Enabling SimpleClansAddon v1.0
+[02:21:22] [Server thread/INFO]: [nReport] Enabling nReport v2.2
+[02:21:23] [Server thread/INFO]: [nCore] [nReport] Successful plugin core start. Took 971ms[m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m         __                       _   [m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m _ __   /__\ ___ _ __   ___  _ __| |_ [m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m| '_ \ / \/// _ \ '_ \ / _ \| '__| __|[m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m| | | / _  \  __/ |_) | (_) | |  | |_ [m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m|_| |_\/ \_/\___| .__/ \___/|_|   \__|[m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m                |_|                   [m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1m By: www.nickuc.com - V 2.2 RELEASE Build[m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;33;1mInicializando tarefas para inicialização...[m
+[02:21:23] [Server thread/INFO]: [0;37;22m[nReport] [0;32;1mCarregado com sucesso 6 tipos de reports.[m
+[02:21:23] [Server thread/INFO]: [CaixasMisteriosas] Enabling CaixasMisteriosas v2.0
+[02:21:23] [Server thread/INFO]: [0;32;1m[CaixasMisteriosas] Foram carregadas '1' caixa(s) misteriosas![m
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Enabling JH_StackMobs v1.1.5
+[02:21:23] [Server thread/WARN]: [JH_StackMobs] Could not save config.yml to plugins\JH_StackMobs\config.yml because config.yml already exists.
+[02:21:23] [Server thread/WARN]: [JH_StackMobs] Could not save mensagens.yml to plugins\JH_StackMobs\mensagens.yml because mensagens.yml already exists.
+[02:21:23] [Server thread/WARN]: [JH_StackMobs] Could not save traducoes.yml to plugins\JH_StackMobs\traducoes.yml because traducoes.yml already exists.
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Iniciando conexao SQLite!
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Conexao SQLite iniciada com sucesso!
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Carregando Stacks do mundo: world
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Foram carregados 0 Stacks do mundo world
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Booster Booster1 carregado!
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Booster Booster2 carregado!
+[02:21:23] [Server thread/INFO]: [JH_StackMobs] Booster Booster3 carregado!
+[02:21:23] [Server thread/INFO]: Plugin iniciado com sucesso!
+[02:21:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.4
+[02:21:23] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
+[02:21:23] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
+[02:21:23] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_8_R3[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[02:21:23] [Server thread/INFO]: [SkinsRestorer] MySQL.ConnectionOptions is missing in config.yml! Using default value.
+[02:21:23] [Thread-29/ERROR]: §a[JH_StackMobs] §fNova atualização para JH_StackMobs download https://www.jhdev.net/
+[02:21:27] [Server thread/INFO]: [MVdWPlaceholderAPI] Enabling MVdWPlaceholderAPI v3.1.1
+[02:21:27] [Server thread/INFO]: [MVdWPlaceholderAPI] Initializing placeholders ...
+[02:21:27] [Server thread/INFO]: [MVdWPlaceholderAPI] Sending metrics ...
+[02:21:27] [Server thread/INFO]: [KingMARKET] Enabling KingMARKET v0.0.1
+[02:21:27] [Server thread/INFO]: [TintaDupe] Enabling TintaDupe v1.0
+[02:21:27] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[02:21:27] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[02:21:27] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[02:21:27] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[02:21:27] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[02:21:27] [Server thread/INFO]: [FeatherBoard] Enabling FeatherBoard v3.18.1
+[02:21:28] [Server thread/INFO]: [FeatherBoard] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Plugin: FeatherBoard v3.18.1
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Framework version: 2017-04
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Author: Maximvdw (Maxim Van de Wynckel)
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Site: https://www.mvdw-software.com/
+[02:21:28] [Server thread/INFO]: [FeatherBoard] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Loading configuration ...
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Loading messages ...
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Loading language file: lang_en
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Loading placeholders ...
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Downloading City database ...
+[02:21:28] [Server thread/INFO]: [FeatherBoard] geolite.maxmind.com
+[02:21:28] [Server thread/INFO]: [FeatherBoard] ./plugins/MVdWPlugin/db/GeoLiteCity.dat updated
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Downloading Country database ...
+[02:21:28] [Server thread/INFO]: [FeatherBoard] geolite.maxmind.com
+[02:21:28] [Server thread/INFO]: [FeatherBoard] ./plugins/MVdWPlugin/db/GeoIP.dat updated
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Downloading IPV6 database ...
+[02:21:28] [Server thread/INFO]: [FeatherBoard] geolite.maxmind.com
+[02:21:28] [Server thread/INFO]: [FeatherBoard] ./plugins/MVdWPlugin/db/GeoIPv6.dat updated
+[02:21:28] [Server thread/INFO]: [FeatherBoard] Updater disabled.
+[02:21:31] [Server thread/ERROR]: [FeatherBoard] java.lang.NoClassDefFoundError: be/maximvdw/placeholderapi/internal/MVdWPlaceholderReplacer
+	at be.maximvdw.featherboardcore.placeholders.ai.<init>(MVdWPlaceholderAPIPlaceholder.java:21)
+	at be.maximvdw.featherboardcore.placeholders.aC.a(PlaceholderLoader.java:539)
+	at be.maximvdw.featherboard.FeatherBoard.initPlaceholders(Unknown Source)
+	at be.maximvdw.featherboard.FeatherBoard.loadConfiguration(Unknown Source)
+	at be.maximvdw.featherboardcore.BasePlugin.initialize(Unknown Source)
+	at be.maximvdw.featherboardcore.BasePlugin.onEnable(Unknown Source)
+	at be.maximvdw.featherboard.FeatherBoard.onEnable(Unknown Source)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333)
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: be.maximvdw.placeholderapi.internal.MVdWPlaceholderReplacer
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 18 more
+
+[02:21:31] [Thread-30/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loaded 1794 of the 4556 placholders
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading Event hooks ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Death hook ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Block break hook ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Block place hook ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Create portal hook ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player join ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player rejoin ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player first join ...
+[02:21:31] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Combat hook ...
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Creating new custom effect: warning
+[02:21:32] [Server thread/INFO]: [FeatherBoard] 	Lines: 2
+[02:21:32] [Server thread/INFO]: [FeatherBoard] 	Arguments: 1
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Adding scoreboard group 'default' ...
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Adding scoreboard group 'combat-scoreboard-example' ...
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Adding scoreboard group 'mcmmo-levelup' ...
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Adding scoreboard group 'towny-town-example' ...
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Toggle persistence is disabled!
+[02:21:32] [Server thread/INFO]: [FeatherBoard] Adding command 'featherboard'
+[02:21:32] [Server thread/INFO]: [0;31;22m[FeatherBoard] [0;33;22mCracked by Java@BlackSpigotMC[m
+[02:21:32] [Server thread/INFO]: [BleikStats] Enabling BleikStats v1.0
+[02:21:32] [Server thread/ERROR]: [BleikStats] Plugin BleikStats v1.0 has failed to register events for class br.viniplugner.mcmmo.commands.SkillsCommand because com/gmail/nossr50/datatypes/skills/SkillType does not exist.
+[02:21:32] [Server thread/INFO]: [LivrosEspeciais] Enabling LivrosEspeciais v1.0
+[02:21:32] [Server thread/ERROR]: [LivrosEspeciais] Plugin LivrosEspeciais v1.0 has failed to register events for class me.meninu.custom.Inteligencia because com/gmail/nossr50/events/experience/McMMOPlayerXpGainEvent does not exist.
+[02:21:32] [Server thread/INFO]: [CratesPlus] Enabling CratesPlus v4.5.2
+[02:21:33] [Server thread/ERROR]: Error occurred while enabling CratesPlus v4.5.2 (Is it up to date?)
+java.lang.NullPointerException
+	at org.bukkit.Location.getBlock(Location.java:87) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at plus.crates.CratesPlus.loadMetaData(CratesPlus.java:443) ~[?:?]
+	at plus.crates.CratesPlus.onEnable(CratesPlus.java:212) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+[02:21:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[02:21:33] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[02:21:34] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[02:21:34] [Server thread/INFO]: [AtlasMinas] Enabling AtlasMinas v2.2
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mPlugin iniciado, by don't[m
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mconexao com sqlite estabelecida[m
+[02:21:34] [Server thread/INFO]: [AtlasSpawnerShop] Enabling AtlasSpawnerShop v1.3
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mPlugin iniciado, by don't[m
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mconexao com sqlite estabelecida[m
+[02:21:34] [Server thread/INFO]: [DEBUG] [0;32;1m[AtlasSpawnerShop] [0;37;1mdeletado 0 usuarios[m
+[02:21:34] [Server thread/INFO]: deletado usuarios em 26ms[m
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mPlayerJoinQuit carregado[m
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1m placeholderapi hookado[m
+[02:21:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: atlasspawnersshop
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mSpawnerShopCommand carregado[m
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mSpawnerCommand carregado[m
+[02:21:34] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mLimiteBoosterListeners carregado[m
+[02:21:34] [Server thread/INFO]: &cCracked by Princ#6844[m
+[02:21:34] [Server thread/INFO]: [VipZero] Enabling VipZero v1.2.4
+[02:21:34] [Server thread/INFO]: [VipZero] Enabling VipZero (V1.2.4) - Author: SubZero0 & nathampa0909
+[02:21:34] [Server thread/INFO]: [VipZero] Checking for updates...
+[02:21:35] [Server thread/INFO]: [VipZero] No updates found.
+[02:21:35] [Server thread/INFO]: [VipZero] Checking for old config file...
+[02:21:35] [Server thread/INFO]: [VipZero] No updates found.
+[02:21:35] [Server thread/INFO]: [VipZero] Checking for config file update...
+[02:21:35] [Server thread/INFO]: [VipZero] No updates found.
+[02:21:35] [Server thread/INFO]: [VipZero] Checking for language file update...
+[02:21:35] [Server thread/INFO]: [VipZero] No updates found.
+[02:21:35] [Server thread/INFO]: [VipZero] Using flatfile system.
+[02:21:35] [Server thread/INFO]: [VipZero] Hooked to PermissionsEx.
+[02:21:35] [Server thread/INFO]: [VipZero] Hooked to Vault (Economy).
+[02:21:35] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.4
+[02:21:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[02:21:36] [Server thread/INFO]: -------- World Settings For [terrenos] --------
+[02:21:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:21:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:21:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:21:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:21:36] [Server thread/INFO]: View Distance: 10
+[02:21:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:21:36] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:21:36] [Server thread/INFO]: Clear tick list: false
+[02:21:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:21:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:21:36] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:21:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:21:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:21:36] [Server thread/INFO]: Structure Info Saving: true
+[02:21:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:21:36] [Server thread/INFO]: Mob Spawn Range: 4
+[02:21:36] [Server thread/INFO]: Random Lighting Updates: false
+[02:21:36] [Server thread/INFO]: Anti X-Ray: true
+[02:21:36] [Server thread/INFO]: 	Engine Mode: 1
+[02:21:36] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:21:36] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:21:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:21:36] [Server thread/INFO]: Max TNT Explosions: 100
+[02:21:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:21:36] [Server thread/INFO]: Max Entity Collisions: 8
+[02:21:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:21:36] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;32;1mDetected world load for 'terrenos'[m
+[02:21:36] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;36;22m - generator: [0;37;22mPlotSquared>PlotSquared[m
+[02:21:36] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;36;22m - plotworld: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotWorld[m
+[02:21:36] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;36;22m - manager: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotManager[m
+[02:21:36] [Server thread/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;36;22m - schematic: [0;37;22mfalse[m
+[02:21:36] [Server thread/INFO]: World possibly already loaded: terrenos[m
+[02:21:36] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3491661387100380644)
+[02:21:37] [Server thread/INFO]: [JH_StackMobs] Carregando Stacks do mundo: terrenos
+[02:21:37] [Server thread/INFO]: [JH_StackMobs] Foram carregados 0 Stacks do mundo terrenos
+[02:21:37] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[02:21:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:21:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:21:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:21:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:21:37] [Server thread/INFO]: View Distance: 10
+[02:21:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:21:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:21:37] [Server thread/INFO]: Clear tick list: false
+[02:21:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:21:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:21:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:21:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:21:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:21:37] [Server thread/INFO]: Structure Info Saving: true
+[02:21:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:21:37] [Server thread/INFO]: Mob Spawn Range: 4
+[02:21:37] [Server thread/INFO]: Random Lighting Updates: false
+[02:21:37] [Server thread/INFO]: Anti X-Ray: true
+[02:21:37] [Server thread/INFO]: 	Engine Mode: 1
+[02:21:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:21:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:21:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:21:37] [Server thread/INFO]: Max TNT Explosions: 100
+[02:21:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:21:37] [Server thread/INFO]: Max Entity Collisions: 8
+[02:21:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:21:37] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[02:21:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5573990783757558587)
+[02:21:38] [Server thread/INFO]: [JH_StackMobs] Carregando Stacks do mundo: Lobby
+[02:21:38] [Server thread/INFO]: [JH_StackMobs] Foram carregados 0 Stacks do mundo Lobby
+[02:21:38] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Crate
+[02:21:38] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[02:21:38] [Server thread/INFO]: -------- World Settings For [mina] --------
+[02:21:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:21:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:21:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:21:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:21:38] [Server thread/INFO]: View Distance: 10
+[02:21:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:21:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:21:38] [Server thread/INFO]: Clear tick list: false
+[02:21:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:21:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:21:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:21:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:21:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:21:38] [Server thread/INFO]: Structure Info Saving: true
+[02:21:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:21:38] [Server thread/INFO]: Mob Spawn Range: 4
+[02:21:38] [Server thread/INFO]: Random Lighting Updates: false
+[02:21:38] [Server thread/INFO]: Anti X-Ray: true
+[02:21:38] [Server thread/INFO]: 	Engine Mode: 1
+[02:21:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:21:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:21:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:21:38] [Server thread/INFO]: Max TNT Explosions: 100
+[02:21:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:21:38] [Server thread/INFO]: Max Entity Collisions: 8
+[02:21:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:21:38] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[02:21:38] [Server thread/INFO]: Preparing start region for level 3 (Seed: 3183084709916615088)
+[02:21:38] [Server thread/INFO]: [JH_StackMobs] Carregando Stacks do mundo: mina
+[02:21:38] [Server thread/INFO]: [JH_StackMobs] Foram carregados 0 Stacks do mundo mina
+[02:21:38] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: minavip
+[02:21:38] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[02:21:38] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[02:21:39] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[02:21:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.1-TRADUZIDA
+[02:21:39] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:21:39] [Server thread/INFO]: [WorldGuard] (terrenos) TNT ignition is PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (terrenos) Lighters are PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (terrenos) Lava fire is blocked.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (terrenos) Fire spread is UNRESTRICTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'terrenos'
+[02:21:39] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is blocked.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[02:21:39] [Server thread/INFO]: [WorldGuard] (mina) TNT ignition is PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (mina) Lighters are PERMITTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (mina) Lava fire is blocked.
+[02:21:39] [Server thread/INFO]: [WorldGuard] (mina) Fire spread is UNRESTRICTED.
+[02:21:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'mina'
+[02:21:39] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:21:39] [Server thread/INFO]: [0;31;1m[WorldGuard] [0;32;1mIniciado com sucesso![m
+[02:21:39] [Server thread/INFO]: [0;31;1m[WorldGuard] [0;32;1mVersão editada por: nathampa0909[m
+[02:21:39] [Server thread/INFO]: [0;31;1m[WorldGuard] [0;32;1mSite: http://www.jairocraft.com.br/[m
+[02:21:39] [Server thread/INFO]: [0;31;1m[WorldGuard] [0;32;1mSkype: nathan.guedes1[m
+[02:21:39] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.16-SNAPSHOT (build 1267)
+[02:21:39] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[02:21:40] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[02:21:40] [Server thread/INFO]: [ChestCommands] PlayerPoints vinculado com sucesso!
+[02:21:40] [Server thread/INFO]: [AtlasSpawnersV2] Enabling AtlasSpawnersV2 v1.1
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mPlugin iniciado, by don't[m
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mconexao com sqlite estabelecida[m
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mSpawnerAdminCommand carregado[m
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mSpawnerPlaceBreak carregado[m
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mSpawnerInteract carregado[m
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mMobstackListeners carregado[m
+[02:21:40] [Server thread/INFO]: [0;31;1mCracked by Princ#6844[m
+[02:21:40] [Server thread/INFO]: [MineResetLite] Enabling MineResetLite v0.4.7
+[02:21:40] [Server thread/INFO]: [MineResetLite] MRL is managed and developed by Boomclaw under the Apache 2.0 license.
+[02:21:40] [Server thread/INFO]: [MineResetLite] For any issues or suggestions, use the Spigot discussion thread. Do not PM any of the developers.
+[02:21:40] [Server thread/INFO]: [AtlasRankUP] Enabling AtlasRankUP v2.0
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mPlugin iniciado, by don't[m
+[02:21:40] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mconexao com sqlite estabelecida[m
+[02:21:41] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mLegendchat carregado[m
+[02:21:41] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.8.13-SNAPSHOT (compiled at 2017-07-06T23:01:33Z)
+[02:21:41] [Server thread/INFO]: [ChestShop] Vault loaded! Found an economy plugin!
+[02:21:41] [Server thread/INFO]: [System] Enabling System v1.14.9
+[02:21:41] [Server thread/INFO]: [0;31;1m[System] McMMO nao encontrado, desativando addons![m
+[02:21:41] [Server thread/INFO]: [0;31;1m[System] Factions nao encontrado, desativando addons![m
+[02:21:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:21:42] [Server thread/INFO]: Done (25,128s)! For help, type "help" or "?"
+[02:21:42] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.4[m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[02:21:43] [Craft Scheduler Thread - 347/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'WorldGuard' found. Using it now.[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Optimizing PlotSquared[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - HybridPlotManager.REGENERATIVE_CLEAR: false[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@2d6b4b6d[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@5b6f89e3[m
+[02:21:44] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'PlotSquared' found. Using it now.[m
+[02:21:44] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[02:21:44] [Craft Scheduler Thread - 278/INFO]: Magnata atual: oslayer_, $ 1,14 Coins
+[02:21:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:21:44] [Server thread/INFO]: [0;33;22mNo expansions were registered![m
+[02:21:44] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates:
+[02:21:44] [Craft Scheduler Thread - 0/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.4.1
+[02:21:44] [Craft Scheduler Thread - 0/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[02:21:45] [Server thread/WARN]: java.lang.IllegalArgumentException: Illegal base64 character 3c
+[02:21:45] [Server thread/WARN]: 	at java.util.Base64$Decoder.decode0(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at java.util.Base64$Decoder.decode(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at java.util.Base64$Decoder.decode(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.minas.utils.Validator.<init>(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.minas.managers.EnchantManager.<init>(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.minas.Terminal.setup(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.minas.Terminal.access$000(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.minas.Terminal$1.run(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[02:21:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+[02:21:45] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:21:45] [Server thread/INFO]: [DEBUG] [0;32;1m[AtlasMinas] [0;37;1mdeletado 0 usuarios[m
+[02:21:45] [Server thread/INFO]: deletado usuarios em 8ms[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mPlayerJoinQuit carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mSetMinaCommand carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mMinaListeners carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mGiveBlocosCommand carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mMinaCommand carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mMinaAdminCommand carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mEnchantListeners carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1m placeholderapi hookado[m
+[02:21:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: atlasminas
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mMinaPvpCommand carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mSetBlocosCommand carregado[m
+[02:21:45] [Server thread/INFO]: Não foi possível hookar com ApolloRankup
+[02:21:45] [Server thread/INFO]: Não foi possível hookar com PombaEssency
+[02:21:45] [Server thread/INFO]: Não foi possível hookar com RedeUPRubis
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mcarregado 0 spawners[m
+[02:21:45] [Server thread/INFO]: carregado todos spawners em 15ms[m
+[02:21:45] [Server thread/INFO]: Starting UUID caching[m
+[02:21:45] [Craft Scheduler Thread - 1/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;33;22mStarting player data caching for: world[m
+[02:21:45] [Craft Scheduler Thread - 1/INFO]: [0;32;1mFast mode UUID caching enabled![m
+[02:21:45] [Craft Scheduler Thread - 1/INFO]: [0;30;1m[0;36;1m[21mTerrenos[0;30;1m [0;30;1m》 [0;37;22m[0;33;22mCached a total of: 1 UUIDs[m
+[02:21:45] [Server thread/WARN]: java.lang.IllegalArgumentException: Illegal base64 character 3c
+[02:21:45] [Server thread/WARN]: 	at java.util.Base64$Decoder.decode0(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at java.util.Base64$Decoder.decode(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at java.util.Base64$Decoder.decode(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.rankup.utils.Validator.<init>(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.rankup.managers.FragmentoManager.<init>(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.rankup.Terminal.posSetup(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.rankup.Terminal.access$000(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at com.dont.rankup.Terminal$1.run(Unknown Source)
+[02:21:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[02:21:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+[02:21:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+[02:21:45] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mPlayerJoinQuit carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mFragmentoCommand carregado[m
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1m placeholderapi hookado[m
+[02:21:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: atlasrankup
+[02:21:45] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mSetRankCommand carregado[m
+[02:21:46] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mRanksCommand carregado[m
+[02:21:46] [Server thread/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mRankupCommand carregado[m
+[02:21:47] [Server thread/INFO]: MVdWPlaceholderAPI encontrado habilitando hooks
+[02:21:47] [Server thread/INFO]: [MVdWPlaceholderAPI] JH_Economy added custom placeholder {jheconomy_money}
+[02:21:47] [Server thread/INFO]: MVdWPlaceholderAPI: Hook habilitado, {jheconomy_money}
+[02:21:49] [Server thread/INFO]: [0;37;22m[nLogin] Inicialização do nLogin v8.5.1 finalizada.[m
+[02:21:52] [Thread-47/INFO]: [DEBUG] [0;32;1m[AtlasSpawnerShop] [0;37;1mpuxando player oSlayer_ da tabela[m
+[02:21:52] [Server thread/INFO]: oSlayer_[/127.0.0.1:61198] logged in with entity id 68 at ([Lobby]830.3726316937417, 119.0, -1064.5250395552134)
+[02:21:53] [Craft Scheduler Thread - 336/INFO]: [DEBUG] [0;32;1m[AtlasMinas] [0;37;1mpuxando player oSlayer_ da tabela[m
+[02:21:53] [Craft Scheduler Thread - 332/INFO]: [DEBUG] [0;32;1m[AtlasRankUP] [0;37;1mpuxando player oSlayer_ da tabela[m
+[02:22:01] [Craft Scheduler Thread - 298/INFO]: [0;37;22m[nLogin] O usuário oSlayer_ autenticou com sucesso.[m
+[02:25:52] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CratesPlus v4.5.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:107) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:623) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_261]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.block.Chest.getCustomName()Ljava/lang/String;
+	at plus.crates.Listeners.PlayerInteract.onPlayerInteract(PlayerInteract.java:42) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_261]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	... 18 more
+[02:25:52] [Server thread/ERROR]: Could not pass event BlockBreakEvent to CratesPlus v4.5.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:121) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:623) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_261]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.block.Chest.getCustomName()Ljava/lang/String;
+	at plus.crates.Listeners.BlockListeners.onBlockBreakLegacy(BlockListeners.java:273) ~[?:?]
+	at plus.crates.Listeners.BlockListeners.onBlockBreak(BlockListeners.java:244) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_261]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	... 17 more
+[02:25:53] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CratesPlus v4.5.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:107) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:623) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_261]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.block.Chest.getCustomName()Ljava/lang/String;
+	at plus.crates.Listeners.PlayerInteract.onPlayerInteract(PlayerInteract.java:42) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_261]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	... 18 more
+[02:25:53] [Server thread/ERROR]: Could not pass event BlockBreakEvent to CratesPlus v4.5.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [server.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:121) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:623) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_261]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.block.Chest.getCustomName()Ljava/lang/String;
+	at plus.crates.Listeners.BlockListeners.onBlockBreakLegacy(BlockListeners.java:273) ~[?:?]
+	at plus.crates.Listeners.BlockListeners.onBlockBreak(BlockListeners.java:244) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_261]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-db6de12-18fbb24]
+	... 17 more
+[02:26:20] [Server thread/INFO]: oSlayer_ issued server command: /crate crate Epica oSlayer_
+[02:26:30] [Server thread/INFO]: oSlayer_ issued server command: /crate crate lendaria oSlayer_
+[02:26:59] [Server thread/INFO]: oSlayer_ issued server command: /crates
+[02:27:04] [Server thread/INFO]: oSlayer_ issued server command: /crate list
+[02:27:08] [Server thread/INFO]: oSlayer_ issued server command: /crate settings
+[02:27:25] [Server thread/INFO]: oSlayer_ issued server command: /crate crate rara oSlayer_
+[02:27:28] [Server thread/INFO]: oSlayer_ issued server command: /crate crate magica oSlayer_
+[02:28:01] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:30:20] [Server thread/INFO]: oSlayer_ issued server command: /crate give
+[02:30:21] [Server thread/INFO]: oSlayer_ issued server command: /crate
+[02:30:42] [Server thread/INFO]: oSlayer_ issued server command: /crate key oSlayer_ rr
+[02:30:43] [Server thread/INFO]: oSlayer_ issued server command: /crate key oSlayer_ rara
+[02:30:58] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [0;32;1mOs itens serão removidos do chão em [0;32;22m60 segundos[0;32;1m![m
+[02:31:49] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [0;32;1mOs itens serão removidos do chão em [0;32;22m10 segundos[0;32;1m![m
+[02:31:59] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [m[0;32;22m0[0;32;1m itens foram removidos![m
+[02:33:10] [Server thread/INFO]: oSlayer_ issued server command: /crate key oSlayer_ rara
+[02:33:13] [Server thread/INFO]: oSlayer_ issued server command: /crate key oSlayer_ rara 10
+[02:33:33] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:41:06] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [0;32;1mOs itens serão removidos do chão em [0;32;22m60 segundos[0;32;1m![m
+[02:41:56] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [0;32;1mOs itens serão removidos do chão em [0;32;22m10 segundos[0;32;1m![m
+[02:42:06] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [m[0;32;22m0[0;32;1m itens foram removidos![m
+[02:43:38] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:43:40] [Server thread/INFO]: oSlayer_ issued server command: /kit
+[02:43:44] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:43:52] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:43:53] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:43:58] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:43:58] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:43:59] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:43:59] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:43:59] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:00] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:00] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:04] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:04] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:05] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:06] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:07] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:08] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:09] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:09] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:10] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:10] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;31;1mCorrect Usage: /crate crate <type> [player][m
+[02:44:12] [Server thread/INFO]: [0;31;1mO kit 'farm2' não existe.[m
+[02:44:12] [Server thread/INFO]: [0;33;1mKits disponíveis(3): [0;37;22mdiamantem[0;30;1m,[0;37;22m esmeraldam[0;30;1m,[0;37;22m ourom[m
+[02:44:13] [Server thread/INFO]: [0;31;1mO kit 'farm2' não existe.[m
+[02:44:13] [Server thread/INFO]: [0;33;1mKits disponíveis(3): [0;37;22mdiamantem[0;30;1m,[0;37;22m esmeraldam[0;30;1m,[0;37;22m ourom[m
+[02:44:14] [Server thread/INFO]: [0;31;1mO kit 'farm2' não existe.[m
+[02:44:14] [Server thread/INFO]: [0;33;1mKits disponíveis(3): [0;37;22mdiamantem[0;30;1m,[0;37;22m esmeraldam[0;30;1m,[0;37;22m ourom[m
+[02:44:14] [Server thread/INFO]: [0;31;1mO kit 'farm1' não existe.[m
+[02:44:14] [Server thread/INFO]: [0;33;1mKits disponíveis(3): [0;37;22mdiamantem[0;30;1m,[0;37;22m esmeraldam[0;30;1m,[0;37;22m ourom[m
+[02:44:14] [Server thread/INFO]: [0;31;1mO kit 'farm1' não existe.[m
+[02:44:14] [Server thread/INFO]: [0;33;1mKits disponíveis(3): [0;37;22mdiamantem[0;30;1m,[0;37;22m esmeraldam[0;30;1m,[0;37;22m ourom[m
+[02:45:18] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:45:19] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:45:21] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:45:22] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:45:22] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:45:22] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:45:23] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:46:54] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:46:56] [Server thread/INFO]: oSlayer_ issued server command: /kit
+[02:46:58] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:47:06] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:08] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:08] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:09] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:09] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:10] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:10] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:17] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:47:39] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:47:40] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:47:43] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:44] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:44] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:45] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:51] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:47:52] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:53] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:53] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:47:53] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:49:48] [Server thread/INFO]: oSlayer_ issued server command: /criarkit
+[02:50:28] [Server thread/INFO]: oSlayer_ issued server command: /enchant
+[02:50:33] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 7
+[02:50:47] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 7
+[02:50:56] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 7
+[02:51:01] [Server thread/INFO]: oSlayer_ issued server command: /enchant durability 50
+[02:51:02] [Server thread/INFO]: oSlayer_ issued server command: /enchant durability 50
+[02:51:02] [Server thread/INFO]: oSlayer_ issued server command: /enchant durability 50
+[02:51:05] [Server thread/INFO]: oSlayer_ issued server command: /enchant durability 50
+[02:51:07] [Server thread/INFO]: oSlayer_ issued server command: /enchant durability 50
+[02:51:15] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:51:15] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [0;32;1mOs itens serão removidos do chão em [0;32;22m60 segundos[0;32;1m![m
+[02:51:27] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 10
+[02:51:29] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 10
+[02:51:32] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 5
+[02:51:34] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 5
+[02:51:37] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 5
+[02:51:43] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:52:00] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 7
+[02:52:02] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:52:04] [Server thread/INFO]: [0;31;1mO kit 'farm2' não existe.[m
+[02:52:04] [Server thread/INFO]: [0;33;1mKits disponíveis(3): [0;37;22mdiamantem[0;30;1m,[0;37;22m esmeraldam[0;30;1m,[0;37;22m ourom[m
+[02:52:06] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [0;32;1mOs itens serão removidos do chão em [0;32;22m10 segundos[0;32;1m![m
+[02:52:16] [Server thread/INFO]: [0;33;1m[21mLIXEIRO: [m[0;32;22m0[0;32;1m itens foram removidos![m
+[02:52:16] [Craft Scheduler Thread - 494/INFO]: [DEBUG] [0;32;1m[AtlasSpawnersV2] [0;37;1mIniciando auto save[m
+[02:52:16] [Craft Scheduler Thread - 494/INFO]: [INFO] [0;32;1m[AtlasSpawnersV2] [0;37;1mAuto completo, salvo 0 objetos em 0ms[m
+[02:52:16] [Craft Scheduler Thread - 496/INFO]: [DEBUG] [0;32;1m[AtlasSpawnerShop] [0;37;1mIniciando auto save[m
+[02:52:16] [Craft Scheduler Thread - 496/INFO]: [INFO] [0;32;1m[AtlasSpawnerShop] [0;37;1mAuto completo, salvo 1 objetos em 1ms[m
+[02:52:17] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 10
+[02:52:17] [Craft Scheduler Thread - 530/INFO]: [DEBUG] [0;32;1m[AtlasMinas] [0;37;1mIniciando auto save[m
+[02:52:17] [Craft Scheduler Thread - 495/INFO]: [DEBUG] [0;32;1m[AtlasRankUP] [0;37;1mIniciando auto save[m
+[02:52:17] [Craft Scheduler Thread - 530/INFO]: [INFO] [0;32;1m[AtlasMinas] [0;37;1mAuto completo, salvo 1 objetos em 40ms[m
+[02:52:17] [Craft Scheduler Thread - 495/INFO]: [INFO] [0;32;1m[AtlasRankUP] [0;37;1mAuto completo, salvo 1 objetos em 26ms[m
+[02:52:20] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 15
+[02:52:24] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 20
+[02:52:27] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:52:35] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 14
+[02:52:37] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:52:47] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 14
+[02:52:53] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 20
+[02:52:59] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 14
+[02:53:03] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:53:11] [Server thread/INFO]: oSlayer_ issued server command: /enchant loot_bonus_mobs 20
+[02:53:15] [Server thread/INFO]: oSlayer_ issued server command: /enchant damage_all 30
+[02:53:17] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:53:28] [Server thread/INFO]: oSlayer_ issued server command: /criarkit farm1
+[02:53:31] [Server thread/INFO]: oSlayer_ issued server command: /criarkit farm2
+[02:53:33] [Server thread/INFO]: oSlayer_ issued server command: /criarkit farm3
+[02:53:36] [Server thread/INFO]: oSlayer_ issued server command: /criarkit farm4
+[02:53:39] [Server thread/INFO]: oSlayer_ issued server command: /criarkit farm5
+[02:54:00] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm1 renomear
+[02:54:12] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm1 nome &eEspada de Farm
+[02:54:15] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm2 nome &eEspada de Farm
+[02:54:18] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm3 nome &eEspada de Farm
+[02:54:21] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm34nome &eEspada de Farm
+[02:54:27] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm4 nome &eEspada de Farm
+[02:54:29] [Server thread/INFO]: oSlayer_ issued server command: /editarkit farm5 nome &eEspada de Farm
+[02:54:32] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:54:34] [Server thread/INFO]: [0;31;1mComando incorreto, use /darkit <kit-id> <player>[m
+[02:54:35] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:54:35] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:54:36] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:54:36] [Server thread/INFO]: [0;31;1mComando incorreto, use /darkit <kit-id> <player>[m
+[02:54:37] [Server thread/INFO]: [0;31;1mComando incorreto, use /darkit <kit-id> <player>[m
+[02:54:38] [Server thread/INFO]: [0;31;1mComando incorreto, use /darkit <kit-id> <player>[m
+[02:54:38] [Server thread/INFO]: [0;31;1mComando incorreto, use /darkit <kit-id> <player>[m
+[02:55:27] [Server thread/INFO]: oSlayer_ issued server command: /chestcommands reload
+[02:55:29] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:55:31] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:55:32] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:55:34] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:55:34] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:55:35] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:55:35] [Server thread/INFO]: [0;32;1mKit '[0;33;1mEspada de Farm[0;32;1m' enviado com sucesso para oSlayer_.[m
+[02:55:46] [Server thread/INFO]: oSlayer_ issued server command: /sho
+[02:55:47] [Server thread/INFO]: oSlayer_ issued server command: /shop
+[02:55:49] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:50] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:50] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:50] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:50] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:51] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:51] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:52] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:52] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:52] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:52] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:53] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:53] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:53] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:54] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:54] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:54] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:54] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:55] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:55] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:55] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:55] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:56] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:56] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:56] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:57] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:57] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:57] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:57] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:58] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:58] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:58] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:58] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:59] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:59] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:55:59] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:00] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:00] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:00] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:00] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:01] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:02] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:03] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:04] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:04] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:04] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:04] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:05] [Server thread/INFO]: [0;37;22m[[0;36;1mCratesPlus[0;37;22m] [m[0;32;1mGiven oSlayer_ a crate key[m
+[02:56:15] [Server thread/INFO]: oSlayer_ issued server command: /criarkit esmeraldad
+[02:56:37] [Server thread/INFO]: oSlayer_ issued server command: /criarkit diamanted
+[02:56:49] [Server thread/INFO]: oSlayer_ issued server command: /criarkit ourod
+[02:57:18] [Server thread/INFO]: oSlayer_ issued server command: /editarkit ourod nome &eOuro Diario
+[02:57:28] [Server thread/INFO]: oSlayer_ issued server command: /editarkit Diamanted nome &bDiamante Diario
+[02:57:37] [Server thread/INFO]: oSlayer_ issued server command: /editarkit esmeraldad nome &aEsmeralda Diario

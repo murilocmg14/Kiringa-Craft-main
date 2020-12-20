@@ -1,0 +1,274 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja - Blocos'
+
+  rows: 6
+  
+  type: CHEST
+
+  command: 'blocos3'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+slot11:
+  LEFT-CLICK-COMMAND: 'give: 98:2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 98:2, 64'
+  NAME: '&eTijolos de Pedra Rachados'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 98
+  KEEP-OPEN: true
+  DATA-VALUE: 2
+  SLOT: 11
+slot12:
+  LEFT-CLICK-COMMAND: 'give: 168, 64'
+  RIGHT-CLICK-COMMAND: 'give: 168, 64'
+  NAME: '&ePrismarinho'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 168
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 12
+slot13:
+  LEFT-CLICK-COMMAND: 'give: 168:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 168:1, 64'
+  NAME: '&eTijolos de Prismarinho'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 168
+  KEEP-OPEN: true
+  DATA-VALUE: 1
+  SLOT: 13
+slot14:
+  LEFT-CLICK-COMMAND: 'give: 168:2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 168:2, 64'
+  NAME: '&ePrismarinho Escuro'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 168
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 14
+slot15:
+  LEFT-CLICK-COMMAND: 'give: 169, 64'
+  RIGHT-CLICK-COMMAND: 'give: 169, 64'
+  NAME: '&eLanterna do Mar'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 169
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 15
+slot16:
+  LEFT-CLICK-COMMAND: 'give: 174, 64'
+  RIGHT-CLICK-COMMAND: 'give: 174, 64'
+  NAME: '&eGelo Compactado'
+  PRICE: 16000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f16.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 174
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 20
+slot17:
+  LEFT-CLICK-COMMAND: 'give: 170, 64'
+  RIGHT-CLICK-COMMAND: 'give: 170, 64'
+  NAME: '&eFardo de Feno'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 170
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 21
+slot18:
+  LEFT-CLICK-COMMAND: 'give: 172, 64'
+  RIGHT-CLICK-COMMAND: 'give: 172, 64'
+  NAME: '&eArgila Endurecida'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 172
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 22
+slot1:
+  LEFT-CLICK-COMMAND: 'give: 24, 64'
+  RIGHT-CLICK-COMMAND: 'give: 24, 64'
+  NAME: '&eArenito'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 24
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 23
+slot2:
+  LEFT-CLICK-COMMAND: 'give: 24:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 24:1, 64'
+  NAME: '&eArenito Talhado'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 24
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 24
+  
+slot3:
+  LEFT-CLICK-COMMAND: 'give: 24:2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 24:2, 64'
+  NAME: '&eArenito Liso'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 24
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 29
+slot4:
+  LEFT-CLICK-COMMAND: 'give: 179, 64'
+  RIGHT-CLICK-COMMAND: 'give: 179, 64'
+  NAME: '&eArenito Vermelho'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 179
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 30
+slot5:
+  LEFT-CLICK-COMMAND: 'give: 179:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 179:1, 64'
+  NAME: '&eArenito Vermelho Talhado'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 179
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 31
+slot6:
+  LEFT-CLICK-COMMAND: 'give: 179:2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 179:2, 64'
+  NAME: '&eArenito Vermelho Liso'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 179
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 32
+slot7:
+  LEFT-CLICK-COMMAND: 'give: 13, 64'
+  RIGHT-CLICK-COMMAND: 'give: 13, 64'
+  NAME: '&eCascalho'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 13
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 33
+  
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: Blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'open: Blocos2.yml'
+  NAME: '&c<- Página anterior'
+  ID: '351:8'
+  SLOT: 45
+  
+prox:
+  LEFT-CLICK-COMMAND: 'open: blocos4.yml'
+  RIGHT-CLICK-COMMAND: 'open: blocos4.yml'
+  NAME: '&aPróxima página ->'
+  ID: '351:10'
+  SLOT: 53

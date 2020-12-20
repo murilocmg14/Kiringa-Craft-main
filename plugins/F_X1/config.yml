@@ -1,0 +1,62 @@
+Configuracao:
+  Cobrar_X1: false
+  Custo_X1: 0
+  Usar_MySQL: true
+  Usar_SimpleClanAPI: true
+  Usar_ActionBar: true
+  Tempo_Pegar_Itens: 15
+Mensagens_Erros:
+  Sem_Permissao: '&cVoce nao tem permissao para fazer isto!'
+  Args_Desafiar: '&6[X1] &cUse /x1 desafiar <Jogador>!'
+  Args_Aceitar: '&6[X1] &cUse /x1 aceitar <Jogador>!'
+  Jogador_Nao_Encontrado: '&6[X1] Jogador nao encontrado!'
+  Camarote_Nao_Setado: '&6[X1] &cO camarote ainda nao foi setado!'
+  Auto_Desafio: '&6[X1] &cVoce nao pode se auto-desafiar!'
+  Arena_Em_Uso: '&6[X1] &cJa existe uma batalha ocorrendo, espere-a encerrar e tente
+    novamente!'
+  Sem_Saldo: '&cVoce nao possui dinheiro suficiente para desafiar!'
+Mensagens_Jogadores:
+  Desafiado: '&6[X1] &b%jogador% &7desafiado com sucesso!'
+  Desafiou: '&6[X1] &b%jogador% &7te desafiou para uma batalha, use /x1 aceitar para
+    aceitar!'
+  Aceitou: '&6[X1] &b%jogador% aceitou seu desafio!'
+  Recusou: '&6[X1] &7Voce recusou o desafiou de &b%jogador%&7!'
+  Recusou2: '&6[X1] &b%jogador% &7recusou seu desafio!'
+  Iniciando: '&6[X1] &7Iniciando X1... Boa sorte!'
+  Perdeu: '&6[X1] &7Voce perdeu a batalha!'
+  Venceu: '&6[X1] &7Voce venceu, tem %tempo%s para recolher os itens!'
+  Erro_Comandos: '&6[X1] &cVoce nao pode executar comandos durante uma batalha!'
+  Teleportado_Camarote: '&6[X1] &7Bem Vindo ao camarote!'
+Mensagens_Broadcasts:
+  Desafiou: '&6[X1] &b%jogador1% &7desafiou &b%jogador2% &7para uma batalha!'
+  Ignorou: '&6[X1] &b%jogador2% &7ignorou o desafiou de &b%jogador1%&7!'
+  Venceu: '&6[X1] &b%vencedor% &7ganhou a batalha contra &c%perdedor%&7!'
+Mensagens_Action:
+  Iniciando: '&6[X1] &7%jogador1% &4Vs &7%jogador2%'
+mysql:
+  host-name: localhost
+  porta: 3306
+  database: x1
+  usuario: root
+X1:
+  Camarote:
+    Mundo: ArenaX1
+    X: 17
+    Y: 28
+    Z: 2
+    Pitch: 83.55002
+    Yaw: -281.98016
+  POS1:
+    Mundo: ArenaX1
+    X: 15
+    Y: 17
+    Z: 11
+    Pitch: 6.0000196
+    Yaw: -181.63002
+  POS2:
+    Mundo: ArenaX1
+    X: 15
+    Y: 17
+    Z: -11
+    Pitch: 0.30001622
+    Yaw: 2.7200248

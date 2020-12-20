@@ -1,0 +1,220 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja - Blocos'
+
+  rows: 6
+  
+  type: CHEST
+
+  command: 'blocos4'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+slot8:
+  LEFT-CLICK-COMMAND: 'give: 17, 16'
+  RIGHT-CLICK-COMMAND: 'give: 17, 16'
+  NAME: '&eMadeira de Carvalho'
+  PRICE: 3000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3.000'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 17
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 11
+slot9:
+  LEFT-CLICK-COMMAND: 'give: 17:2, 16'
+  RIGHT-CLICK-COMMAND: 'give: 17:2, 16'
+  NAME: '&eMadeira de Eucalipto'
+  PRICE: 3000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3.000'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 17
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 12
+slot10:
+  LEFT-CLICK-COMMAND: 'give: 17:1, 16'
+  RIGHT-CLICK-COMMAND: 'give: 17:1, 16'
+  NAME: '&eMadeira de Pinheiro'
+  PRICE: 3000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3.000'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 17
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 13
+slot11:
+  LEFT-CLICK-COMMAND: 'give: 17:3, 16'
+  RIGHT-CLICK-COMMAND: 'give: 17:3, 16'
+  NAME: '&eMadeira de Selva'
+  PRICE: 3000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3.000'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 17
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  SLOT: 14
+slot12:
+  LEFT-CLICK-COMMAND: 'give: 162, 16'
+  RIGHT-CLICK-COMMAND: 'give: 162, 16'
+  NAME: '&eMadeira Acácia'
+  PRICE: 3000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3.000'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 162
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 15
+slot13:
+  LEFT-CLICK-COMMAND: 'give: 162:1, 16'
+  RIGHT-CLICK-COMMAND: 'give: 162:1, 16'
+  NAME: '&eMadeira de Carvalho Escuro'
+  PRICE: 3000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3.000'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 162
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 20
+slot14:
+  LEFT-CLICK-COMMAND: 'give: 18, 64'
+  RIGHT-CLICK-COMMAND: 'give: 18, 64'
+  NAME: '&eFolhas de Carvalho'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 18
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 21
+slot15:
+  LEFT-CLICK-COMMAND: 'give: 18:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 18:1, 64'
+  NAME: '&eFolhas de Pinheiro'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 18
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 22
+slot16:
+  LEFT-CLICK-COMMAND: 'give: 18:2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 18:2, 64'
+  NAME: '&eFolhas de Eucalipto'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 18
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 30
+slot17:
+  LEFT-CLICK-COMMAND: 'give: 18:3, 64'
+  RIGHT-CLICK-COMMAND: 'give: 18:3, 64'
+  NAME: '&eFolhas de Selva'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 18
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  SLOT: 23
+slot18:
+  LEFT-CLICK-COMMAND: 'give: 161, 64'
+  RIGHT-CLICK-COMMAND: 'give: 161, 64'
+  NAME: '&eFolhas de Acácia'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 161
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 24
+slot19:
+  LEFT-CLICK-COMMAND: 'give: 161:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 161:1, 64'
+  NAME: '&eFolhas de Carvalho Escuro'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 161
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 29
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: Blocos3.yml'
+  RIGHT-CLICK-COMMAND: 'open: Blocos3.yml'
+  NAME: '&c<- Página anterior'
+  ID: '351:8'
+  SLOT: 45

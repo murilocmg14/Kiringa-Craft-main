@@ -1,0 +1,140 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Loja Farming'
+  rows: 3
+  type: CHEST
+  command: ''
+  auto-refresh: 3
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+farm01:
+  LEFT-CLICK-COMMAND: 'console: kit farm1 {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit farm1{player}'
+  POINTS: 2000
+  NAME: ' &a&lEspada de Farm &f(LVL 1)'
+  LORE:
+   - ''
+   - '&7Espada exclusiva para farms'
+   - ' '
+   - '&fContem:'
+   - '&eSharpness 5'
+   - '&eLooting 5' 
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪2.000 Cash'
+  ID: 283
+  KEEP-OPEN: true
+  SLOT: 11
+farm02:
+  LEFT-CLICK-COMMAND: 'console: kit farm2 {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit farm2 {player}'
+  POINTS: 2500
+  NAME: ' &aEspada de farm &f(LVL 2)'
+  LORE:
+   - ''
+   - '&7Espada exclusiva para farms'
+   - ' '
+   - '&fContem:'
+   - '&eSharpness 10'
+   - '&eLooting 7' 
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪2.500 Cash'
+  ID: 283
+  KEEP-OPEN: true
+  SLOT: 12   
+farm03:
+  LEFT-CLICK-COMMAND: 'console: kit farm3 {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit farm3 {player}'
+  POINTS: 3000
+  NAME: ' &aEspada de farm&f(LVL 3)'
+  LORE:
+   - ''
+   - '&7Espada exclusiva para farma'
+   - ' '
+   - '&fContem:'
+   - '&eSharpness 15'
+   - '&eLooting 10' 
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪3.000 Cash' 
+  ID: 283
+  KEEP-OPEN: true
+  SLOT: 13   
+farm04:
+  LEFT-CLICK-COMMAND: 'console: kit farm4 {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit farm4 {player}'
+  POINTS: 3500
+  NAME: ' &aEspada de farm &f(LVL 4)'
+  LORE:
+   - ''
+   - '&7Espada exclusiva para farma'
+   - ' '
+   - '&fContem:'
+   - '&eSharpness 20'
+   - '&eLooting 14' 
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪3.500 Cash'
+  ID: 283
+  KEEP-OPEN: true
+  SLOT: 14   
+farm05:
+  LEFT-CLICK-COMMAND: 'console: kit farm5 {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit farm5{player}'
+  POINTS: 4000
+  NAME: ' &aEspada de farm &f(LVL 5)'
+  LORE:
+   - ''
+   - '&7Espada exclusiva para farma'
+   - ' '
+   - '&fCotem:'
+   - '&eSharpness 30'
+   - '&eLooting 20' 
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪4.000 Cash' 
+  ID: 283
+  KEEP-OPEN: true
+  SLOT: 15   
+   
+   
+   
+   
+   
+
+  
+  
+  
+  
+
+voltar:
+  LEFT-CLICK-COMMAND: 'open: shop.yml'
+  RIGHT-CLICK-COMMAND: 'open: shop.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  

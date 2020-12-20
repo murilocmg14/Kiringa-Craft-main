@@ -1,0 +1,96 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&5[Encantamentos] - Loja de Enchants'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'encantar'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+globais:
+  LEFT-CLICK-COMMAND: 'open:global.yml'
+  RIGHT-CLICK-COMMAND: 'open:global.yml'
+  NAME: '&eEnchants Globais'
+  LORE:
+  - '&fClique para ver enchants globais!'
+  ID: 403
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 10
+armadura:
+  LEFT-CLICK-COMMAND: 'open:armadura.yml'
+  RIGHT-CLICK-COMMAND: 'open:armadura.yml'
+  NAME: '&eEnchants Armadura'
+  LORE:
+  - '&fClique para ver enchants para armadura! '
+  ID: 311
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 12
+ferramentass:
+  LEFT-CLICK-COMMAND: 'open:ferramentass.yml'
+  RIGHT-CLICK-COMMAND: 'open:ferramentass.yml'
+  NAME: '&eEnchants Ferramentas'
+  LORE:
+  - '&fClique para ver enchants para ferramentas! '
+  ID: 279
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 14 
+arco:
+  LEFT-CLICK-COMMAND: 'open:arco.yml'
+  RIGHT-CLICK-COMMAND: 'open:arco.yml'
+  NAME: '&eEnchants Arco'
+  LORE:
+  - '&fClique para ver enchants para Arcos! '
+  ID: 261
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 16  
+aa:
+  LEFT-CLICK-COMMAND: 'ce rune'
+  RIGHT-CLICK-COMMAND: 'ce rune'
+  NAME: ' &eEncantar'
+  LORE: 
+  - '&fClique para encantar seus itens!'
+  - '&fObs: encantamentos especiais não'  
+  - '&fpodem ser encantados na bigorna!' 
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 26    
+voltar:
+  LEFT-CLICK-COMMAND: 'open: warp.yml'
+  RIGHT-CLICK-COMMAND: 'open: warp.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  

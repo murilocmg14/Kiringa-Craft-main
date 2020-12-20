@@ -1,0 +1,323 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+Prestigio:
+  Ativar: true
+  TitleAll: "&6$player<nl>&6Evoluiu para prestígio $prestigio"
+  Multiplier: 10 # ranks ficam 10% mais caro
+  Aviso:
+    - ""
+    - " &7Ao evoluir seu prestígio você irá voltar"
+    - " &7ao primeiro rank. Esta ação é &cirreversível&7."
+    - ""
+    - " &7A cada prestígio os ranks ficam &c10%&7 mais caros"
+    - " &7porém você ganhará mais &6dinheiro&7 ao"
+    - " &7vender seus drops."
+    - ""
+  ComandosAoResetar:
+    - ""
+    - "" # não achei outro sistema de fazer bônus do prestígio em outros plugins sem ser por permissão
+    - ""
+
+Fragmento: # somente se você quiser utilizar # pode ser uma cabeça se você quiser, basta botar Texture: link xD
+  NomeRequirement: "Fragmentos"
+  Material: PRISMARINE_SHARD
+  Glow: true
+  Nome: "&aFragmento de RankUP"
+  Lore:
+    - "&7Para evoluir de rank você precisará"
+    - "&7ter esses fragmentos."
+    - ""
+    - "&aClique para ativar!"
+
+Mensagens:
+  EiUseRankup: "&a Ei! Use /rankup"
+  UltimoRank: "&aVocê já está no último rank. Utilize /ranks e evolua seu prestígio."
+  NaoConsegueUpar:
+    - ""
+    - " &cVocê não tem todos os requisitos necessários"
+    - " &cpara evoluir para &f$rank&c."
+    - "$info"
+    - ""
+  AoUpar:
+    Title: "&b&lRANK UP<nl>&7Você evoluiu para o rank &f$newrank" # caso não queira coloque false
+    Chat: # caso não queira coloque []
+      - ""
+      - "&aSucesso! Você evoluiu para o rank &f$newrank&a."
+      - "&aDigite /mina para ir até a mina deste rank."
+      - ""
+    ActionBarAll: "&b&lRANK UP! &f$player &7evoluiu para o rank &f$newrank&7!" # caso não queira coloque false
+
+RankupMenu:
+  Ativar: true # caso false, o rankup não pedirá confirmação por menu
+
+RanksMenu:
+  Tamanho: 54
+  PrestigioSlot: 50 # -1 para desativar
+  RankupSlot: 48
+  Slots: 19,20,21,22,23,24
+  RankLore:
+    - "&7Visualize abaixo as informações"
+    - "&7para evoluir de rank."
+    - ""
+    - "$ranks"
+    - ""
+    - "$info"
+  PrestigioLore:
+    - "&7Ao dar prestígio seu rank será"
+    - "&7resetado e você receberá um"
+    - "&7bônus de venda na mineração e"
+    - "&7nos drops das máquinas."
+    - " "
+    - " &fPrestígio atual: &7$prestigio "
+    - " "
+    - "$info"
+
+Legendchat:
+  TagRank: "[$rank]&7 "
+  TagPrestigio: "&7[&e$prestigio&7]"
+
+Rank:
+  r1:
+    Nome: "Nemo III"
+    Icone:
+      Material: STONE
+      Texture: b1dd4fe4a429abd665dfdb3e21321d6efa6a6b5e7b956db9c5d59c9efab25 # não precisa ser uma cabeça, caso não queira só delete essa linha e configure o material
+      Nome: "&6Rank Nemo"
+    Agrupar: r1 # caso queira agrupar os itens no menu
+    Prioridade: 0 # caso zero, será o rank default
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 100"
+    Requires: # requires disponiveis: money, atlasminas, atlaseconomiasecundaria, cash, fragmentos
+      - "money: 5000"
+  r2:
+    Nome: "Nemo II"
+    Icone:
+      Material: STONE
+      Texture: b1dd4fe4a429abd665dfdb3e21321d6efa6a6b5e7b956db9c5d59c9efab25
+      Nome: "&6Rank Nemo"
+    Agrupar: r1
+    Prioridade: 1
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 200"
+    Requires:
+      - "money: 6000"
+  r3:
+    Nome: "Nemo I"
+    Icone:
+      Material: STONE
+      Texture: b1dd4fe4a429abd665dfdb3e21321d6efa6a6b5e7b956db9c5d59c9efab25
+      Nome: "&6Rank Nemo"
+    Agrupar: r1
+    Prioridade: 2
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 300"
+    Requires:
+      - "money: 7000"
+  r4:
+    Nome: "Baiacu III"
+    Icone:
+      Material: STONE
+      Texture: 777d616bc44ac9b3730fed47f29a378f88a16728c67048c1a387d229e1cba
+      Nome: "&eRank Baiacu"
+    Agrupar: r4
+    Prioridade: 3
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 400"
+    Requires:
+      - "money: 7000"
+  r5:
+    Nome: "Baiacu II"
+    Icone:
+      Material: STONE
+      Texture: 777d616bc44ac9b3730fed47f29a378f88a16728c67048c1a387d229e1cba
+      Nome: "&eRank Baiacu"
+    Agrupar: r4
+    Prioridade: 4
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 500"
+    Requires: # requires disponiveis: money, atlasminas, atlaseconomiasecundaria, cash
+      - "money: 8000"
+  r6:
+    Nome: "Baiacu I"
+    Icone:
+      Material: STONE
+      Texture: 777d616bc44ac9b3730fed47f29a378f88a16728c67048c1a387d229e1cba
+      Nome: "&eRank Baiacu"
+    Agrupar: r4
+    Prioridade: 5
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 500"
+    Requires: # requires disponiveis: money, atlasminas, atlaseconomiasecundaria, cash
+      - "money: 8000"
+  r7:
+    Nome: "Tartaruga III"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&2Rank Tartaruga"
+    Agrupar: r6
+    Prioridade: 6
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r8:
+    Nome: "Tartaruga II"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&2Rank Tartaruga"
+    Agrupar: r6
+    Prioridade: 7
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r9:
+    Nome: "Tartaruga I"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&2Rank Tartaruga"
+    Agrupar: r6
+    Prioridade: 8
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r10:
+    Nome: "Salmão III"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&cRank Salmão"
+    Agrupar: r9
+    Prioridade: 9
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r11:
+    Nome: "Tartaruga Salmão II"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&cRank Salmão"
+    Agrupar: r9
+    Prioridade: 10
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r12:
+    Nome: "Salmão I"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&cRank Salmão"
+    Agrupar: r9
+    Prioridade: 11
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r13:
+    Nome: "Tubarão III"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&5Rank Tubarão"
+    Agrupar: r12
+    Prioridade: 12
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r14:
+    Nome: "Tubarão II"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&5Rank Tubarão"
+    Agrupar: r12
+    Prioridade: 13
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r15:
+    Nome: "Tubarão I"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&5Rank Tubarão"
+    Agrupar: r12
+    Prioridade: 14
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r16:
+    Nome: "Kraken III"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&4Rank Kraken"
+    Agrupar: r15
+    Prioridade: 15
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r17:
+    Nome: "Kraken II"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&4Rank Kraken"
+    Agrupar: r15
+    Prioridade: 16
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+  r18:
+    Nome: "Kraken I"
+    Icone:
+      Material: STONE
+      Texture: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+      Nome: "&4Rank Kraken"
+    Agrupar: r15
+    Prioridade: 17
+    AoUpar:
+      Comandos:
+        - "maquinaadmin givelimite $player 600"
+    Requires:
+      - "money: 9000"
+
+
+#Permissoes: atlasrankup.darfragmentos, atlasrankup.naomostrartag, atlasrankup.admin
+#Placeholders: %atlasrankup_rank%, %atlasrankup_nextrank%, %atlasrankup_percentage%, %atlasrankup_percentagebar%, %atlasrankup_prestigio%, %atlasrankup_fragmentos%

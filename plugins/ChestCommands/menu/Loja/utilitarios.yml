@@ -1,0 +1,164 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Utilitarios'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+lava:
+  LEFT-CLICK-COMMAND: 'give: 327, 1'
+  RIGHT-CLICK-COMMAND: 'give: 327, 1'
+  NAME: '&eBalde de Lavas'
+  ID: '327'
+  PRICE: 25
+  LORE:
+    - '&7'
+    - '&7Preco: &a25'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+agua:
+  LEFT-CLICK-COMMAND: 'give: 326, 1'
+  RIGHT-CLICK-COMMAND: 'give: 326, 1'
+  NAME: '&eBalde de Agua'
+  ID: '326'
+  PRICE: 25
+  LORE:
+    - '&7'
+    - '&7Preco: &a25'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+bau:
+  LEFT-CLICK-COMMAND: 'give: 54, 8'
+  RIGHT-CLICK-COMMAND: 'give: 54, 8'
+  NAME: '&eBau'
+  ID: 'CHEST' 
+  PRICE: 150
+  LORE:
+    - '&7'
+    - '&7Preco: &a150'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+mesaencantamento:
+  LEFT-CLICK-COMMAND: 'give: 116, 1'
+  RIGHT-CLICK-COMMAND: 'give: 116, 1'
+  NAME: '&eMesa de Encantamento'
+  ID: '116'
+  PRICE: 300
+  LORE:
+    - '&7'
+    - '&7Preco: &a300'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+vara:
+  LEFT-CLICK-COMMAND: 'give: 346, 1'
+  RIGHT-CLICK-COMMAND: 'give: 346, 1'
+  NAME: '&eVara de Pesca'
+  ID: '346'
+  PRICE: 90
+  LORE:
+    - '&7'
+    - '&7Preco: &a90'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+bigorna:
+  LEFT-CLICK-COMMAND: 'give: 145, 1'
+  RIGHT-CLICK-COMMAND: 'give: 145, 1'
+  NAME: '&eBigorna'
+  ID: 'anvil'
+  PRICE: 700
+  LORE:
+    - '&7'
+    - '&7Preco: &a700'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+gelo:
+  LEFT-CLICK-COMMAND: 'give: 79, 16'
+  RIGHT-CLICK-COMMAND: 'give: 79, 16'
+  NAME: '&eGelo'
+  ID: 'ice'
+  PRICE: 100
+  LORE:
+    - '&7'
+    - '&7Preco: &a100'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+gelocompac:
+  LEFT-CLICK-COMMAND: 'give: 174, 16'
+  RIGHT-CLICK-COMMAND: 'give: 174, 16'
+  NAME: '&eGelo Compactado'
+  ID: '174'
+  PRICE: 300
+  LORE:
+    - '&7'
+    - '&7Preco: &a300'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 22
+  KEEP-OPEN: true
+esponja:
+  LEFT-CLICK-COMMAND: 'give: 19, 8'
+  RIGHT-CLICK-COMMAND: 'give: 19, 8'
+  NAME: '&eEsponja'
+  ID: '19'
+  PRICE: 200
+  LORE:
+    - '&7'
+    - '&7Preco: &a200'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 23
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

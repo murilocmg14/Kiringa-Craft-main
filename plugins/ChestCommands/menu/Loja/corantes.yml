@@ -1,0 +1,232 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Utilitarios'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+ciano:
+  LEFT-CLICK-COMMAND: 'give: 351:6, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:6, 16'
+  NAME: '&eCorante Ciano'
+  ID: '351'
+  DATA-VALUE: 6
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+azulclaro:
+  LEFT-CLICK-COMMAND: 'give: 351:12, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:12, 16'
+  NAME: '&eCorante Azul Claro'
+  ID: '351'
+  DATA-VALUE: 12
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+amarelo:
+  LEFT-CLICK-COMMAND: 'give: 351:11, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:11, 16'
+  NAME: '&eCorante Amarelo'
+  ID: '351'
+  DATA-VALUE: 11
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+laranja:
+  LEFT-CLICK-COMMAND: 'give: 351:14, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:14, 16'
+  NAME: '&eCorante Laranja'
+  ID: '351'
+  DATA-VALUE: 14
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+preto:
+  LEFT-CLICK-COMMAND: 'give: 351, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351, 16'
+  NAME: '&eCorante Preto'
+  ID: '351'
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+verdeescuro:
+  LEFT-CLICK-COMMAND: 'give: 351:2, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:2, 16'
+  NAME: '&eCorante Verde Escuro'
+  ID: '351'
+  DATA-VALUE: 2
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+vermelho:
+  LEFT-CLICK-COMMAND: 'give: 351:1, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:1, 16'
+  NAME: '&eCorante Vermelho'
+  ID: '351'
+  DATA-VALUE: 1
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+branco:
+  LEFT-CLICK-COMMAND: 'give: 351:7, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:7, 16'
+  NAME: '&eCorante Branco'
+  ID: '351'
+  DATA-VALUE: 7
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 22
+  KEEP-OPEN: true
+cinza:
+  LEFT-CLICK-COMMAND: 'give: 351:8, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:8, 16'
+  NAME: '&eCorante Cinza'
+  ID: '351'
+  DATA-VALUE: 8
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 23
+  KEEP-OPEN: true
+verdeclaro:
+  LEFT-CLICK-COMMAND: 'give: 351:10, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:10, 16'
+  NAME: '&eCorante Verde Claro'
+  ID: '351'
+  DATA-VALUE: 10
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 24
+  KEEP-OPEN: true
+rosa:
+  LEFT-CLICK-COMMAND: 'give: 351:9, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:9, 16'
+  NAME: '&eCorante Rosa'
+  ID: '351'
+  DATA-VALUE: 9
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 29
+  KEEP-OPEN: true
+magenta:
+  LEFT-CLICK-COMMAND: 'give: 351:13, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:13, 16'
+  NAME: '&eCorante Magenta'
+  ID: '351'
+  DATA-VALUE: 13
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 30
+  KEEP-OPEN: true
+roxo:
+  LEFT-CLICK-COMMAND: 'give: 351:5, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:5, 16'
+  NAME: '&eCorante Roxo'
+  ID: '351'
+  DATA-VALUE: 5
+  PRICE: 440
+  LORE:
+    - '&7'
+    - '&7Preco: &a440'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 31
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

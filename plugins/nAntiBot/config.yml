@@ -1,0 +1,184 @@
+#          _         _   _   ___       _
+#  _ __   /_\  _ __ | |_(_) / __\ ___ | |_
+# | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+# | | | /  _  \ | | | |_| / \/  \ (_) | |_
+# |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+
+# Configuração do nAntiBot
+# Precisa de suporte? Entre em nosso grupo do discord: https://www.nickuc.com/discord
+# Conheça nossos outros plugins: https://www.nickuc.com
+
+# Modo de depuração: É utilizado para correção de problemas no plugin.
+debug-mode: false
+
+Config:
+  # Linguagem do plugin
+  lang: 'mensagens.yml'
+
+  # Modo de utilização de listeners pelo antibot.
+  # Valores válidos: [NETTY, DEFAULT]. Valor recomendado: NETTY
+  mode: 'NETTY'
+
+  # Configurações de adaptadores do antibot
+  adapters:
+    tcpshield:
+      enabled: false
+      ignore-exceptions: true
+      signature: "MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEEvy/Eh9v5QMkdzeTw1tPMCEljzKgw0zWwt926zRZJT9sv/OLEwkE/rB1JrH3XXMTsv8w7gPzV4k9BjUAcZ1xH1yNG/AhNA23DQiFSXye/WFB+KlSr4hkx68niNJdvoPs"
+    haproxy:
+      enabled: false
+
+  # Configurações do sistema de notificações do antibot
+  notifications:
+    # Ticks de atualização do actionbar do antibot (Em quais ticks, o actionbar será enviado)
+    # Lembre-se! O Minecraft só comporta 20 ticks por segundo.
+    update-ticks: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+  # Configurações do processamento do sistema de antibot
+  queue:
+    # Número de threads máximas de trabalho para detecção de bots
+    working-threads: 4
+
+    # Número de ciclos de atualização de threads por segundo
+    # Dica: se existirem 4 working threads e 5 ciclos por tick, poderão ser verificados no máximo 20 ips por segundo (4*5 = 20)
+    thread-update-cycles-per-second: 5
+
+  # Configurações da verificação do sistema de antibot.
+  verification:
+    # Este recurso irá forçar a verificação mais detalhada possível, mesmo sem ataques.
+    # É recomendado caso a proteção normal não esteja conseguindo conter o ataque.
+    force-advanced-verification: false
+
+    # Delays para cada join efetuado por ip
+    # Tempo medido de milissegundos (ou seja, 1000ms = 1s)
+    join-delay-by-address:
+      min-delay: 1500
+      max-delay: 15000
+
+    # Delays para cada ping efetuado por ip
+    # Tempo medido de milissegundos (ou seja, 1000ms = 1s)
+    ping-delay-by-address:
+      min-delay: 1000
+      max-delay: 20000
+
+    # Defina aqui quantos usuários deveram entrar com 'bad ips' para que o sistema de proteção se ative.
+    max-bad-ip-connections: 3
+
+    # Defina aqui quantas conexões deveram ser realizadas para que o sistema de proteção se ative.
+    max-connections: 20
+
+    # Defina aqui quantos usuários deveram entrar para que o sistema de proteção se ative.
+    max-player-connections: 5
+
+    # Defina aqui quanto tempo o desafio do modo JOIN deve permanecer ativo.
+    # Tempo medido de milissegundos (ou seja, 1000ms = 1s)
+    keep-player-mode: 10000
+
+    # Defina aqui quantos usuários deveram pingar no servidor para que o sistema de proteção se ative.
+    max-motd-connections: 15
+
+    # Defina aqui quanto tempo o desafio do modo MOTD deve permanecer ativo.
+    # Tempo medido de milissegundos (ou seja, 1000ms = 1s)
+    keep-motd-mode: 7500
+
+    # Defina aqui o máximo de contas que podem logar com o mesmo ip
+    max-accounts-per-ip: 3
+
+    # Tempo da punição (em minutos)
+    punish-duration: 15
+
+    # Tempo para desativar o sistema de antibot em ticks (Um tick equivale a 0.05 segundos)
+    # Valor padrão: 400 ticks (20 segundos)
+    bot-attack-turnoff-delay: 400
+
+    # Configurações do sistema de captcha
+    captcha:
+      # Este recurso irá bloquear alguns bots de spam bot
+      enable-captcha: true
+
+      # Tempo para que o player não precise resolver o captcha novamente (em minutos)
+      # Utilize o valor '0' para deixar permamente e '-1' para desativar a sessão.
+      captcha-session: 15
+
+      # Escolha qual tipo de captcha você deseja utilizar. Caso escolha mais de um, o seu captcha será escolhido randomicamente.
+      # Dica: Se você inserir um captcha mais vezes na lista, mais chance do captcha ser escolhido.
+      # Valores válidos: [HEAD_CAPTCHA, SHIFT_CAPTCHA, MAP_CAPTCHA, BANNER_CAPTCHA]
+      # Mais captchas estão disponíveis nos diversos grupos de Minecraft para serem utilizados.
+      # MAP_CAPTCHA só é disponível em versões pagas. Caso utilize em uma versão gratuita, o captcha usado será o HEAD_CAPTCHA
+      captchas:
+        - 'HEAD_CAPTCHA'
+
+      # Tempo para conclusão do captcha (em segundos)
+      captcha-login-time: 20
+
+      # Configuração do captcha 'head captcha'
+      head-captcha:
+        # Link da cabeça para o captcha correto
+        correct-url: "http://textures.minecraft.net/texture/252568bcf6958fbd7857feaf15faee5c9fc39cf12c114db50a430b18df138e10"
+
+        # Link da cabeça para o captcha incorreto
+        incorrect-url: "http://textures.minecraft.net/texture/608f323462fb434e928bd6728638c944ee3d812e162b9c6ba070fcac9bf9"
+
+    # Configurações do sistema antiproxy
+    antiproxy:
+      # Este recurso irá bloquear jogadores que utilizam proxy.
+      block-proxied-addresses: false
+
+      # Tempo para aguardar um proxy ser verificado em milissegundos (1000ms = 1s).
+      # É usado para tornar o login rápido.
+      verification-wait: 2000
+
+      # Número máximo de ips na fila, para que a verificação rápida seja feita
+      verification-wait-max-queue: 10
+
+      # Links de verificadores de proxy
+      # Placeholders: @ip
+      proxy-detection:
+        stopforumspam:
+          url: 'http://www.stopforumspam.com/api?ip=@ip'
+          user-agent: DEFAULT
+          expected-result: '<appears>yes</appears>'
+
+        proxycheckio:
+          url: 'https://proxycheck.io/v2/@ip'
+          user-agent: DEFAULT
+          expected-result: '"proxy": "yes"'
+
+    # Configurações do sistema de verificação de nicknames
+    nickname:
+      # Regex usado para nicknames estranhos
+      strange-nicknames-regex: "^(Craft|Beach|Actor|Games|Tower|Elder|Mine|Nitro|Worms|Build|Plays|Hyper|Crazy|Super|_Itz|Slime)(Craft|Beach|Actor|Games|Tower|Elder|Mine|Nitro|Worms|Build|Plays|Hyper|Crazy|Super|_Itz|Slime)(11|50|69|99|88|HD|LP|XD|YT)"
+
+    # Configurações do sistema de whitelist
+    whitelist:
+      # Delay necessário para marcar o jogador na whitelist (em minutos)
+      delay-to-add: 20
+
+    # Configurações do sistema de comportamento
+    behavior:
+      # Desativa a verificação de comportamento [id 0x1]
+      disable-verify-0x1: false
+
+      watch-dog:
+        # Este recurso irá monitorar o comportamento do jogador
+        enabled: true
+
+        # Com o recurso abaixo ativado, o antibot irá monitorar as mensagens locais.
+        watch-messages: true
+
+        # Condições de acordo com o número de suspeitos
+        # Não mexa em nada se você não sabe o que está fazendo.
+        conditions:
+          to-cancel: 3
+          to-ban: 6
+          to-blacklist: 12
+
+        # O antibot irá monitorar as mensagens abaixo enviada por jogadores novos:
+        messages:
+          - '/g'
+          - '/l'
+          - '/tell'
+          - '/r'
+          - '/report'
+          - '/tpa'
+          - '/me'

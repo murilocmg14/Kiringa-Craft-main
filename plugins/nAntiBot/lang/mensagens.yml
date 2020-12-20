@@ -1,0 +1,238 @@
+#          _         _   _   ___       _
+#  _ __   /_\  _ __ | |_(_) / __\ ___ | |_
+# | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+# | | | /  _  \ | | | |_| / \/  \ (_) | |_
+# |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+
+# Arquivo de linguagens do nAntiBot
+# Precisa de suporte? Entre em nosso grupo do discord: https://www.nickuc.com/discord
+# Conheça nossos outros plugins: https://www.nickuc.com
+
+Messages:
+  # Mensagens enviadas na notificação da actionbar
+  actionbar-format:
+    active: "&6&l%animation% nAntiBot &3➜ %status% &3▪ &7Player/s: %player_sec% &3▪ &7Motd/s: %motd_sec% &3▪ &7CPS: %cps% &3▪ &7Total: &f%total% &3▪ &a⬆ &f%output% &3▪ &c⬇ &f%input%"
+    inactive: "&6&l%animation% nAntiBot &3➜ %status% &3▪ &7Player/s: %player_sec% &3▪ &7Motd/s: %motd_sec% &3▪ &7Queue/s: %queue_sec% &3▪ &a⬆ &f%output% &3▪ &c⬇ &f%input%"
+
+  # Mensagens relacionadas ao sistema de captcha
+  captcha:
+
+    # Mensagem enviada quando o jogador insere um captcha inválido.
+    invalid-captcha: "&cVocê não concluiu o captcha corretamente, por favor tente novamente."
+
+    # Mensagem enviada quando um captcha é concluido.
+    successful-captcha: "&aO desafio de captcha foi concluido com sucesso."
+
+    # Mensagem enviada quando o jogador demora muito para concluir o captcha.
+    delay-captcha-kick: "&cVocê demorou muito para concluir o captcha."
+
+    head-captcha:
+      # Nome dado ao inventário do captcha.
+      inventory-title: "&8Escolha a cabeça correta"
+
+      # Nome dado ao item do captcha
+      item-name: "&7Clique aqui para escolher esta cabeça"
+
+      # Lore dado ao item do captcha
+      item-lore: []
+
+    banner-captcha:
+      # Nome dado ao inventário do captcha.
+      inventory-title: "&8Insira o número correto"
+
+      # Mensagem enviada no title.
+      title-message: "&eInsira o número {0}"
+
+    shift-captcha:
+      # Mensagem enviada quando você demora para soltar o shift do captcha.
+      kick-too-long: "&cVocê demorou para soltar o botão shift. Por favor, tente novamente."
+
+      # Mensagem enviada quando você solta o shift antes do tempo do captcha.
+      kick-release: "&cVocê soltou o botão shift. Por favor, tente novamente."
+
+      # Mensagem enviada no captcha por shift
+      captcha-release:
+        title: ""
+        subtitle: "&ePor favor, solte o botão do shift..."
+
+      # Mensagem enviada no captcha por shift
+      captcha-continue:
+        title: ""
+        subtitle: "&eContinue pressionando por {0} segundo(s)"
+
+      # Mensagem enviada no captcha por shift
+      captcha-join:
+        title: ""
+        subtitle: "&ePor favor, aperte shift por {0} segundo(s)"
+
+    map-captcha:
+      # Mensagem enviada quando um jogador precisa resolver um captcha por mapa.
+      message:
+        - ""
+        - " &aPara fazer sua autenticação, confirme sua identidade."
+        - " &aClique na opção abaixo, o item que aparece no mapa."
+        - ""
+
+  # Mensagem enviada quando o jogador não tem permissão para executar o comando do antibot.
+  insufficient-permission: "&cDesculpe, mas você não tem permissão para executar este comando."
+
+  # Título enviado em mensagens com TitleBar.
+  title-message: "&c&lNANTIBOT"
+
+  # Prefix de mensagens enviadas pelo chat.
+  chat-message-prefix: "&4&lNANTIBOT &e» &7"
+
+  # Mensagem enviada quando um ataque é iniciado.
+  bot-attack-started: "&7Um ataque de bots foi iniciado..."
+
+  kick-messages:
+
+    # Mensagem enviada quando o jogador tenta entrar com um nickname inválido.
+    invalid-nickname:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cDesculpe, mas o seu nickname é inválido."
+      - "&cEm caso de problemas, tente revisar o nickname digitado."
+
+
+    # Mensagem enviada para o jogador atauqe acabou se ser iniciado
+    attack-started-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cUm ataque bot foi iniciado instantes atrás."
+      - "&cPrecisamos que você entre novamente no servidor."
+
+    # Mensagem enviada quando o jogador loga após atualizar a lista de servidores rapidamente
+    join-after-fast-motd-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê logou muito rápido após atualizar a motd."
+      - "&cTente não atualizar a lista de servidores ao entrar."
+
+    # Mensagem enviada quando o jogador reloga muito rápido.
+    fast-rejoin-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê logou muito rápido após atualizar a motd."
+      - "&cPor favor, aguarde alguns segundos e logue novamente."
+
+    # Mensagem enviada quando o jogador demora muito para relogar.
+    slow-rejoin-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê demorou muito para relogar."
+      - "&cPor favor, entre novamente para reiniciar os desafios."
+
+    # Mensagem enviada quando o jogador atualiza a lista de servidores muito rapidamente.
+    fast-ping-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê atualizou a lista de servidores muito rapidamente."
+      - "&cPor favor, entre novamente para reiniciar os desafios."
+
+    # Mensagem enviada quando o jogador demora muito para adicionar o servidor na lista de servidores.
+    slow-ping-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê demorou muito para atualizar a lista de servidores."
+      - "&cPor favor, entre novamente para reiniciar os desafios."
+
+    # Mensagem enviada quando o jogador não faz o desafio corretamente.
+    reconnect-on-motd-refresh-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê não pode entrar no servidor durante um desafio de atualizar os servidores."
+      - "&cPor favor, entre novamente para reiniciar os desafios."
+      - ""
+      - "&cLembre-se! Leia e siga os passos corretamente, passo por passo."
+
+    # Mensagem enviada quando o jogador atualiza a motd incorretamente.
+    motd-refresh-on-reconnect-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê não pode atualizar a lista de servidores em um desafio de join."
+      - "&cPor favor, entre novamente para reiniciar os desafios."
+      - ""
+      - "&cLembre-se! Leia e siga os passos corretamente, passo por passo."
+
+    # Mensagem enviada quando um usuário entra pela primeira vez em uma sessão.
+    rejoin-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cOlá, seja bem-vindo!"
+      - "&cPrecisamos que você entre novamente no servidor para confirmar seu login."
+      - ""
+      - "&bDesafios concluídos:"
+      - "1°- Join &a✔"
+      - "&72°- Relogar novamente &4✕"
+      - "&73°- Atualizar lista de servidores &4✕"
+      - "&74°- Verificação finalizada &4✕"
+
+    # Mensagem enviada em caso de um ataque de bot, forçando o jogador a adicionar o servidor.
+    motd-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cAdicione o servidor (Multiplayer » Adicionar servidor) e clique em 'Atualizar'."
+      - ""
+      - "&bDesafios concluídos:"
+      - "1°- Join &a✔"
+      - "2°- Relogar novamente &a✔"
+      - "&73°- Atualizar lista de servidores &4✕"
+      - "&74°- Verificação finalizada &4✕"
+
+    # Mensagem enviada quando o usuário está sendo verificado.
+    checking-kick-message:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê está sendo verificado, por favor entre novamente."
+      - ""
+      - "&bDesafios concluídos:"
+      - "1°- Join &a✔"
+      - "2°- Relogar novamente &a✔"
+      - "3°- Atualizar lista de servidores &a✔"
+      - "&74°- Verificação finalizada &4✕"
+
+    # Mensagem enviada quando o jogador está em uma fila de verificação.
+    checking-kick-message2:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê está sendo verificado, por favor entre novamente..."
+      - "&cSua posição: #{0}"
+
+    # Mensagem enviada quando o usuário é banido temporariamente pelo antibot.
+    temporary-ban:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê foi banido temporariamente pelo antibot!"
+      - "&cTempo restante: {0}"
+      - ""
+      - "&cMotivo do banimento:"
+      - "&e'{1}'"
+
+    # Mensagem enviada quando o usuário possui um endereço de ip proibido.
+    permanent-ban:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê foi banido permanentemente pelo antibot!"
+      - ""
+      - "&cMotivo do banimento:"
+      - "&e'{0}'"
+
+    # Mensagem enviada quando um jogador não pode ser verificado.
+    address-detection-error:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cOps, parece que não foi possível verificar o seu endereço de ip."
+      - "&cAguarde alguns segundos e tente entrar novamente."
+
+    # Mensagem enviada quando os limites de ip por jogador passam do limite.
+    address-limiter-warning:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cVocê esgotou os limites de contas por IP."
+
+    # Mensagem enviada quando um jogador tem muita probabilidade de ser um robô.
+    suspecious-user-detected:
+      - "&c&lANTIBOT"
+      - ""
+      - "&cDesculpe, mas não conseguimos comprovar que você não é um robô. Motivo: [{0}]."

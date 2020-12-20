@@ -1,0 +1,13 @@
+Localizacao: Lobby,917.2582591355888,43.0,-1127.3421861763366,85.23953,0.104188114
+Permissao: system.warp.arena
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp arena.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp arena em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp arena!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP arena
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp arena!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp arena.

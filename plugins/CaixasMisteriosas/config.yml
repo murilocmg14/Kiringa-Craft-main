@@ -1,0 +1,34 @@
+# Variaveis comuns das mensagens:
+# {caixa} retorna ID da caixa 
+# {player} retorna nome do player
+# {quantia} retorna a quantia
+# {lista} retorna a lista de caixa carregadas
+
+CommandoIncorreto: |
+  &cComando Incorreto, use:
+  &c/caixa reload &8-&7 Recarregar o plugin.
+  &c/caixa listar &8-&7 Mostra todas as caixas disponíveis.
+  &c/caixa ver <caixa> [player] &8-&7 Abre o menu de exibição da caixa.
+  &c/caixa give <caixa> <quantia> <player/all> &8-&7 Envia caixas misteriosas.
+
+# Mensagens gerais
+CaixaNaoExiste: "&cEsta caixa não existe ou ainda não foi carregada.\n&eCaixas carregadas até o momento: {lista}."
+NenhumaCaixaCriada: "&cNenhuma caixa foi criada até o momento."
+
+# Erros comuns dos comandos
+PlayerOffline: "&cEste player não esta online no momento ou não existe."
+NumeroInvalido: "&cA quantia '{quantia}' não é um número valido." 
+ConsoleNaoPode: "&cO console nao pode executar este comando."
+
+# Mensagem comando caixa listar
+ListarCaixas: "&eCaixas carregadas até o momento: {lista}."
+
+# Mensagem de caixa givada com sucesso
+CaixaAll: "&aCaixa '{caixa}' enviada com sucesso para todos os players do servidor."
+CaixaPlayer: "&aCaixa '{caixa}' enviada com sucesso para {player}."
+
+# Mensagem reload efetuado
+ReloadEfetuado: "&aReload efetuado com sucesso!"
+
+# Mensagem caso o player tente bugar ou dupar ao abrir a caixa
+ErroAoAbrirCaixa: "&cVocê precisa estar segurando uma caixa na mão para poder abrí-la!"

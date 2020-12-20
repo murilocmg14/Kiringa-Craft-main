@@ -1,0 +1,66 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Menu Kits'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+  type: CHEST
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'kit;kits;ekit;ekits'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+
+basico:
+  LEFT-CLICK-COMMAND: 'open: KitBasico.yml'
+  RIGHT-CLICK-COMMAND: 'open: KitBasico.yml'
+  NAME: '&7Kits Basicos'
+  HIDE-ATTRIBUTES: true
+  ENCHANTMENT: looting, 20
+  LORE:
+  - ''
+  - ' &fClique para ver os kits!'
+  ID: 54
+  SLOT: 11
+vip:
+  LEFT-CLICK-COMMAND: 'open: KitVip.yml'
+  RIGHT-CLICK-COMMAND: 'open: KitVip.yml'
+  NAME: '&bKits VIPs'
+  HIDE-ATTRIBUTES: true
+  ENCHANTMENT: looting, 20
+  LORE:
+  - ''
+  - ' &fClique para ver os kits!'
+  ID: 399
+  SLOT: 15

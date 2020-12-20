@@ -1,0 +1,178 @@
+# ATENÇÂO: Se você usa o FAWE recomendo colocar false na config dele segue a print: http://prntscr.com/lhf5k1
+# Para executar comandos do plugin é necessário ser o CONSOLE ter perm * ou ser OP!
+# Caso você tenha a versão paga coloque a licença do painel www.jhdev.xyz aqui
+licence: XXXXXXXXXXXXXXX
+
+Stack:
+
+  # Remover inteligência do mob?
+  RemoveIA: false
+
+  # Mobs que não se juntam
+  ListaNegra:
+  - villager
+
+  # Mundos onde mobs não se juntaram
+  MundosDesativados:
+  - world_the_end
+  - world_nether
+  
+  # Area que os mobs se juntaram se tiverem prÃ³ximos
+  Area:
+    x: 3
+    y: 5
+    z: 3
+    
+  # Nome que ira ficar em cima do mob estacado
+  Nome: '&6x{quantidade} &e{mob}'
+  
+  # Limite de stack coloque -1 para infinito
+  Limite: 1000
+  
+  # Se o limite de mobs for atingido ira nascer outro mob
+  NovoMob: true
+
+  # De quanto em quanto tempo o plugin deve verificar se os mobs
+  # estÃ£o juntos caso eles não se juntem quando nascerem
+  # Delay em ticks 20 ticks = 1 segundo
+  AutoStackDelay: 60
+
+Drops:
+ 
+  # Boosters de Drops
+  # você pode criar quantos você quiser
+  # Lembrando que o Booster multiplica o Multiplicador dos mobs * dropbonus * Booster
+  # se por muito alto vai dropar muito item
+  Boosters:
+  
+    Booster1:
+      Nome: "x1.5"
+      Tempo: 60 # 60 segundos
+      Multiplicador: 1.5 # Multiplica o drop em x1.5
+      
+    Booster2:
+      Nome: "x2"
+      Tempo: 18000 # 5 horas
+      Multiplicador: 2.0 # Multiplica o drop em x2
+      
+    Booster3:
+      Nome: "x3"
+      Tempo: 3600 # 1 hora
+      Multiplicador: 3.0 # Multiplica o drop em x3
+  
+  # Item que será usado para ativar o Booster
+  # comando /booster <jogador> <booster> <quantidade/limite 64>
+  BoosterItem:
+    ID: "paper"
+    Nome: "&eBooster de Mob &c{booster}"
+    lore:
+    - "&7 Com este item você consegue multiplicar "
+    - "&7 os drops de todos os Mobs que você matar "
+    - " "
+    - "&f DuraÃ§Ã£o: {tempo}"
+    - "&f Multiplicador: x{multiplicador}"
+  
+  # 1 = sem drop bonus
+  # Lembrando que o drop bonus multiplica os drops Multiplicador * dropbonus
+  DropBonus: 1.0
+  
+  # Multiplicador de drops do mobs
+  # Sempre coloque acima de 1.0
+  # 2.0 = Dobrar os drops
+  # 1.5 = + drops 50%
+  Multiplicador:
+    Creeper: 1.0
+    Skeleton: 1.0
+    Spider: 1.0
+    Giant: 1.0
+    Zombie: 1.0
+    Slime: 1.0
+    Ghast: 1.0
+    PigZombie: 1.0
+    Enderman: 1.0
+    CaveSpider: 1.0
+    Silverfish: 1.0
+    Blaze: 1.0
+    LavaSlime: 1.0
+    EnderDragon: 1.0
+    WitherBoss: 1.0
+    Bat: 1.0
+    Witch: 1.0
+    Endermite: 1.0
+    Guardian: 1.0
+    Pig: 1.0
+    Sheep: 1.0
+    Cow: 1.0
+    Chicken: 1.0
+    Squid: 1.0
+    Wolf: 1.0
+    MushroomCow: 1.0
+    SnowMan: 1.0
+    Ozelot: 1.0
+    VillagerGolem: 1.0
+    EntityHorse: 1.0
+    Rabbit: 1.0
+    Villager: 1.0
+    
+  # Itens que não vão dropar de nenhum mob
+  BlackListDrop:
+  - '38' #red rese
+    
+  # Caso editado o DROP padrão do Minecraft será substituí­do por este
+  # o padrão não ira mais funcionar!
+  CustomDrop:
+  
+    # Se ativar isso ele vai dar um random de 0 até o numero de itens que você colocou
+    # se por 3 ele faz de 1 á  3
+    useRandomValue: true
+    
+    # Dropar também os drops normais do jogo junto aos editados?
+    ManterDropsVanilla: false
+    
+    Creeper: []
+    Skeleton: []
+    Spider: []
+    Giant: []
+    Zombie: []
+    Slime: []
+    Ghast: []
+    PigZombie: []
+    Enderman:
+    - 368;2
+    - 120;1
+    CaveSpider: []
+    Silverfish: []
+    Blaze: []
+    LavaSlime: []
+    EnderDragon: []
+    WitherBoss:
+    - nether_star;1
+    - coal;5
+    Bat: []
+    Witch: []
+    Endermite: []
+    Guardian: []
+    Pig: []
+    Sheep: []
+    Cow: []
+    Chicken: []
+    Squid: []
+    Wolf:
+    - bone;1
+    MushroomCow: []
+    SnowMan: []
+    Ozelot:
+    - string;2
+    VillagerGolem: []
+    EntityHorse: []
+    Rabbit: []
+    Villager: [] 
+
+Kill:
+  
+  # Matar todos os mobs se o jogador apertar Shift
+  MatarTodosComShift: true
+  
+  # Matar todos sem Shift
+  # Se esta função estiver ativa o de cima é desativada
+  MatarTodosSemShift: false

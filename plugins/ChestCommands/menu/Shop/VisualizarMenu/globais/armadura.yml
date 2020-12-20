@@ -1,0 +1,126 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Loja de Cash - Enchants Armadura'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+vampire:
+  LEFT-CLICK-COMMAND: 'console: kit Revulsion {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Revulsion {player}'
+  POINTS: 50
+  NAME: '&2Revulsion IV'
+  LORE:
+   - ''
+   - '&fAplica Náusea ao inimigo que o atingiu'
+   - ''  
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 11
+life:
+  LEFT-CLICK-COMMAND: 'console: kit Enlighted {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Enlighted {player}'
+  POINTS: 50
+  NAME: '&dEnlighted III'
+  LORE:
+   - ''
+   - '&fCura quando atingido'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 12
+poison:
+  LEFT-CLICK-COMMAND: 'console: kit Obsidian {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Obsidian {player}'
+  POINTS: 50
+  NAME: '&5Obsidian Shield III'
+  LORE:
+   - ''
+   - '&fDá a você resistência de Firer'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 13
+ice:
+  LEFT-CLICK-COMMAND: 'console: kit Shielded {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Shielded {player}'
+  POINTS: 50
+  NAME: '&cShielded II'
+  LORE:
+   - ''
+   - '&fDá um escudo regenerador'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 14 #Thundering Blow
+s:
+  LEFT-CLICK-COMMAND: 'console: kit bebado {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit bebado {player}'
+  POINTS: 50
+  NAME: '&eBêbado III'
+  LORE:
+   - ''
+   - '&fDá lentidão, fadiga de mineração'
+   - '&f e confusão aos atacantes'
+   - ' '   
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 15 #Thundering Blow 
+
+aa:
+  LEFT-CLICK-COMMAND: ' '
+  RIGHT-CLICK-COMMAND: ' '
+  NAME: ' &eInfo '
+  LORE: 
+  - '&f Use &b/ce rune &fpara usar esses encantamentos'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 26  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  RIGHT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  

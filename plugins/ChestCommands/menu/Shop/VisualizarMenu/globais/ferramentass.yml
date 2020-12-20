@@ -1,0 +1,101 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Enchants Ferramentas'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+explosive:
+  LEFT-CLICK-COMMAND: 'console: kit explosive {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit explosive {player}'
+  POINTS: 50
+  NAME: '&cExplosive III'
+  LORE:
+   - ''
+   - '&fAo quebrar um bloco, causara uma explosão'
+   - '&fque quebra blocos semelhantes ao redor'  
+   - ''  
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 12
+ener:
+  LEFT-CLICK-COMMAND: 'console: kit Energizing {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Energizing {player}'
+  POINTS: 50
+  NAME: '&eEnergizing III'
+  LORE:
+   - ''
+   - '&fPermite cavar mais rápido por um'
+   - '&fpequeno momento depois de quebrar alguma coisa'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 13
+Quickening:
+  LEFT-CLICK-COMMAND: 'console: kit Quickening {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Quickening {player}'
+  POINTS: 50
+  NAME: '&5Quickening III ouro'
+  LORE:
+   - ''
+   - '&fQuebrar um bloco dará a você'
+   - '&fum aumento temporário de velocidade'
+   - ''   
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 14
+
+
+aa:
+  LEFT-CLICK-COMMAND: ' '
+  RIGHT-CLICK-COMMAND: ' '
+  NAME: ' &eInfo '
+  LORE: 
+  - '&f Use &b/ce rune &fpara usar esses encantamentos'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 26  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  RIGHT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  

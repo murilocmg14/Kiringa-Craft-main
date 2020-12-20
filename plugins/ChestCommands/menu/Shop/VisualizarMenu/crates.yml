@@ -1,0 +1,96 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Loja Crates'
+  rows: 3
+  type: CHEST
+  command: ''
+  auto-refresh: 3
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+rara:
+  LEFT-CLICK-COMMAND: 'console: crate key {player} Rara 1'
+  RIGHT-CLICK-COMMAND: 'console: crate key {player} Rara 1'
+  POINTS: 100
+  NAME: ' &5Crate Rara'
+  LORE:
+   - ''
+   - '&7Consiga itens INCRIVEIS abrindo essa chave...'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪ 100 Cash'
+  ID: 131
+  KEEP-OPEN: true
+  SLOT: 11
+epica:
+  LEFT-CLICK-COMMAND: 'console: crate key {player} Epica 1'
+  RIGHT-CLICK-COMMAND: 'console: crate key {player} Epica 1'
+  POINTS: 150
+  NAME: ' &5Crate Rara'
+  LORE:
+   - ''
+   - '&7Consiga itens INCRIVEIS abrindo essa chave...'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪ 150 Cash'
+  ID: 131
+  KEEP-OPEN: true
+  SLOT: 12
+lendaria:
+  LEFT-CLICK-COMMAND: 'console: crate key {player} Lendaria 1'
+  RIGHT-CLICK-COMMAND: 'console: crate key {player} Lendaria 1'
+  POINTS: 200
+  NAME: ' &5Crate Rara'
+  LORE:
+   - ''
+   - '&7Consiga itens INCRIVEIS abrindo essa chave...'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪ 200 Cash'
+  ID: 131
+  KEEP-OPEN: true
+  SLOT: 13
+magica:
+  LEFT-CLICK-COMMAND: 'console: crate key {player} Magica 1'
+  RIGHT-CLICK-COMMAND: 'console: crate key {player} Magica 1'
+  POINTS: 220
+  NAME: ' &5Crate Rara'
+  LORE:
+   - ''
+   - '&7Consiga itens INCRIVEIS abrindo essa chave...'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &6✪ 220 Cash'
+  ID: 131
+  KEEP-OPEN: true
+  SLOT: 14
+
+voltar:
+  LEFT-CLICK-COMMAND: 'open: shop.yml'
+  RIGHT-CLICK-COMMAND: 'open: shop.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  

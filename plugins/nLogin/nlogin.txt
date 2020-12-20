@@ -1,0 +1,201 @@
+[31 de Outubro de 2020 22:03:22]: [nLogin]          __             _       
+[31 de Outubro de 2020 22:03:22]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[31 de Outubro de 2020 22:03:22]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[31 de Outubro de 2020 22:03:22]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[31 de Outubro de 2020 22:03:22]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[31 de Outubro de 2020 22:03:22]: [nLogin]                   |___/            
+[31 de Outubro de 2020 22:03:22]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[31 de Outubro de 2020 22:03:22]: [nLogin] 
+[31 de Outubro de 2020 22:03:22]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[31 de Outubro de 2020 22:03:22]: [nLogin] Carregando tarefas para inicialização...
+[31 de Outubro de 2020 22:03:23]: [nLogin] nLogin foi carregado em 1234ms.
+[31 de Outubro de 2020 22:04:10]: [nLogin] 
+[31 de Outubro de 2020 22:04:10]: [nLogin]  Obrigado por escolher o nLogin! <3
+[31 de Outubro de 2020 22:04:10]: [nLogin] 
+[31 de Outubro de 2020 22:04:10]: [nLogin]  Para sua segurança, leia a mensagem abaixo:
+[31 de Outubro de 2020 22:04:10]: [nLogin]   Nunca baixe o nLogin de fontes desconhecidas.
+[31 de Outubro de 2020 22:04:10]: [nLogin]   Uma versão modificada pode conter softwares maliciosos.
+[31 de Outubro de 2020 22:04:10]: [nLogin] 
+[31 de Outubro de 2020 22:04:10]: [nLogin]  Sites oficiais:
+[31 de Outubro de 2020 22:04:10]: [nLogin]   www.nickuc.com
+[31 de Outubro de 2020 22:04:10]: [nLogin]   www.spigotmc.org/resources/pt-br-nlogin.57272/
+[31 de Outubro de 2020 22:04:10]: [nLogin]   https://github.com/NickUltracraft
+[31 de Outubro de 2020 22:04:10]: [nLogin] 
+[31 de Outubro de 2020 22:04:10]: [nLogin]  Canais oficiais para suporte:
+[31 de Outubro de 2020 22:04:10]: [nLogin]   Grupo do Discord: www.nickuc.com/discord
+[31 de Outubro de 2020 22:04:10]: [nLogin]   Discord: NickUC#4550
+[31 de Outubro de 2020 22:04:10]: [nLogin]   E-mail: nickultracraft@gmail.com
+[31 de Outubro de 2020 22:04:10]: [nLogin]   YouTube: youtube.com/c/nickultracraft
+[31 de Outubro de 2020 22:04:10]: [nLogin]   Spigot: www.spigotmc.org/members/nickultracraft.563552
+[31 de Outubro de 2020 22:04:10]: [nLogin] 
+[31 de Outubro de 2020 22:05:23]: [nLogin] O usuário oSlayer_ se registrou com sucesso.
+[31 de Outubro de 2020 22:13:09]: [nLogin]          __             _       
+[31 de Outubro de 2020 22:13:09]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[31 de Outubro de 2020 22:13:09]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[31 de Outubro de 2020 22:13:09]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[31 de Outubro de 2020 22:13:09]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[31 de Outubro de 2020 22:13:09]: [nLogin]                   |___/            
+[31 de Outubro de 2020 22:13:09]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[31 de Outubro de 2020 22:13:09]: [nLogin] 
+[31 de Outubro de 2020 22:13:10]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[31 de Outubro de 2020 22:13:10]: [nLogin] Carregando tarefas para inicialização...
+[31 de Outubro de 2020 22:13:11]: [nLogin] nLogin foi carregado em 1295ms.
+[31 de Outubro de 2020 22:13:40]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[31 de Outubro de 2020 22:15:07]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[31 de Outubro de 2020 22:49:32]: [nLogin]          __             _       
+[31 de Outubro de 2020 22:49:32]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[31 de Outubro de 2020 22:49:32]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[31 de Outubro de 2020 22:49:32]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[31 de Outubro de 2020 22:49:32]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[31 de Outubro de 2020 22:49:32]: [nLogin]                   |___/            
+[31 de Outubro de 2020 22:49:32]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[31 de Outubro de 2020 22:49:32]: [nLogin] 
+[31 de Outubro de 2020 22:49:32]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[31 de Outubro de 2020 22:49:32]: [nLogin] Carregando tarefas para inicialização...
+[31 de Outubro de 2020 22:49:33]: [nLogin] nLogin foi carregado em 1271ms.
+[31 de Outubro de 2020 22:50:03]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[31 de Outubro de 2020 22:50:56]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[31 de Outubro de 2020 23:01:15]: [nLogin]          __             _       
+[31 de Outubro de 2020 23:01:15]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[31 de Outubro de 2020 23:01:15]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[31 de Outubro de 2020 23:01:15]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[31 de Outubro de 2020 23:01:15]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[31 de Outubro de 2020 23:01:15]: [nLogin]                   |___/            
+[31 de Outubro de 2020 23:01:15]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[31 de Outubro de 2020 23:01:15]: [nLogin] 
+[31 de Outubro de 2020 23:01:16]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[31 de Outubro de 2020 23:01:16]: [nLogin] Carregando tarefas para inicialização...
+[31 de Outubro de 2020 23:01:16]: [nLogin] nLogin foi carregado em 1132ms.
+[31 de Outubro de 2020 23:01:38]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[31 de Outubro de 2020 23:02:43]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[31 de Outubro de 2020 23:16:55]: [nLogin]          __             _       
+[31 de Outubro de 2020 23:16:55]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[31 de Outubro de 2020 23:16:55]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[31 de Outubro de 2020 23:16:55]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[31 de Outubro de 2020 23:16:55]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[31 de Outubro de 2020 23:16:55]: [nLogin]                   |___/            
+[31 de Outubro de 2020 23:16:55]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[31 de Outubro de 2020 23:16:55]: [nLogin] 
+[31 de Outubro de 2020 23:16:55]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[31 de Outubro de 2020 23:16:55]: [nLogin] Carregando tarefas para inicialização...
+[31 de Outubro de 2020 23:16:56]: [nLogin] nLogin foi carregado em 1106ms.
+[31 de Outubro de 2020 23:17:17]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[31 de Outubro de 2020 23:19:32]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[31 de Outubro de 2020 23:48:45]: [nLogin]          __             _       
+[31 de Outubro de 2020 23:48:45]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[31 de Outubro de 2020 23:48:45]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[31 de Outubro de 2020 23:48:45]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[31 de Outubro de 2020 23:48:45]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[31 de Outubro de 2020 23:48:45]: [nLogin]                   |___/            
+[31 de Outubro de 2020 23:48:45]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[31 de Outubro de 2020 23:48:45]: [nLogin] 
+[31 de Outubro de 2020 23:48:45]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[31 de Outubro de 2020 23:48:45]: [nLogin] Carregando tarefas para inicialização...
+[31 de Outubro de 2020 23:48:46]: [nLogin] nLogin foi carregado em 1081ms.
+[31 de Outubro de 2020 23:49:08]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[31 de Outubro de 2020 23:50:16]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 00:07:18]: [nLogin]          __             _       
+[01 de Novembro de 2020 00:07:18]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 00:07:18]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 00:07:18]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 00:07:18]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 00:07:18]: [nLogin]                   |___/            
+[01 de Novembro de 2020 00:07:18]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 00:07:18]: [nLogin] 
+[01 de Novembro de 2020 00:07:19]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 00:07:19]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 00:07:19]: [nLogin] nLogin foi carregado em 1493ms.
+[01 de Novembro de 2020 00:07:46]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 00:11:08]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 00:12:59]: [nLogin]          __             _       
+[01 de Novembro de 2020 00:12:59]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 00:12:59]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 00:12:59]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 00:12:59]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 00:12:59]: [nLogin]                   |___/            
+[01 de Novembro de 2020 00:12:59]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 00:12:59]: [nLogin] 
+[01 de Novembro de 2020 00:12:59]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 00:12:59]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 00:13:00]: [nLogin] nLogin foi carregado em 1088ms.
+[01 de Novembro de 2020 00:13:26]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 00:13:48]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 00:14:59]: [nLogin]          __             _       
+[01 de Novembro de 2020 00:14:59]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 00:14:59]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 00:14:59]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 00:14:59]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 00:14:59]: [nLogin]                   |___/            
+[01 de Novembro de 2020 00:14:59]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 00:14:59]: [nLogin] 
+[01 de Novembro de 2020 00:15:00]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 00:15:00]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 00:15:00]: [nLogin] nLogin foi carregado em 1177ms.
+[01 de Novembro de 2020 00:15:27]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 00:16:01]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 00:17:33]: [nLogin]          __             _       
+[01 de Novembro de 2020 00:17:33]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 00:17:33]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 00:17:33]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 00:17:33]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 00:17:33]: [nLogin]                   |___/            
+[01 de Novembro de 2020 00:17:33]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 00:17:33]: [nLogin] 
+[01 de Novembro de 2020 00:17:33]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 00:17:33]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 00:17:34]: [nLogin] nLogin foi carregado em 1017ms.
+[01 de Novembro de 2020 00:17:58]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 00:18:19]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 00:28:08]: [nLogin]          __             _       
+[01 de Novembro de 2020 00:28:08]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 00:28:08]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 00:28:08]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 00:28:08]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 00:28:08]: [nLogin]                   |___/            
+[01 de Novembro de 2020 00:28:08]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 00:28:08]: [nLogin] 
+[01 de Novembro de 2020 00:28:09]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 00:28:09]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 00:28:09]: [nLogin] nLogin foi carregado em 942ms.
+[01 de Novembro de 2020 00:28:33]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 00:29:34]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 02:08:07]: [nLogin]          __             _       
+[01 de Novembro de 2020 02:08:07]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 02:08:07]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 02:08:07]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 02:08:07]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 02:08:07]: [nLogin]                   |___/            
+[01 de Novembro de 2020 02:08:07]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 02:08:07]: [nLogin] 
+[01 de Novembro de 2020 02:08:08]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 02:08:08]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 02:08:08]: [nLogin] nLogin foi carregado em 1196ms.
+[01 de Novembro de 2020 02:08:43]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 02:09:01]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 02:11:19]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 02:17:34]: [nLogin]          __             _       
+[01 de Novembro de 2020 02:17:34]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 02:17:34]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 02:17:34]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 02:17:34]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 02:17:34]: [nLogin]                   |___/            
+[01 de Novembro de 2020 02:17:34]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 02:17:34]: [nLogin] 
+[01 de Novembro de 2020 02:17:35]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 02:17:35]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 02:17:35]: [nLogin] nLogin foi carregado em 1164ms.
+[01 de Novembro de 2020 02:18:08]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 02:18:30]: [nLogin] O usuário oSlayer_ autenticou com sucesso.
+[01 de Novembro de 2020 02:21:11]: [nLogin]          __             _       
+[01 de Novembro de 2020 02:21:11]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[01 de Novembro de 2020 02:21:11]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[01 de Novembro de 2020 02:21:11]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[01 de Novembro de 2020 02:21:11]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[01 de Novembro de 2020 02:21:11]: [nLogin]                   |___/            
+[01 de Novembro de 2020 02:21:11]: [nLogin]  By: www.nickuc.com - V 8.5.1 RELEASE Build
+[01 de Novembro de 2020 02:21:11]: [nLogin] 
+[01 de Novembro de 2020 02:21:12]: [nLogin] nLogin Lite foi ativado com sucesso. Alguns recursos podem ser desativados para melhorar a performance.
+[01 de Novembro de 2020 02:21:12]: [nLogin] Carregando tarefas para inicialização...
+[01 de Novembro de 2020 02:21:13]: [nLogin] nLogin foi carregado em 1556ms.
+[01 de Novembro de 2020 02:21:49]: [nLogin] Inicialização do nLogin v8.5.1 finalizada.
+[01 de Novembro de 2020 02:22:01]: [nLogin] O usuário oSlayer_ autenticou com sucesso.

@@ -1,0 +1,49 @@
+MySQL:
+  use: false
+  Host: 10101010
+  Port: 3306
+  Username: user
+  Password: uiui
+  Database: blabla
+language: br
+server_name: '&b[VIP] '
+check_for_updates: true
+case_sensitive_for_flatfile: false
+key_length: 10
+one_vip_change: false
+usekey_global: false
+rvip_unlisted: true
+use_vault_for_permissions: false
+check_time: 10
+pagseguro:
+  use: false
+  mode: 1
+  mysql_log: false
+  email: suporte@lojamodelo.com.br
+  token: 95112EE828D94278BD394E91C4388F20
+paypal:
+  use: false
+  username: username
+  password: password
+  signature: signature
+  mode: 1
+  mysql_log: false
+logging:
+  usekey: false
+vip_groups:
+- YT
+- esmeralda
+- diamante
+- ouro
+default_group: Earth
+vip_items:
+- YT,0,cmd,title &e@player <nl> &fTornou-se &c[YouTuber]
+- YT,0,cmd,pex user @player group add Youtuber
+- ESMERALDA,0,cmd,title &e@player <nl> &fAtivou VIP &2[Esmeralda]
+- ESMERALDA,0,cmd,pex user @player group add esmeralda
+- DIAMANTE,0,cmd,title &e@player <nl> &fAtivou VIP &b[Diamante]
+- DIAMANTE,0,cmd,pex user @player group add diamante
+- OURO,0,cmd,title &e@player <nl> &fAtivou VIP &e[Ouro]
+- OURO,0,cmd,pex user @player group add ouro
+keys: {}
+vips: {}

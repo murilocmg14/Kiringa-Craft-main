@@ -1,0 +1,60 @@
+MySQL:
+  Ativado: false
+  Usuario: root
+  Host: localhost
+  Senha: "123"
+  Database: storage_db
+
+Tag: "&7[Lv.{tempo}]"
+
+Mensagens:
+  SeuTempo: "&eSeu tempo online é de: &6{tempo}"
+  TempoDeOutroPlayer: "&aO tempo online de {player} é de: &e{tempo}"
+  PlayerNaoEncontrado: "&cPlayer não encontrado"
+
+
+TopTime:
+  GUI:
+    Name: 'Tempo Online'
+    PlayerIcon:
+      Name: '&e@position° - @group @player'
+      Lore:
+      - ' &7Tempo: &f@time'
+      - ''
+  
+#Cria varias recompensas seguindo o exemplo abaixo
+Recompensas:
+  #Recompensa de exemplo
+  Exemplo:
+    #Tempo necessário para ganhar. OBS: o tempo é em segundos
+    Tempo: 3600
+    #Se true o player receberá o item, caso seja false não
+    Fisico: false
+    #Item que o player receberá caso o "Físico" esteja TRUE
+    Item:
+      #ID do item
+      ID: 56
+      #Data do item
+      Data: 0
+      #Quantidade do item
+      Quantidade: 1
+      #Nome do item
+      Nome: '&bDiamond'
+      #Lore do item
+      Lore:
+      - ""
+      #Encantamento opções
+      Encantamento:
+        #Se true o item terá encantamentos, caso seja false não.
+        Status: true
+        #Coloque os encantamentos do item. OBS: antes do ":" é o id do encantamento, depois é o nível
+        #Lista dos IDS: https://minecraft.gamepedia.com/Enchanting/ID
+        Encantamentos:
+        - "3:1"
+    #Mensagem que será mandada para o player que ganhou
+    Mensagem: "&r"
+    #Mensagem que será mandada para todos os players
+    Broadcast: "&eO jogador &6{player} &erecebeu &6500 de Cash, por jogar &f{tempo} &fhora no servidor"
+    #Comandos que serão executados
+    Comandos:
+      - 'cash dar {player} 500 '

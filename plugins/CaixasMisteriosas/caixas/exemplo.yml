@@ -1,0 +1,182 @@
+Caixa:
+     Som: NOTE_PLING
+     ID: 120
+     Data: 0
+     Nome: "&cCaixa Misteriosa"
+     Lore:
+       - "&fTipo: &6Basica"
+       - "&fRaridade: &e✩✩&7✩✩✩"
+     Encantamentos:
+       - "DURABILITY:1"
+     Flags:
+       - "HIDE_ENCHANTS"
+
+Itens:
+   1:
+     ID: 42
+     Quantia: 64
+     Chance: 20
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou &764 Blocos de Ferro&a!"
+   2:
+     ID: 41
+     Quantia: 64
+     Chance: 20
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou &764 Blocos de Ouro&a!"
+   3:
+     ID: 57
+     Quantia: 64
+     Chance: 15
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou &764 Blocos de Diamante&a!"
+   4:
+     ID: 276
+     Quantia: 1
+     Chance: 5
+     Nome: "&aEspada Divina"
+     Encantamentos:
+       - "DAMAGE_ALL:6"
+       - "DURABILITY:4"
+       - "LOOT_BONUS_BLOCKS:4"
+     Raio: true
+     Givar: true
+     Title: "&a{player}"
+     Subtitle: "&eGanhou a &aEspada Divina&e na caixa misteriosa!"
+     BroadcastTitle: true
+     Firework: GRANDE
+     MensagemGlobal: "&6[CAIXA] &e{player} ganhou a &aEspada Divina&e na caixa misteriosa!"
+   5:
+     ID: 279
+     Quantia: 1
+     Chance: 5
+     Nome: "&aMachado do Lenhador"
+     Encantamentos:
+       - "DIG_SPEED:6"
+       - "DURABILITY:4"
+     Raio: true
+     Givar: true
+     Title: "&a{player}"
+     Subtitle: "&eGanhou o &aMachado do Lenhador&e na caixa misteriosa!"
+     BroadcastTitle: true
+     Firework: GRANDE
+     MensagemGlobal: "&6[CAIXA] &e{player} ganhou o &aMachado do Lenhador&e na caixa misteriosa!"
+   6:
+     ID: 310
+     Quantia: 1
+     Chance: 5
+     Encantamentos:
+       - "PROTECTION_ENVIRONMENTAL:3"
+       - "DURABILITY:2"
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou um &7Capacete Basico&a!"
+   7:
+     ID: 311
+     Quantia: 1
+     Chance: 5
+     Encantamentos:
+       - "PROTECTION_ENVIRONMENTAL:3"
+       - "DURABILITY:2"
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou um &7PeitoralBasico&a!"
+   8:
+     ID: 312
+     Quantia: 1
+     Chance: 5
+     Encantamentos:
+       - "PROTECTION_ENVIRONMENTAL:3"
+       - "DURABILITY:2"
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou uma &7Calça Basica&a!"
+   9:
+     ID: 313
+     Quantia: 1
+     Chance: 5
+     Encantamentos:
+       - "PROTECTION_ENVIRONMENTAL:3"
+       - "DURABILITY:2"
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou uma &7Bota Basica&a!"   
+   10:
+     ID: 52
+     Quantia: 1
+     Chance: 20
+     Nome: "&fGerador de Monstros"
+     Lore:
+       - "&eTipo: &fVaca"
+     Givar: false
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou um &7Gerador de Monstros&a!"
+     Subtitle: "&aVocê ganhou um &7Gerador de Monstros&a!"
+     BroadcastTitle: false
+     Firework: VAZIA
+     Comandos: 
+        - "sgive {player} cow 1"     
+   11:
+     ID: 52
+     Quantia: 1
+     Chance: 20
+     Nome: "&fGerador de Monstros"
+     Lore:
+       - "&eTipo: &fZombie"
+     Givar: false
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou um &7Gerador de Monstros&a!"
+     Comandos: 
+        - "sgive {player} zombie 1"   
+   12:
+     ID: 52
+     Quantia: 1
+     Chance: 20
+     Nome: "&fGerador de Monstros"
+     Lore:
+       - "&eTipo: &fIron Golem"
+     Raio: true
+     Givar: false
+     Title: "&a{player}"
+     Subtitle: "&eGanhou o &fGerador de Monstros&e na caixa misteriosa!"
+     BroadcastTitle: true
+     MensagemGlobal: "&6[CAIXA] &e{player} ganhou o &fGerador de Monstros&e na caixa misteriosa!"
+     MensagemPlayer: "&6[CAIXA] &aVocê ganhou um &7Gerador de Monstros&a!"
+     Comandos: 
+        - "sgive {player} iron_golem 1" 
+   13:
+     ID: 322
+     Data: 1
+     Quantia: 64
+     Chance: 20
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &eVocê ganhou &d64 Maças douradas&e!"
+   14:
+     ID: 1
+     Data: 4
+     Quantia: 1
+     Chance: 20
+     Givar: true
+     Actionbar: "&f&l{player} &7ganhou uma &dPedra&7 na caixa misteriosa kkkkkkkk!"
+     BroadcastActionbar: true
+     MensagemPlayer: "&6[CAIXA] &cQue azar eim! Você ganho &71 pedra&c!"
+   15:
+     ID: 397
+     Data: 3
+     Nome: "&dCabeça do Dragão"
+     Lore: 
+       - "&fUse esta maravilhosa cabeça"
+       - "&fpara enfeitar suas construções."
+     Skull-URL: "http://textures.minecraft.net/texture/3a18735bea45a433f7d7fcbd11dfe22b56e33b29db3c5bc2e524487fac11"
+     Quantia: 1
+     Chance: 20
+     Givar: true
+     Actionbar: "&f&l{player} &7ganhou a &dCabeça do Dragão&7 na caixa misteriosa!"
+     BroadcastActionbar: true
+     MensagemPlayer: "&6[CAIXA] &eVocê ganhou a &dCabeça do Dragão&e!\n&7Agora você pode enfeitar sua base!"
+   16:
+     ID: 373
+     Data: 8235
+     Nome: "&aPoção dos deuses"
+     Quantia: 1
+     Efeitos:
+       - "INCREASE_DAMAGE:90:3"
+       - "SPEED:90:3"
+       - "FAST_DIGGING:90:3"
+     Chance: 20
+     Givar: true
+     MensagemPlayer: "&6[CAIXA] &eVocê ganhou a &aPoção dos deus&e!"

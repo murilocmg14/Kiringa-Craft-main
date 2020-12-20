@@ -1,0 +1,158 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5Kits VIPs'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+  type: CHEST
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+OuroD:
+  LEFT-CLICK-COMMAND: 'kit Ourod'
+  RIGHT-CLICK-COMMAND: 'verkit ourod'
+  HIDE-ATTRIBUTES: true
+  NAME: '&e Kit Ouro Diario'
+  LORE:
+    - ''
+    - '&7Botão Esquerdo: &fAdquirir Kit.'
+    - '&7Botão Direito: &fVer Conteúdo.'
+    - '&7Tempo: &f24 Horas.'
+    - ''
+    - '&7  &fKit exclusivo para o &e&lOuro&F.'
+    - '&7  &fTenha vantagens ao comprar &6&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 11
+  SKULL-URL: 'http://textures.minecraft.net/texture/945f47feb4d75cb333914bfdb999a489c9d0e320d548f310419ad738d1e24b9'
+OuroM:
+  LEFT-CLICK-COMMAND: 'kit Ourom'
+  RIGHT-CLICK-COMMAND: 'verkit ourom'
+  HIDE-ATTRIBUTES: true
+  NAME: '&e Kit Ouro Diario'
+  LORE:
+    - ''
+    - '&7Botão Esquerdo: &fAdquirir Kit.'
+    - '&7Botão Direito: &fVer Conteúdo.'
+    - '&7Tempo: &f30 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &e&lOuro&F.'
+    - '&7  &fTenha vantagens ao comprar &6&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 20
+  SKULL-URL: 'http://textures.minecraft.net/texture/945f47feb4d75cb333914bfdb999a489c9d0e320d548f310419ad738d1e24b9'
+DiamanteD:
+  LEFT-CLICK-COMMAND: 'kit diamanted'
+  RIGHT-CLICK-COMMAND: 'verkit diamanted'
+  HIDE-ATTRIBUTES: true
+  NAME: '&b Kit Diamante Diario'
+  LORE:
+    - ''
+    - '&7Botão Esquerdo: &fAdquirir Kit.'
+    - '&7Botão Direito: &fVer Conteúdo.'
+    - '&7Tempo: &f24 Horas.'
+    - ''
+    - '&7  &fKit exclusivo para o &b&lDiamante&F.'
+    - '&7  &fTenha vantagens ao comprar &6&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 13
+  SKULL-URL: 'http://textures.minecraft.net/texture/964f25cfff754f287a9838d8efe03998073c22df7a9d3025c425e3ed7ff52c20'
+DiamanteM:
+  LEFT-CLICK-COMMAND: 'kit diamantem'
+  RIGHT-CLICK-COMMAND: 'verkit diamantem'
+  HIDE-ATTRIBUTES: true
+  NAME: '&b Kit Diamante Mensal'
+  LORE:
+    - ''
+    - '&7Botão Esquerdo: &fAdquirir Kit.'
+    - '&7Botão Direito: &fVer Conteúdo.'
+    - '&7Tempo: &f30 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &b&lDiamante&F.'
+    - '&7  &fTenha vantagens ao comprar &6&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 22
+  SKULL-URL: 'http://textures.minecraft.net/texture/964f25cfff754f287a9838d8efe03998073c22df7a9d3025c425e3ed7ff52c20' 
+EsmeraldaD:
+  LEFT-CLICK-COMMAND: 'kit esmeraldad'
+  RIGHT-CLICK-COMMAND: 'verkit esmeraldad'
+  HIDE-ATTRIBUTES: true
+  NAME: '&a Kit Esmeralda Diario'
+  LORE:
+    - ''
+    - '&7Botão Esquerdo: &fAdquirir Kit.'
+    - '&7Botão Direito: &fVer Conteúdo.'
+    - '&7Tempo: &f24 Horas.'
+    - ''
+    - '&7  &fKit exclusivo para o &a&lEsmeralda&F.'
+    - '&7  &fTenha vantagens ao comprar &6&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 15
+  SKULL-URL: 'http://textures.minecraft.net/texture/b72c05dd76288f4328a24391bf4725fd2260592db3cf9b2bc2032dd0596cf440'  
+EsmeraldaM:
+  LEFT-CLICK-COMMAND: 'kit esmeraldam'
+  RIGHT-CLICK-COMMAND: 'verkit esmeraldam'
+  HIDE-ATTRIBUTES: true
+  NAME: '&a Kit Esmeralda Mensal'
+  LORE:
+    - ''
+    - '&7Botão Esquerdo: &fAdquirir Kit.'
+    - '&7Botão Direito: &fVer Conteúdo.'
+    - '&7Tempo: &f30 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &a&lEsmeralda&F.'
+    - '&7  &fTenha vantagens ao comprar &6&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 24
+  SKULL-URL: 'http://textures.minecraft.net/texture/b72c05dd76288f4328a24391bf4725fd2260592db3cf9b2bc2032dd0596cf440'  
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: kits.yml'
+  RIGHT-CLICK-COMMAND: 'open: kits.yml'
+  HIDE-ATTRIBUTES: true
+  NAME: '&cVoltar'
+  ID: 262
+  SLOT: 27

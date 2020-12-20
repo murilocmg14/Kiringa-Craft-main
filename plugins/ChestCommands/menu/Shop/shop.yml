@@ -1,0 +1,54 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6[Shop] - Compre usando Cash'
+  rows: 3
+  type: CHEST
+  command: 'shop'
+  auto-refresh: 6
+  open-action: ''
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+##########################################
+#+                                       #
+# Config feita por  '! oSlayer#0001'     #
+#                                        #
+##########################################
+
+
+
+farm1:
+  LEFT-CLICK-COMMAND: 'open:farm1.yml'
+  RIGHT-CLICK-COMMAND: 'open:farm1.yml'
+  NAME: '&eEspadas Farm'
+  LORE: 
+  - ''
+  - '&fEspadas exclusivas para matar mobs de &5Spawners&f!'
+  - ''
+  ID: 283
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 12
+chave:
+  LEFT-CLICK-COMMAND: 'open: crates.yml'
+  RIGHT-CLICK-COMMAND: 'open: crates.yml'
+  NAME: '&aChaves'
+  LORE:
+  - ' '
+  - '&fSabia que nossas keys dão itens &5INCRIVEIS&f?'
+  - ''
+  ID: 131
+  DATA-VALUE: 14
+  KEEP-OPEN: true
+  SLOT: 14
+
+  

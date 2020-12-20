@@ -1,0 +1,505 @@
+####################################################
+#												   #
+#			   ╔═══╗ ╔╗ ╔╗ ╔═══╗ ╔╗ ╔╗			   #
+#			   ║╔═╗║ ║║ ║║ ║╔═╗║ ║║ ║║			   #
+#			   ║╚═╝║ ║║ ║║ ║╚══╗ ║╚═╝║			   #
+#			   ║╔╗╔╝ ║║ ║║ ╚══╗║ ║╔═╗║			   #
+#			   ║║║╚╗ ║╚═╝║ ║╚═╝║ ║║ ║║			   #
+#			   ╚╝╚═╝ ╚═══╝ ╚═══╝ ╚╝ ╚╝			   #
+# 												   #
+####################################################
+#-> Lista com o nome de todos os mobs e entidades https://goo.gl/cch8YK
+#
+#
+#-> Configurações gerais do plugin:
+settings:
+  #-> Habilitar atualizações automaticas:
+  auto-update: false
+  #-> Versão da config: (NÃO ALTERE)
+  config-version: 11
+  #-> Habilitar API:
+  enable-api: true
+
+
+
+
+#-> Limitador de itens transferidos no funil.
+hopper-limiter:
+  #-> Numero maximo de itens sendo transferidos por vez:
+  transfer-limit: 5
+  #-> Intervalo de tempo de checagem:
+  check-interval: 1
+
+
+
+
+#-> Limitador maximo de uso de memória ram:
+ram-meter:
+  #
+  #-> Habilitadar o limitador maximo de uso de memória ram?
+  enabled: false
+  #
+  #-> Intervalo de tempo que o plugin ira verificar a memória do server:
+  interval: 20
+  #
+  #-> Limite de memória que pode ser atingido:
+  #-> Nunca coloque o maximo de memória alocada no server... sempre bote menos.
+  #-> Se o seu servidor possui 8000 MB é recomendado que você coloque 7000
+  ram-limit: 5000
+  #
+  #-> Executar está lista de comandos quando o limite de memória for atingido:
+  commands:
+    - 'lagg killmobs'
+    - 'lagg clear'
+    - 'lagg gc'
+    - 'lagg unloadchunks'
+
+
+
+
+#-> Limitador de velocidade dos players:
+player-speed-limiter:
+  #
+  #-> Habilitadar o limitador de velocidade dos players?
+  enabled: false
+  #
+  #-> Velocidade maxima andando:
+  move-max-speed: 0.7
+  #
+  #-> Velocidade maxima voando:
+  fly-max-speed: 0.8
+
+
+
+
+#-> Limitador de mobs por chunk:
+mob-breeding-limiter:
+  #
+  #-> Habilitadar o limitador de mobs por chunk?
+  enabled: false
+  #
+  #-> Maximo de mobs por raio:
+  max-mobs: 6
+  #
+  #-> Raio de blocos de verificação:
+  check-radius: 16
+
+
+
+
+
+#-> Limpador de logs antigas:
+log-purger:
+  #
+  #-> Habilitadar o limpador de logs antigas?
+  enabled: false
+  #
+  #-> Apagar logs com mais de tantos dias:
+  days-old: 3
+
+
+
+
+#-> Entidades que não serão removidas com o comando /lagg area:
+area-filter:
+    - Itemframe
+    - Villager
+    - Minecart
+    - ARMOR_STAND
+
+
+
+
+#-> Habilitar atualizações automaticas do plugin?
+config-updater:
+  force-update: false
+
+
+
+
+#-> Limitador de mobs spawnados por OVOS por chunk:
+mobegg-limiter:
+  #
+  #-> Habilitadar o limitador de mobs spawnados por OVOS por chunk?
+  enabled: false
+  #
+  #-> Maximo de mobs por raio:
+  max-mobs: 6
+  #
+  #-> Raio de blocos de verificação:
+  check-radius: 16
+
+
+
+
+#-> Limitador de chunks:
+chunk-limiter:
+  #
+  #-> Habilitadar o limitador de chunks?
+  enabled: false
+  #
+  #-> Limite maximo de chunks do servidor:
+  limit: 6000
+  #
+  #-> Criar novas chunks?
+  #-> Se definido 'false' o servidor ira parar de criar novas chunks.
+  create-new-chunks: true
+
+
+
+
+#-> Limitador de alcance de visualização das entidades:
+mob-range:
+  #
+  #-> Habilitadar o limitador de alcance de visualização das entidades?
+  enabled: false
+  #
+  #-> Distancia em blocos que você podera visualizar a entidade:
+  zombie: 30
+  skeleton: 30
+  creeper: 20
+  spider: 30
+  villager: 30
+  bat: 10
+
+
+
+
+#-> Limitador de tempo que os itens podem ficar dropados no chão:
+live-time:
+  #
+  #-> Habilitar o limitador de tempo de vida?
+  enabled: false
+  #
+  #-> Intervalo de checagem:
+  interval: 10
+  #
+  #-> Habilitar limitador de tempo de vida dos mobs?
+  mobtimer: true
+  #
+  #-> Habilitar limitador de tempo de vida dos itens?
+  itemtimer: true
+  #
+  #-> Habilitar limitador de tempo de vida das flechas?
+  arrowtimer: true
+  #
+  #-> Tempo de vida da flecha no chão:
+  arrowkilltime: 15
+  #
+  #-> Tempo de vida dos mobs:
+  moblivetime: 600
+  #
+  #-> Tempo de vida dos itens no chão:
+  itemlivetime: 240
+
+
+
+
+#-> Limitador de carrinhos com tnt por raio:
+tnt-minecart:
+  #
+  #-> Habilitar o limitador de carrinhos com tnt por raio? 
+  enabled: false
+  #
+  #-> Maximo de carrinhos de tnt por raio:
+  max: 2
+  #
+  #-> Raio de blocos de verificação:
+  radius: 6
+
+
+
+
+#-> Redutor de velocidade dos dispenser:
+dispenser-reducer:
+  enabled: false
+  time: 100
+
+
+
+
+#-> Redutor de explosão de TNT em grande escala:
+tnt-reducer:
+  #
+  #-> Habilitar o redutor de explosão de TNT em grande escala? 
+  enabled: false
+  #
+  #-> Raio de blocos de verificação:
+  check-radius: 5
+  #
+  #-> Maximo de TNTs ativadas por raio:
+  max-primed: 3
+
+
+
+
+#-> Redutor de propagação do fogo:
+firespread-reducer:
+  enabled: false
+  time: 2000
+
+
+
+
+#-> Limitador de entidades por chunk: (16 blocos)
+chunk-entity-limiter:
+  #
+  #-> Habilitar o limitador de entidades por chunk?
+  enabled: false
+  #
+  #-> Limite de entidades em 1 chunk:
+  limit: 10
+  #
+  #-> Entidades que serão verificadas na chunk:
+  entities:
+    - Squid
+    - Zombie
+    - Skeleton
+    - Creeper
+    - Chicken
+    - Pig
+    - Sheep
+    - Cow
+    - Horse
+
+
+
+
+#-> Limitador de spawn de mobs:
+spawn-limiter:
+  #
+  #-> Habilitar o limitador de spawn de mobs?
+  enabled: false
+  #
+  #-> Intervalo de tempo do limitador:
+  interval: 15
+  #
+  #-> Limite de mobs (zombie, crepper etc..):
+  mobs: 300
+  #-> Limitador de animais (pig, cow etc..):
+  animals: 300
+
+
+
+
+#-> Verificador de TPS minimo: (previne contra CRASHs)
+tps-meter:
+  #
+  #-> Habilitador o verificador de TPS minimo?
+  enabled: false
+  #
+  #-> Mensagem enviada quando o TPS estiver baixo:
+  trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
+  #-> Mensagem enviada qunado o TPS voltar ao normal:
+  recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
+  #-> Enviar mensagens quando o TPS estiver abaixo do normal?
+  broadcast-enabled: false
+  #
+  #-> Intervalo de verificação do TPS:
+  interval: 15
+  #
+  #-> TPS considerado abaixado do normal:
+  tps-trigger: 14.0
+  #
+  #-> TPS considerado normal:
+  tps-recover: 19.0
+  #
+  #-> Executar está lista de comandos quando o tps esitver abaixo do normal:
+  commands:
+    - 'lagg killmobs'
+    - 'lagg clear'
+    - 'lagg unloadchunks'
+    - 'lagg gc'
+    - 'lagg halt'
+  #
+  #-> Executar está lista de comandos quando o tps voltar ao normal:
+  recover-commands:
+    - 'lagg halt'
+
+
+
+
+#-> Configurações do /lagg killmobs:
+kill-mobs:
+   remove-named: false
+   #-> Lista de mobs que NÃO serão removidos com o killmobs:
+   mob-filter:
+   - Villager
+
+
+
+
+#-> Limitador de spawn de mobs por mobspawners:
+mobspawner:
+  #
+  #-> Habilitar o limitador de spawn de mobs por mobspawners?
+  enabled: false
+  #
+  #-> Maximo de mobs que podem nascer por mobspawner:
+  max-spawn: 4
+  #
+  #-> Remover mobs ao descarregar a chunk?
+  remove-mobs-on-chunk-unload: true
+
+#-> Habilitar o agrupador de itens? (É extremamente recomendado deixar 'false')
+item-merger:
+  enabled: false
+  radius: 6
+
+
+
+
+#-> Auto removedor de lag:
+auto-removal:
+  #
+  #-> Habilitar o auto remover de lag?
+  enabled: true
+  #
+  #-> Mensagem enviada quando o lag é limpo:
+  broadcast-message: '&e&lLIXEIRO: &r&2+RemoveAmount&a itens foram removidos!'
+  #-> Enviar uma mensagem quando o chão for limpo?
+  broadcast-removal: true
+  #
+  #-> Intervalo de tempo do auto removedor de lag:
+  autoremoval-interval: 600
+  #
+  #-> Mundos filtrados onde o auto removedor não funcionara:
+  world-filter:
+  - world_the_end
+  #
+  #-> Remover botes?
+  boat: true
+  #
+  #-> Remover blocos caindo (areia, cascalho..)?
+  falling-block: true
+  #
+  #-> Remover orbs de xp?
+  experience-orb: true
+  #
+  #-> Remover pinturas?
+  painting: false
+  #
+  #-> Remover projéteis (flechas, bolas de fogos..)
+  projectile: true
+  #
+  #-> Remover itens dropados no chão?
+  item: true
+  #
+  #-> Remover molduras?
+  itemframe: false
+  #
+  #-> Remover carrinhos?
+  minecart: true
+  #
+  #-> Remover TNTs ativadas?
+  primed-tnt: true
+  #
+  #-> Lista de itens que NÃO serão removidos do chão automaticamente.
+  item-filter:
+  - 52
+  remove-entities:
+  #
+  #-> Lista de mensagens avisando que o chão sera limpo:
+  warnings:
+        - 'time:540 msg:&e&lLIXEIRO: &aOs itens serão removidos do chão em &2+remaining segundos&a!'
+        - 'time:590 msg:&e&lLIXEIRO: &aOs itens serão removidos do chão em &2+remaining segundos&a!'
+
+
+
+
+#-> Configurações do comando /lagg clear:
+command-remove:
+  #
+  #-> Mundos filtrados onde o /lagg clear não funcionara:
+  world-filter:
+  - world_the_end
+  #
+  #-> Enviar uma mensagem quando o /lagg clear for usado?
+  broadcast-removal: false
+  #
+  #-> Remover botes?
+  boat: true
+  #
+  #-> Remover blocos caindo (areia, cascalho..)?
+  falling-block: true
+  #
+  #-> Remover orbs de xp?
+  experience-orb: true
+  #
+  #-> Remover pinturas?
+  painting: false
+  #
+  #-> Remover projéteis (flechas, bolas de fogos..)
+  projectile: true
+  #
+  #-> Remover itens dropados no chão?
+  item: true
+  #
+  #-> Remover molduras?
+  itemframe: false
+  #
+  #-> Remover carrinhos?
+  minecart: true
+  #
+  #-> Remover TNTs ativadas?
+  primed-tnt: true
+  #
+  #-> Lista de itens que NÃO serão removidos do chão automaticamente.
+  item-filter:
+  - 52
+  remove-entities:
+
+
+
+#-> Limitador de entidades no servidor:
+limit:
+  #
+  #-> Habilitador o limitador de entidades no servidor?
+  enabled: false
+  #
+  #-> Limite de entidades:
+  max: 1000
+  #
+  #-> Intervalo de checagem:
+  check-interval: 60
+  #
+  #-> Mensagem enviada quando o servidor atingir o limite maximo de entidades:
+  broadcast-message: '&e&lLIXEIRO: &r&2+RemoveAmount&a itens foram removidos!'
+  #
+  #-> Mundos filtrados onde o limitador de entidades não funcionara:
+  world-filter:
+  - world_the_end
+  #
+  #-> Enviar uma mensagem quando o limite maximo de entidades for atingido?
+  broadcast-removal: true
+  #
+  #-> Remover botes?
+  boat: true
+  #
+  #-> Remover blocos caindo (areia, cascalho..)?
+  falling-block: true
+  #
+  #-> Remover orbs de xp?
+  experience-orb: true
+  #
+  #-> Remover pinturas?
+  painting: false
+  #
+  #-> Remover projéteis (flechas, bolas de fogos..)
+  projectile: true
+  #
+  #-> Remover itens dropados no chão?
+  item: true
+  #
+  #-> Remover molduras?
+  itemframe: false
+  #
+  #-> Remover carrinhos?
+  minecart: true
+  #
+  #-> Remover TNTs ativadas?
+  primed-tnt: true
+  #
+  #-> Lista de itens que NÃO serão removidos do chão automaticamente.
+  item-filter:
+  - 52

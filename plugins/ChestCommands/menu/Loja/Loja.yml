@@ -1,0 +1,78 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja Virtual'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'loja'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+geradores:
+  LEFT-CLICK-COMMAND: 'open: spawners.yml'
+  RIGHT-CLICK-COMMAND: 'open: spawners.yml'
+  NAME: ' &e&lGERADORES '
+  ID: 52
+  SLOT: 12
+farm:
+  LEFT-CLICK-COMMAND: 'open: farm.yml'
+  RIGHT-CLICK-COMMAND: 'open: farm.yml'
+  NAME: ' &a&lFARM '
+  ID: 'CACTUS'
+  SLOT: 13 
+gerador:
+  LEFT-CLICK-COMMAND: 'open: gerador.yml'
+  RIGHT-CLICK-COMMAND: 'open: gerador.yml'
+  NAME: ' &6Gerador de Ouro '
+  ID: '19'
+  SLOT: 14
+
+alquimia:
+  LEFT-CLICK-COMMAND: 'open: alquimia.yml'
+  RIGHT-CLICK-COMMAND: 'open: alquimia.yml'
+  NAME: ' &6&lALQUIMIA '
+  ID: 379
+  SLOT: 15
+corantes:
+  LEFT-CLICK-COMMAND: 'open: corantes.yml'
+  RIGHT-CLICK-COMMAND: 'open: corantes.yml'
+  NAME: ' &c&lCORANTES '
+  ID: 351
+  DATA-VALUE: 1
+  SLOT: 16
+blocos:
+  LEFT-CLICK-COMMAND: 'open: Blocos1.yml'
+  RIGHT-CLICK-COMMAND: 'open: Blocos1.yml'
+  NAME: ' &b&lBLOCOS '
+  ID: 'grass'
+  SLOT: 10
+blocoscoloridos:
+  LEFT-CLICK-COMMAND: 'open: blocoscoloridos.yml'
+  RIGHT-CLICK-COMMAND: 'open: blocoscoloridos.yml'
+  NAME: ' &9&lBLOCOS COLORIDOS '
+  ID: 159
+  DATA-VALUE: 14
+  SLOT: 11
+

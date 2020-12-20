@@ -1,0 +1,6 @@
+nenhum_jogador: "&cJogador não encontrado!"
+sem_permissao: "&cVocê não tem permissÃ£o para usar este comando!"
+booster_list: "&aBoosters: &e%boosters%"
+tempo_booster: "&cAguarde o Booster atual acabar! &fTempo restante: %tempo%"
+usando_booster: "&aVocê usou o Booster &e%booster% &a Duração: &e%tempo%"
+mob_traducao_nao_carregada_mob: "?"

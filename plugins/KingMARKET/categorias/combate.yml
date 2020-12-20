@@ -1,0 +1,10 @@
+nome: Combate
+icone: 276:0;&bCombate;&7Veja aqui todos os@&7itens de combate a venda!
+slot: 13
+items:
+- '267'
+- '268'
+- '272'
+- '276'
+- '283'
+glow: false

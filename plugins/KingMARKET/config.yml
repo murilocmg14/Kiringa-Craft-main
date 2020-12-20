@@ -1,0 +1,21 @@
+#
+# Permissões:
+# mercado.use - Usar o mercado
+# mercado.anunciar - Anunciar quando coloca item no mercado
+# mercado.LIMITE - LIMITE é a quantidade de itens que o jogador pode colocar no mercado - Exemplo: mercado.10
+# 
+
+MySQL:
+  Use: false
+  Host: 'localhost'
+  User: 'root'
+  Password: ''
+  Database: 'database'
+
+Timers:
+  Tempo_Loja: 12
+  Tempo_Expirado: 48
+
+Config:
+  Delay_Broadcast: 30
+  Preco_Max: 999999

@@ -1,0 +1,33 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+Limite:
+  Padrao: 250.0
+
+Descontos:
+  - "DESCONTOOURO:5:&e[Ouro]" # permissao:desconto em porcentagem:nome do grupo
+  - "DESCONTODIAMANTE:10:&b[Diamante]"
+  - "DESCONTOESMERALDA:15:&a[Esmeralda]"
+  - "DESCONTOYTS:10:&c[YT]"
+
+Multipliers:
+  - "multiplier1:10"
+  - "multiplier2:64"
+
+Configs:
+  ComandoGive: "spawneradmin givespawner <player> <tipo> <quantidade> <multiplier>" # caso seu plugin de spawner não suporte que o item de spawner seja stackado, remova o multiplier
+  DefaultMultiplier: 5
+
+Spawners:
+  vaca:
+    Tipo: COW
+    Custo: 1000000
+    LiberaAs: 0
+
+#permissoes: spawner.shop - comando /spawnershop
+#placeholders: %atlasspawnersshop_limite%

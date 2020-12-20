@@ -1,0 +1,127 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Enchants Arco'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+explosive:
+  LEFT-CLICK-COMMAND: 'console: kit blaze {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit blaze {player}'
+  POINTS: 50
+  NAME: '&6Blaze I'
+  LORE:
+   - ''
+   - '&fAtira bolas de fogo em vez de flechas' 
+   - ''  
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 11
+ener:
+  LEFT-CLICK-COMMAND: 'console: kit Shuffle {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Shuffle {player}'
+  POINTS: 50
+  NAME: '&3Shuffle I'
+  LORE:
+   - ''
+   - '&fMuda a sua posição com'
+   - '&fa posição do seu inimigo'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 12
+Quickening:
+  LEFT-CLICK-COMMAND: 'console: kit Lightning {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Lightning {player}'
+  POINTS: 50
+  NAME: '&eLightning III'
+  LORE:
+   - ''
+   - '&fatinge o seu inimigo com um raio'
+   - ''   
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 13
+aae:
+  LEFT-CLICK-COMMAND: 'console: kit Piercing {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit Piercing {player}'
+  POINTS: 50
+  NAME: '&bPiercing I'
+  LORE:
+   - ''
+   - '&fIgnora a armadura do seu inimigo'
+   - ''   
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 14 
+bb:
+  LEFT-CLICK-COMMAND: 'console: kit para {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit para {player}'
+  POINTS: 50
+  NAME: '&9Paralyze I'
+  LORE:
+   - ''
+   - '&fRetarda, cega e enfraquece'
+   - '&fcompletamente seu inimigo' 
+   - ''    
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 15
+
+aa:
+  LEFT-CLICK-COMMAND: ' '
+  RIGHT-CLICK-COMMAND: ' '
+  NAME: ' &eInfo '
+  LORE: 
+  - '&f Use &b/ce rune &fpara usar esses encantamentos'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 26  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  RIGHT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  

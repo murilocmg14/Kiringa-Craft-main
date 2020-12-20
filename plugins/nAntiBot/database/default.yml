@@ -1,0 +1,3 @@
+version: '4.7'
+addresses:
+  127-0-0-1: ver=0x1&status=0&banReason=null&lastPlayer=oSlayer_&players=oSlayer_&verifyDate=1604192687778&lastJoin=1604208110823&lastMotd=1604208109603

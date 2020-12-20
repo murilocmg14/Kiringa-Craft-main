@@ -1,0 +1,81 @@
+#
+# Comando /caixa ou /caixasmisteriosas
+#
+# Para Givar use /caixa give <caixa> <quantia> <player/all>
+#
+# Permissão: 'caixas.admin'
+#
+# Variavel para ser usada nos comandos ou nas mensagems: {player}
+#
+# ID: ID do Item -> Obrigatório!
+# Quantia: Quantidade do Item -> Obrigatório!
+# Chance: Chance de ganhar o item -> Obrigatório!
+# Data: Data do item
+# Skull-Dono: Dono cabeça
+# Skull-URL: Url da cabeça
+# Nome: Nome do item
+# Lore: Lore do item
+# Flags: Flags do item
+# Efeitos: Efeitos de poção do item
+# Encantamentos: Encantamentos do item
+# Comandos: Comandos do item
+# MensagemGlobal: Mensagem que aparecera para todos do server
+# MensagemPlayer: Mensagem que aparecera para o player
+# Title: Title que aparecera para todos os players ou para o player
+# Subtitle: Subtitle que aparecera para todos players ou para o player
+# BroadcastTitle: O title deve aparecer para todos? (true/false)
+# Actionbar: Mensagem que aparecera na actionbar para todos ou para o player
+# BroadcastActionbar: A actionbar deve apararecer para todos? (true/false)
+# Firework: Fogo de artificio que sera spawnando (VAZIO - PEQUENO - MEDIO - GRANDE)
+# Raio: Ira cair um raio ao ganhar o item?
+# Givar: O item devera ser enviado para o player? -> Obrigatório
+
+Itens:
+   item:
+     ID: 1
+     Data: 5
+     Quantia: 5
+     Skull-Dono: "RUSHyoutuber"
+     Skull-URL: http://textures.minecraft.net/texture/3a18735bea45a433f7d7fcbd11dfe22b56e33b29db3c5bc2e524487fac11
+     Nome: "Cabeça de RUSHyoutuber"
+     Lore: 
+       - "Linha 1 Lore"
+       - "Linha 2 Lore"
+     Flags:
+       # "Flag"
+       - "HIDE_ENCHANTS"
+     Encantamentos:
+       # "Encantamento:Nivel"
+       - "DURABILITY:5"
+       - "DIG_SPEED:2"
+     Efeitos: 
+       # "Efeito:Amplificador:Duracao"
+       - "INCREASE_DAMAGE:3:90"
+       - "SPEED:3:90"
+       - "FAST_DIGGING:3:90"
+     Comandos:
+       # O comando é executado no console!
+       - "give {player} iron_golem 2"
+       - "darvip {player} campeao 30"
+     MensagemGlobal: "Mensagem que sera exibida para todos!"
+     MensagemPlayer: "Mensagem que sera exibida para o player!"
+     BroadcastTitle: true
+     Title: "Title que sera exibido para todos!"
+     Subtitle: "Subtitle que sera exibido para todos!"
+     Actionbar: "Mensagem que sera exibida na actionbar para todos"
+     BroadcastActionbar: true
+     Firework: PEQUENO
+     Chance: 60
+     Raio: true ou false
+     Givar: true ou false
+     
+###
+# Lista de encantamentos: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# Lista de flags: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
+# Lista de efeitos: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+# Lista de sons: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+
+###
+# Para que a cabeça com URL ou com Dono funcione você precisa colocar ID: 397 Data: 3
+# Para que os efeitos de poções funcionem você precisa colocar ID: 373
+# Para resetar a formatação das mensagens use &r por exemplo "&a&lNegrito &r&aNormal!"

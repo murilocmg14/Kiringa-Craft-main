@@ -1,0 +1,273 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja - Blocos'
+
+  rows: 6
+  
+  type: CHEST
+
+  command: 'blocos1'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+slot1:
+  LEFT-CLICK-COMMAND: 'give: 1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 1, 64'
+  NAME: '&ePedra'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 1
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 11
+slot2:
+  LEFT-CLICK-COMMAND: 'give: 1:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 1:1, 64'
+  NAME: '&eGranito'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 1
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 12
+slot3:
+  LEFT-CLICK-COMMAND: 'give: 1:3, 64'
+  RIGHT-CLICK-COMMAND: 'give: 1:3, 64'
+  NAME: '&eDiorito'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 1
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  SLOT: 13
+slot4:
+  LEFT-CLICK-COMMAND: 'give: 1:5, 64'
+  RIGHT-CLICK-COMMAND: 'give: 1:5, 64'
+  NAME: '&eAndesito'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 1
+  DATA-VALUE: 5
+  KEEP-OPEN: true
+  SLOT: 14
+slot5:
+  LEFT-CLICK-COMMAND: 'give: 3, 64'
+  RIGHT-CLICK-COMMAND: 'give: 3, 64'
+  NAME: '&eTerra'
+  PRICE: 2500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f2.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 3
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 15
+slot6:
+  LEFT-CLICK-COMMAND: 'give: 2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 2, 64'
+  NAME: '&eGrama'
+  PRICE: 2500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f2.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 2
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 20
+slot7:
+  LEFT-CLICK-COMMAND: 'give: 3:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 3:1, 64'
+  NAME: '&eTerra Grosa'
+  PRICE: 2500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f2.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 3
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 21
+slot8:
+  LEFT-CLICK-COMMAND: 'give: 3:2, 64'
+  RIGHT-CLICK-COMMAND: 'give: 3:2, 64'
+  NAME: '&ePodzol'
+  PRICE: 2500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f2.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 3
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 22
+slot9:
+  LEFT-CLICK-COMMAND: 'give: 110, 64'
+  RIGHT-CLICK-COMMAND: 'give: 110, 64'
+  NAME: '&eMicélio'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 110
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 23
+slot10:
+  LEFT-CLICK-COMMAND: 'give: 4, 64'
+  RIGHT-CLICK-COMMAND: 'give: 4, 64'
+  NAME: '&ePedregulho'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 4
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 24
+slot11:
+  LEFT-CLICK-COMMAND: 'give: 12, 64'
+  RIGHT-CLICK-COMMAND: 'give: 12, 64'
+  NAME: '&eAreia'
+  PRICE: 12000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f12.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 12
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 29
+slot12:
+  LEFT-CLICK-COMMAND: 'give: 12:1, 64'
+  RIGHT-CLICK-COMMAND: 'give: 12:1, 64'
+  NAME: '&eAreia Vermelha'
+  PRICE: 12000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f12.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: '12'
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 33
+slot13:
+  LEFT-CLICK-COMMAND: 'give: 20, 64'
+  RIGHT-CLICK-COMMAND: 'give: 20, 64'
+  NAME: '&eVidro'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 20
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 30
+slot14:
+  LEFT-CLICK-COMMAND: 'give: 35, 64'
+  RIGHT-CLICK-COMMAND: 'give: 35, 64'
+  NAME: '&eLã'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 'wool'
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 31
+slot15:
+  LEFT-CLICK-COMMAND: 'give: 45, 64'
+  RIGHT-CLICK-COMMAND: 'give: 45, 64'
+  NAME: '&eTijolos'
+  PRICE: 1500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.500'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 45
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 32
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 45
+  
+  
+prox:
+  LEFT-CLICK-COMMAND: 'open: blocos2.yml'
+  RIGHT-CLICK-COMMAND: 'open: blocos2.yml'
+  NAME: '&aPróxima página ->'
+  ID: '351:10'
+  SLOT: 53

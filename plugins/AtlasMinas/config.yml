@@ -1,0 +1,279 @@
+# 
+# EFICIENCIA
+# FORTUNA
+# DESTRUIDOR
+# EXPLOSAO
+# LASER
+# SORTUDO
+# SUMONADOR
+# VELOCIDADE
+# PRESSA
+# MINERADOR
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Settings:
+  PorcentagemResetar: 90
+  PermissaoDefault: usar.minas
+  EntrarMina:
+    Titulo: '&bRANKUP AQUA<nl>&fBem vindo a mineração'
+    Som: LEVEL_UP
+Mensagens:
+  ActionBar: '&2$&a<valor> de coins adicionados! &6<bonus>'
+  UsarValeBlocos: '&e <valor> blocos foram adicionados a sua conta.'
+  QuebradoEmMassa: '&6<blocos>x blocos quebrados gerando &f <money>&6 em dinheiro.'
+  CompactarBlocos:
+  - ''
+  - '&e Transformados <qntd> blocos de ativação em 1 bloco com o total de'
+  - '&e <total> blocos.'
+  - ''
+  LuckBlock:
+  - ''
+  - '&6&l LUCKY BLOCK'
+  - '&f Você quebrou <qntd> lucky block e recebeu:'
+  - ''
+  - '&8  <bolinha> &e<valor> &fde &e<nome>'
+Minas:
+  Nemo:
+    Locations:
+      Entrada: -8.540592304797682;48.0;13.375036223017682;180.7215;3.9881866;mina
+      Loc1: -23.0;46.0;8.0;0.0;0.0;mina
+      Loc2: 5.0;27.0;-20.0;0.0;0.0;mina
+    Prioridade: 1
+    MinaPVP: false
+    Permissao: rank.nemo
+    Icone: '159:1'
+    Nome: '&aMina Rank'
+    Rank: '&6Rank Nemo'
+    Blocos:
+      bloco1:
+        Valor: 1
+        ID: 159
+        Data: 1
+        Porcentagem: 99
+        LuckBlock: false
+      bloco2:
+        Valor: 1
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+  Baiacu:
+    Locations:
+      Entrada: -447.4157693553324;95.0;-296.7062654273665;178.69397;-2.5712059;mina
+      Loc1: -434.0;93.0;-302.0;0.0;0.0;mina
+      Loc2: -462.0;74.0;-330.0;0.0;0.0;mina
+    Prioridade: 2
+    MinaPVP: false
+    Permissao: rank.baiacu
+    Icone: '159:2'
+    Nome: '&aMina Rank'
+    Rank: '&eRank Baiacu'
+    Blocos:
+      bloco1:
+        Valor: 1
+        ID: 159
+        Data: 2
+        Porcentagem: 99
+        LuckBlock: false
+      bloco2:
+        Valor: 1
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+  Tartaruga:
+    Locations:
+      Entrada: nulo
+      Loc1: nulo
+      Loc2: nulo
+    Prioridade: 3
+    MinaPVP: false
+    Permissao: rank.tartaruga
+    Icone: '159:3'
+    Nome: '&aMina Rank'
+    Rank: '&2Rank Tartaruga'
+    Blocos:
+      bloco1:
+        Valor: 1
+        ID: 159
+        Data: 4
+        Porcentagem: 99
+        LuckBlock: false
+      bloco2:
+        Valor: 1
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+  salmao:
+    Locations:
+      Entrada: nulo
+      Loc1: nulo
+      Loc2: nulo
+    Prioridade: 4
+    MinaPVP: false
+    Permissao: rank.salmao
+    Icone: '159:4'
+    Nome: '&aMina Rank'
+    Rank: '&cRank Salmão'
+    Blocos:
+      bloco1:
+        Valor: 1
+        ID: 159
+        Data: 4
+        Porcentagem: 99
+        LuckBlock: false
+      bloco2:
+        Valor: 1
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+  tubarao:
+    Locations:
+      Entrada: nulo
+      Loc1: nulo
+      Loc2: nulo
+    Prioridade: 5
+    MinaPVP: false
+    Permissao: rank.tubarao
+    Icone: '159:5'
+    Nome: '&aMina Rank'
+    Rank: '&5Rank Tubarão'
+    Blocos:
+      bloco1:
+        Valor: 1
+        ID: 159
+        Data: 5
+        Porcentagem: 99
+        LuckBlock: false
+      bloco2:
+        Valor: 1
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+  Kraken:
+    Locations:
+      Entrada: nulo
+      Loc1: nulo
+      Loc2: nulo
+    Prioridade: 6
+    MinaPVP: false
+    Permissao: rank.kraken
+    Icone: '159:6'
+    Nome: '&aMina Rank'
+    Rank: '&4Rank Kraken'
+    Blocos:
+      bloco1:
+        Valor: 1
+        ID: 159
+        Data: 6
+        Porcentagem: 99
+        LuckBlock: false
+      bloco2:
+        Valor: 1
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+Recompensas:
+  recompensa1:
+    Nome: 500 Blocos
+    Title: '&e+ 500 blocos'
+    Comando: giveblocos $player 500
+    Chance: 5
+  recompensa2:
+    Nome: 1500 Blocos
+    Title: '&e+ 1500 blocos'
+    Comando: giveblocos $player 1500
+    Chance: 0.5
+LuckBlock:
+  recompensa1:
+    Nome: Blocos
+    Comando: giveblocos $player $valor
+    ValorBase: 2500
+    Chance: 55
+  recompensa2:
+    Nome: Blocos
+    Comando: giveblocos $player $valor
+    ValorBase: 10000
+    Chance: 40
+Bonus:
+- BONUSESMERALDA:15:&a[Esmeralda]
+- BONUSDIAMANTE:10:&b[Diamante]
+- BONUSOURO:5:&e[Ouro]
+Minerador:
+  recompensa1:
+    TitleAll: '&a<player> desenterrou uma chave<nl>&aTodos jogadores ganharam uma
+      chave.'
+    Chance: 10
+    Comando: givechave $player comum 1 item
+  recompensa2:
+    TitleAll: '&a<player> desenterrou uma vale blocos<nl>&aTodos jogadores ganharam
+      um vale blocos.'
+    Chance: 30
+    Comando: giveblocos $player 5000
+ValeBlocos:
+  Material: MOSSY_COBBLESTONE
+  Nome: '&a+<valor> Blocos'
+  Lore:
+  - '&7Receba &f<valor> &7Blocos'
+  - '&7em seu saldo de mineração.'
+  - ''
+  - '&aClique para ativar.'
+Picareta:
+  Material: DIAMOND_PICKAXE
+  Nome: '&bPicareta Atlas &7[<blocos>]'
+  Lore:
+  - '&7Uma picareta legal.'
+ModificarEnchants:
+  Eficiencia:
+    Slot: 19
+    DefaultLevel: 5
+    MaxLevel: 300
+    DefaultPrice: 100
+    PricePerUpgrade: 10
+    ChancePerUpgrade: 1
+ItensNoMenu:
+  Encantamentos:
+    Slot: 10
+    Material: GOLD_PICKAXE
+    Nome: '&aEncantamentos'
+    Lore:
+    - '&7Veja todos os encantamentos disponíveis'
+    - '&7no nosso servidor.'
+  TopBlocos:
+    Slot: 11
+    Material: ARMOR_STAND
+    Nome: '&aTOP Blocos'
+    Lore:
+    - '&7Clique para visualizar os jogadores'
+    - '&7que mais quebraram blocos.'
+  Minas:
+    Slot: 12
+    Material: GOLD_INGOT
+    Nome: '&aMinas'
+    Lore:
+    - '&7Clique para ver todas minas disponíveis.'
+  IrMinerar:
+    Slot: 16
+    SemAcesso:
+      Material: DIAMOND_PICKAXE
+      Nome: '&aIr Minerar'
+      Lore:
+      - '&7Você não tem acesso a nenhuma mina.'
+    ComAcesso:
+      Material: DIAMOND_PICKAXE
+      Nome: '&aIr Minerar'
+      Lore:
+      - ''
+      - ' &7Você é &a$rank'
+      - ' &7por isso tem acesso a &b$mina&7.'
+      - ''
+      - '&aClique para ir minerar.'

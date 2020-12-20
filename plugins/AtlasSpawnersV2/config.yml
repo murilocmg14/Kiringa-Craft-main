@@ -1,0 +1,76 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+Spawner:
+  TempoSpawn: 5000
+  Item:
+    Nome: "&bGerador de <mob>"
+    Lore:
+      - "&7Este gerador possui"
+      - "&7um incrível poder de"
+      - "&7gerar <plural> sempre!"
+      - ""
+      - " &fQuantidade: &b<quantidade_formatada>" # opções: <quantidade_formatada> ex: 10K, <quantidade> ex: 10,000
+      - ""
+      - " &7Ao matar mobs deste gerador"
+      - " &7tem chance de receber diversas"
+      - " &7recompensas!"
+
+Mobstacking:
+  NomeMob: "&e<mob> - &l<quantidade_formatada>" # opções: <quantidade_formatada> ex: 10K, <quantidade> ex: 10,000
+  Limite: 1000000000
+
+Holograma:
+  Ativar: true
+  Texto:
+    - "&bGerador de &f<mob>"
+    - "&bDono: &f<dono>"
+    - "&a<quantidade_formatada>x" # opções: <quantidade_formatada> ex: 10K, <quantidade> ex: 10,000
+    - "<cabeca>"
+
+
+Missoes:
+  COW:
+    2: #ira sobrepor a missao 2 do geral
+      Tipo: MATAR_MOBS # por enquanto só este tipo está disponível
+      Quantidade: 1750.0
+      Recompensas:
+        Exemplo:
+          Nome: "Blcos 5K"
+          Comando: "givebloco <player> 5000"
+
+  Geral:
+   1:
+     Tipo: MATAR_MOBS
+     Quantidade: 500000.0
+     Recompensas:
+       Exemplo:
+         Nome: "Missão #1"
+         Comando: "spawneradmin givespawner <player> cow 100 1"
+
+Precos: # necessário para o money top
+  COW: 15000
+
+Drops:
+  COW:
+    Drop: LEATHER
+    Preco: 25
+
+DropEspecialTitle: "&6&lGERADORES!<nl>&fVocê ganhou <nome> matando este monstro."
+DropsEspeciais:
+  Config:
+    Chance: 1.5
+    Nome: "SeuJEITO"
+    Comando: "Coloque o item que deseja dropar matando mob"
+
+Raios:
+  StackSpawner: 5
+  StackMobs: 5
+  StackItems: 5
+
+#Permissoes: spawner.give

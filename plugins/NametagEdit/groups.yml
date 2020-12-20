@@ -1,0 +1,56 @@
+Groups:
+  Fundador:
+    Permission: nte.fundador
+    Prefix: '&b[Fundador]&b '
+    Suffix: '&f'
+    SortPriority: 1
+  Gerente:
+    Permission: nte.gerente
+    Prefix: '&4[Gerente]&4 '
+    Suffix: '&f'
+    SortPriority: 2
+  Admin:
+    Permission: nte.admin
+    Prefix: '&c[Admin]&c '
+    Suffix: '&f'
+    SortPriority: 3
+  Moderador:
+    Permission: nte.mod
+    Prefix: '&5[Moderador]&5 '
+    Suffix: '&f'
+    SortPriority: 4
+  Ajudante:
+    Permission: nte.ajudante
+    Prefix: '&e[Ajudante]&e '
+    Suffix: '&f'
+    SortPriority: 5
+  Builder:
+    Permission: nte.builder
+    Prefix: '&e[Construtor]&e '
+    Suffix: '&f'
+    SortPriority: 6
+  Youtuber:
+    Permission: nte.youtuber
+    Prefix: '&c[YouTuber]&c '
+    Suffix: '&f'
+    SortPriority: 7
+  Esmeralda:
+    Permission: nte.esmeralda
+    Prefix: '&2[Esmeralda]&2 '
+    Suffix: '&f'
+    SortPriority: 8
+  Diamante:
+    Permission: nte.diamante
+    Prefix: '&b[Diamante]&b '
+    Suffix: '&f'
+    SortPriority: 9
+  Ouro:
+    Permission: nte.ouro
+    Prefix: '&e[Ouro]&e '
+    Suffix: '&f'
+    SortPriority: 10
+  Membro:
+    Permission: nte.membro
+    Prefix: '&7'
+    Suffix: '&f'
+    SortPriority: 11

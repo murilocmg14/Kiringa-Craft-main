@@ -1,0 +1,277 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Blocos Coloridos'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+ghj1:
+  LEFT-CLICK-COMMAND: 'give: 159, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159, 16'
+  NAME: '&eArgila Branca'
+  ID: 159
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+ghht1:
+  LEFT-CLICK-COMMAND: 'give: 159:1, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:1, 16'
+  NAME: '&eArgila Laranja'
+  ID: 159
+  DATA-VALUE: 1 
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+ghhjk,1:
+  LEFT-CLICK-COMMAND: 'give: 159:2, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:2, 16'
+  NAME: '&eArgila Magenta'
+  ID: 159
+  DATA-VALUE: 2
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+ghht145756:
+  LEFT-CLICK-COMMAND: 'give: 159:3, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:3, 16'
+  NAME: '&eArgila Azul Claro'
+  ID: 159
+  DATA-VALUE: 3 
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+ghhjkl:
+  LEFT-CLICK-COMMAND: 'give: 159:4, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:4, 16'
+  NAME: '&eArgila Amarela'
+  ID: 159
+  DATA-VALUE: 4
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+ghhtlç1:
+  LEFT-CLICK-COMMAND: 'give: 159:5, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:5, 16'
+  NAME: '&eArgila Limao'
+  ID: 159
+  DATA-VALUE: 5
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+ghht1ff:
+  LEFT-CLICK-COMMAND: 'give: 159:6, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:6, 16'
+  NAME: '&eArgila Rosa'
+  ID: 159
+  DATA-VALUE: 6
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+ghhtuyi1:
+  LEFT-CLICK-COMMAND: 'give: 159:7, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:7, 16'
+  NAME: '&eArgila Cinza'
+  ID: 159
+  DATA-VALUE: 7
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 22
+  KEEP-OPEN: true
+ghht1kh:
+  LEFT-CLICK-COMMAND: 'give: 159:8, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:8, 16'
+  NAME: '&eArgila Cinza Claro'
+  ID: 159
+  DATA-VALUE: 8
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 23
+  KEEP-OPEN: true
+ghht1sd:
+  LEFT-CLICK-COMMAND: 'give: 159:9, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:9, 16'
+  NAME: '&eArgila Ciano'
+  ID: 159
+  DATA-VALUE: 9
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 24
+  KEEP-OPEN: true
+ghht1jkl:
+  LEFT-CLICK-COMMAND: 'give: 159:10, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:110, 16'
+  NAME: '&eArgila Roxa'
+  ID: 159
+  DATA-VALUE: 10
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 29
+  KEEP-OPEN: true
+ghhtgj1:
+  LEFT-CLICK-COMMAND: 'give: 159:11, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:11, 16'
+  NAME: '&eArgila Azul'
+  ID: 159
+  DATA-VALUE: 11
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 30
+  KEEP-OPEN: true
+ghht1fgh:
+  LEFT-CLICK-COMMAND: 'give: 159:12, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:12, 16'
+  NAME: '&eArgila Marrom'
+  ID: 159
+  DATA-VALUE: 12
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 31
+  KEEP-OPEN: true
+ghhtuiloop1:
+  LEFT-CLICK-COMMAND: 'give: 159:13, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:13, 16'
+  NAME: '&eArgila Laranja'
+  ID: 159
+  DATA-VALUE: 13 
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 32
+  KEEP-OPEN: true
+ghht1dfrfjg:
+  LEFT-CLICK-COMMAND: 'give: 159:14, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:14, 16'
+  NAME: '&eArgila Vermelha'
+  ID: 159
+  DATA-VALUE: 14
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 33
+  KEEP-OPEN: true
+ghht1t5858:
+  LEFT-CLICK-COMMAND: 'give: 159:15, 16'
+  RIGHT-CLICK-COMMAND: 'give: 159:15, 16'
+  NAME: '&eArgila Preta'
+  ID: 159
+  DATA-VALUE: 15 
+  PRICE: 85
+  LORE:
+    - '&7'
+    - '&7Preco: &a85'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 34
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

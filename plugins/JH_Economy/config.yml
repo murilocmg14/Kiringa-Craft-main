@@ -1,0 +1,135 @@
+##############################################
+#                                            #
+#                 JH_Economy                 #
+#            By: Jheyson Henrique            #
+#           Website: www.jhdev.xyz           #
+#                                            #
+##############################################
+
+# Caso você tenha uma licença para a versão paga você por por ela aqui!
+licence: 'XXXXXXXXXXXXXXX'
+
+# Prefix do plugin mostrada antes das mensagens
+prefix: "&2[&fBanco&2] &2"
+
+# Criar um BackUP de todas as contas salvas em FlatFile
+# quando o servidor iniciar /backups/dd-MM-yyyy@HH-mm-ss
+FlatFile_BackUP: false
+
+MySQL:
+
+  # Ativar MySQL
+  ativar: false
+
+  # Manter a database sempre com os valores atualizados
+  # Pode causar lag se deixado em true
+  # false = Ira salvar o money quando o servidor desligar
+  # true = Ira salvar o money quando uma transação for feita (Causa lag)
+  MySQL_Sync: false
+
+  # Seu IP do host MySQL
+  ip: 'localhost'
+  
+  # Porta de seu MySQL
+  port: '3306'
+  
+  # Usuário de seu MySQL
+  user: 'root'
+  
+  # Senha de seu MySQL
+  password: 'senha'
+  
+  # Database que o plugin ira usar
+  database: 'JH_Economy'
+  
+  # Driver do MySQL (recomendo deixar o padrão)
+  driver: 'com.mysql.jdbc.Driver'
+
+Magnata:
+
+  # Tempo entre cada verificação de novo magnata
+  # tempo em minutos!
+  Verificar: 2
+  
+  # Tag que o magnata recebe
+  # {jh_economy} LengendChat
+  tag: "&a [Magnata] "
+
+  # Opções para quando o Magnata mudar
+  NovoMagnata:
+  
+    # Som quando alguem se tornar magnata
+    Som:
+      usar: true
+      
+      # http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+      Sound: "SUCCESSFUL_HIT"
+      
+    # Enviar texto a todos os jogadores online
+    Texto:
+      usar: true
+      Texto:
+      - " "
+      - "&l{tag} {jogador}&a Acaba de se tornar o novo magnata do servidor com &f${money}"
+      - " "
+      
+    # Enviar um titulo para os jogadores online?
+    Title:
+      usar: true
+      Title: "{jogador}"
+      SubTitle: "&aÉ o novo magnata do servidor!"
+
+MoneyTopInventario:
+
+  # Ultilizar money TOP em GUI?
+  usar: true
+  
+  # Nome da cabeça na listagem
+  SkullDisplayName: "&f{colocacao}º &e{magnata}{tag} {jogador} "
+ 
+  # Lore da cabeça no Money TOP
+  ListLore:
+  - " "
+  - " &fJogador: &7{jogador} "
+  - " &fColocação: {colocacao}º "
+  - " &fGrupo: &7{magnata}{tag} "
+  - " &fCoins: &2$&7{money} "
+  - " "
+
+  # Limite de caracteres = 32
+  # Se passar disso os jogadores iram conseguir pegar
+  # os itens do inventário!
+  Titulo: "&cMoney top"
+
+
+MoneyTopChat:
+
+  # Mostrar o Money TOP no Chat?
+  usar: true
+  
+  # Quantidade de jogadores que será mostrado no /money top
+  # Fucniona somente para o Chat
+  Tamanho: 10
+  
+  # Texto que é mostrado antes de exibir a quantidade de jogadores
+  Texto:
+  - " "
+  - "&cTop 10 jogadores mais ricos do servidor"
+  - " "
+  
+  # Listagem de jogadores
+  Listagem: "&f   {colocacao}&7 {magnata}{tag} {jogador} &7(${money})"
+
+# Mensagens do plugin mostrada aos jogadores
+Mensagens:
+  Money: "&2Você tem &f{money}."
+  JogadorMoney: "&f{jogador} &2tem &f{money}."
+  Enviou: "&2Você enviou &a$&f{money} &2para &f{jogador}."
+  Recebeu: "&f{jogador} &2enviou &a$&f{money} &2para você."
+  SemFundos: "&cVocê não tem fundos para esta transasão!"
+  ValorInvalido: "&cO valor deve ser maior que 0 e somente numeros!"
+  UseMoneyPay: "&eUse: /money pay <nick> <quantia>"
+  MoneyPlural: "Coins"
+  MoneySingular: "Coin"
+  MagnataAtual: "&aMagnata atual: {jhmagnata}"
+  JogadorSemConta: "&cEste jogador não tem conta no banco do servidor."

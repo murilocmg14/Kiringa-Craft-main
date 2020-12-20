@@ -1,0 +1,114 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Enchants Globais'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+  
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+vampire:
+  LEFT-CLICK-COMMAND: 'console: kit vampire {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit vampire {player}'
+  POINTS: 50
+  NAME: '&4Vampire I'
+  LORE:
+   - ''
+   - '&fCura pela metade do seu dano'
+   - ''  
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 11
+life:
+  LEFT-CLICK-COMMAND: 'console: kit lifeiv {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit lifeiv {player}'
+  POINTS: 50
+  NAME: '&cLifeSteal IV'
+  LORE:
+   - ''
+   - '&fDá meio coração de volta sempre'
+   - '&fsempre que você socar um inimigo'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true
+  SLOT: 12
+poison:
+  LEFT-CLICK-COMMAND: 'console: kit poison {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit poison {player}'
+  POINTS: 50
+  NAME: '&2Poison IV'
+  LORE:
+   - ''
+   - '&fEnvenena seu inimigo'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 13
+icee:
+  LEFT-CLICK-COMMAND: 'console: kit ice {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit ice {player}'
+  POINTS: 30000000
+  NAME: '&bIce Aspect IV'
+  LORE:
+   - ''
+   - '&fTem chance de congelar um jogador inimigo'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &630M ouro'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 14 #Thundering Blow
+thund:
+  LEFT-CLICK-COMMAND: 'console: kit golpe {player}'
+  RIGHT-CLICK-COMMAND: 'console: kit golpe {player}'
+  POINTS: 50
+  NAME: '&eThundering Blow IV'
+  LORE:
+   - ''
+   - '&fTem a chance de acertar Relâmpagos no inimigo'
+   - ''
+   - '&aClique para comprar'
+   - '&7Valor: &650 Cash'
+  ID: 403
+  KEEP-OPEN: true #Ice Aspect
+  SLOT: 15 #Thundering Blow  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  RIGHT-CLICK-COMMAND: 'open: ItensEspeciais.yml'
+  NAME: ' &cVoltar '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  KEEP-OPEN: true
+  SLOT: 18
+  
